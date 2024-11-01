@@ -11,9 +11,6 @@ const Plist = () => {
     <FileInfo>
       <Button
         as="a"
-        href={
-          "itms-services://?action=download-manifest&url=" + objStore.raw_url
-        }
         onClick={() => {
           setInstalling(true)
         }}

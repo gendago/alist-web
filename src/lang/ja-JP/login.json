@@ -1,0 +1,13 @@
+{
+  "login_to": "にログイン",
+  "username-tips": "ユーザー名を入力",
+  "password-tips": "パスワードを入力",
+  "otp-tips": "OTPコードを入力",
+  "remember": "常にログインする",
+  "forget": "パスワードを忘れましたか?",
+  "forget_url": "https://alist.nn.ci/faq/howto.html#how-to-get-password-if-i-forget-it",
+  "clear": "クリア",
+  "login": "ログイン",
+  "use_guest": "ゲストとして閲覧",
+  "success": "ログインに成功しました"
+}

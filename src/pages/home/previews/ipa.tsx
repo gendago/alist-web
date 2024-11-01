@@ -15,14 +15,6 @@ const Ipa = () => {
       <HStack spacing="$2">
         <Button
           as="a"
-          href={
-            "itms-services://?action=download-manifest&url=" +
-            `${api}/i/${safeBtoa(
-              encodeURIComponent(objStore.raw_url) +
-                "/" +
-                baseName(encodeURIComponent(objStore.obj.name)),
-            )}.plist`
-          }
           onClick={() => {
             setInstalling(true)
           }}

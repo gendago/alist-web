@@ -104,7 +104,12 @@ export const LocalSettings = () => {
     bus.off("tool", handler)
   })
   return (
-    <Drawer opened={isOpen()} placement="right" onClose={onClose}>
+    <Drawer
+      opened={isOpen()}
+      placement="right"
+      onClose={onClose}
+      blockScrollOnMount={false}
+    >
       <DrawerOverlay />
       <DrawerContent>
         <DrawerCloseButton />

@@ -7,7 +7,8 @@ import { UserMethods } from "~/types"
 
 export const Footer = () => {
   const t = useT()
-  return (
+  const inApp = navigator.userAgent.includes("AListServer")
+  return inApp ? null : (
     <VStack class="footer" w="$full" py="$4">
       <HStack spacing="$1">
         <Anchor href="https://github.com/alist-org/alist" external>

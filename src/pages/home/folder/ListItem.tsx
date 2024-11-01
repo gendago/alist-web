@@ -3,23 +3,25 @@ import { Motion } from "@motionone/solid"
 import { useContextMenu } from "solid-contextmenu"
 import { batch, Show } from "solid-js"
 import { LinkWithPush } from "~/components"
-import { usePath, useRouter, useUtil } from "~/hooks"
+import { getLinkByDirAndObj, usePath, useRouter, useUtil } from "~/hooks"
 import {
   checkboxOpen,
   getMainColor,
   local,
+  objStore,
   OrderBy,
   selectAll,
   selectIndex,
 } from "~/store"
 import { ObjType, StoreObj } from "~/types"
-import { bus, formatDate, getFileSize, hoverColor } from "~/utils"
+import { bus, convertURL, formatDate, getFileSize, hoverColor } from "~/utils"
 import { getIconByObj } from "~/utils/icon"
 import {
   ItemCheckbox,
   useOpenItemWithCheckbox,
   useSelectWithMouse,
 } from "./helper"
+import { players } from "~/pages/home/previews/video_box"
 
 export interface Col {
   name: OrderBy
@@ -40,7 +42,7 @@ export const ListItem = (props: { obj: StoreObj; index: number }) => {
   }
   const { setPathAs } = usePath()
   const { show } = useContextMenu({ id: 1 })
-  const { pushHref, to } = useRouter()
+  const { pushHref, to, pathname } = useRouter()
   const { isMouseSupported } = useSelectWithMouse()
   const isShouldOpenItem = useOpenItemWithCheckbox()
   const filenameStyle = () => local["list_item_filename_overflow"]
@@ -79,6 +81,29 @@ export const ListItem = (props: { obj: StoreObj; index: number }) => {
           to(pushHref(props.obj.name))
         }}
         on:click={(e: MouseEvent) => {
+          if (props.obj.type === ObjType.VIDEO) {
+            const { video_player } = local
+            if (video_player !== "default") {
+              const playerItem = players.find(
+                (player) => player.icon === video_player,
+              )
+              if (playerItem) {
+                ;(e.currentTarget as HTMLElement).style.color =
+                  "rgb(85, 26, 139)"
+                location.href = convertURL(playerItem.scheme, {
+                  raw_url: objStore.raw_url,
+                  name: objStore.obj.name,
+                  d_url: getLinkByDirAndObj(
+                    pathname(),
+                    props.obj,
+                    "direct",
+                    true,
+                  ),
+                })
+                return e.preventDefault()
+              }
+            }
+          }
           if (isMouseSupported()) return e.preventDefault()
           if (!checkboxOpen()) return
           e.preventDefault()

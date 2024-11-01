@@ -20,6 +20,7 @@ import { isMac } from "~/utils/compatibility"
 export const Header = () => {
   const logos = getSetting("logo").split("\n")
   const logo = useColorModeValue(logos[0], logos.pop())
+  const inApp = navigator.userAgent.includes("AListServer")
 
   const stickyProps = createMemo<CenterProps>(() => {
     switch (local["position_of_header_navbar"]) {
@@ -30,7 +31,9 @@ export const Header = () => {
     }
   })
 
-  return (
+  const showSearch = getSetting("search_index") !== "none"
+
+  return inApp && !showSearch ? null : (
     <Center
       {...stickyProps}
       bgColor="$background"
@@ -55,7 +58,7 @@ export const Header = () => {
           </HStack>
           <HStack class="header-right" spacing="$2">
             <Show when={objStore.state === State.Folder}>
-              <Show when={getSetting("search_index") !== "none"}>
+              <Show when={showSearch}>
                 <HStack
                   bg="$neutral4"
                   w="$32"

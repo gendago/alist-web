@@ -116,6 +116,7 @@ export const ContextMenu = () => {
                     m="0 auto"
                     boxSize="$7"
                     src={`${window.__dynamic_base__}/images/${player.icon}.webp`}
+                    fallbackSrc={`${window.__dynamic_base__}/images/${player.icon}.png`}
                   />
                   <Text>{player.name}</Text>
                 </HStack>

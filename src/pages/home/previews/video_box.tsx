@@ -54,6 +54,21 @@ export const players: { icon: string; name: string; scheme: string }[] = [
     scheme:
       "intent:$durl#Intent;package=com.mxtech.videoplayer.pro;S.title=$name;end",
   },
+  {
+    icon: "fileball",
+    name: "Fileball",
+    scheme: "filebox://play?url=$edurl",
+  },
+  {
+    icon: "vidhub",
+    name: "VidHub",
+    scheme: "open-vidhub://x-callback-url/open?url=$edurl",
+  },
+  {
+    icon: "yybx",
+    name: "yybx",
+    scheme: "yybx://play?$durl",
+  },
 ]
 
 export const AutoHeightPlugin = (player: Artplayer) => {
@@ -136,6 +151,7 @@ export const VideoBox = (props: {
                     m="0 auto"
                     boxSize="$8"
                     src={`${window.__dynamic_base__}/images/${item.icon}.webp`}
+                    fallbackSrc={`${window.__dynamic_base__}/images/${item.icon}.png`}
                   />
                 </Anchor>
               </Tooltip>

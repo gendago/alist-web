@@ -1,0 +1,17 @@
+{
+  "backup": "バックアップ",
+  "restore": "復元",
+  "start_backup": "バックアップを開始",
+  "finish_backup": "バックアップが完了しました",
+  "success_backup_item": "「{{item}}」のバックアップが完了しました",
+  "failed_backup_item": "「{{item}}」のバックアップに失敗しました",
+  "no_file": "ファイルが選択されていません",
+  "start_restore": "復元を開始",
+  "finish_restore": "復元が完了しました",
+  "success_restore_item": "「{{item}}」の復元に成功しました",
+  "failed_restore_item": "「{{item}}」の復元に失敗しました",
+  "override": "上書き",
+  "encrypt_password_placeholder": "暗号化が不要な場合は空欄にしてください",
+  "encrypt_password": "暗号化のパスワード",
+  "wrong_encrypt_password": "暗号化のパスワードが間違っています"
+}
