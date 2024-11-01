@@ -8,7 +8,7 @@ import {
   Switch,
 } from "@hope-ui/solid"
 import { For, JSXElement } from "solid-js"
-import { useRouter, useLink, useT } from "~/hooks"
+import { useRouter, useLink, useT, getLinkByDirAndObj } from "~/hooks"
 import { objStore } from "~/store"
 import { ObjType } from "~/types"
 import { convertURL, joinBase } from "~/utils"
@@ -35,12 +35,7 @@ export const players: { icon: string; name: string; scheme: string }[] = [
   {
     icon: "infuse",
     name: "Infuse",
-    scheme: "infuse://x-callback-url/play?url=$durl",
-  },
-  {
-    icon: "fileball",
-    name: "Fileball",
-    scheme: "filebox://play?url=$durl",
+    scheme: "infuse://x-callback-url/play?url=$durl&sub=$sub",
   },
   {
     icon: "mxplayer",
@@ -68,7 +63,7 @@ export const players: { icon: string; name: string; scheme: string }[] = [
   {
     icon: "vidhub",
     name: "VidHub",
-    scheme: "open-vidhub://x-callback-url/open?url=$edurl",
+    scheme: "open-vidhub://x-callback-url/open?url=$edurl&sub=$sub",
   },
   {
     icon: "yybx",
@@ -107,7 +102,7 @@ export const VideoBox = (props: {
   onAutoNextChange: (v: boolean) => void
 }) => {
   const { replace } = useRouter()
-  const { currentObjLink } = useLink()
+  const { currentObjLink, getLinkByObj } = useLink()
   let videos = objStore.objs.filter((obj) => obj.type === ObjType.VIDEO)
   if (videos.length === 0) {
     videos = [objStore.obj]
@@ -148,11 +143,46 @@ export const VideoBox = (props: {
       <Flex wrap="wrap" gap="$1" justifyContent="center">
         <For each={players}>
           {(item) => {
+            let scheme = item.scheme
+            if (scheme.includes("sub=$sub")) {
+              const subFileSuffix = [
+                ".srt",
+                ".webvtt",
+                ".dfxp",
+                ".scc",
+                ".itt",
+                ".stl",
+                ".ass",
+                ".ssa",
+                ".vtt",
+                ".sub",
+              ]
+              const subObjs = objStore.objs.filter((obj) =>
+                subFileSuffix.some((suffix) => obj.name.endsWith(suffix)),
+              )
+              const getFileName = (name: string) =>
+                name.substring(0, name.lastIndexOf("."))
+              let targetSubObj = subObjs.find(
+                (obj) =>
+                  getFileName(obj.name) === getFileName(objStore.obj.name),
+              )
+              if (!targetSubObj && subObjs.length === 1) {
+                targetSubObj = subObjs[0]
+              }
+              if (targetSubObj) {
+                scheme = scheme.replace(
+                  "sub=$sub",
+                  `sub=${encodeURIComponent(
+                    getLinkByObj(targetSubObj, "direct", true),
+                  )}`,
+                )
+              }
+            }
             return (
               <Tooltip placement="top" withArrow label={item.name}>
                 <Anchor
                   // external
-                  href={convertURL(item.scheme, {
+                  href={convertURL(scheme, {
                     raw_url: objStore.raw_url,
                     name: objStore.obj.name,
                     d_url: currentObjLink(true),

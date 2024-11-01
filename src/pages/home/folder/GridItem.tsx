@@ -93,7 +93,47 @@ export const GridItem = (props: { obj: StoreObj & Obj; index: number }) => {
               if (playerItem) {
                 ;(e.currentTarget as HTMLElement).style.color =
                   "rgb(85, 26, 139)"
-                location.href = convertURL(playerItem.scheme, {
+                let scheme = playerItem.scheme
+                if (scheme.includes("sub=$sub")) {
+                  const subFileSuffix = [
+                    ".srt",
+                    ".webvtt",
+                    ".dfxp",
+                    ".scc",
+                    ".itt",
+                    ".stl",
+                    ".ass",
+                    ".ssa",
+                    ".vtt",
+                    ".sub",
+                  ]
+                  const subObjs = objStore.objs.filter((obj) =>
+                    subFileSuffix.some((suffix) => obj.name.endsWith(suffix)),
+                  )
+                  const getFileName = (name: string) =>
+                    name.substring(0, name.lastIndexOf("."))
+                  let targetSubObj = subObjs.find(
+                    (obj) =>
+                      getFileName(obj.name) === getFileName(props.obj.name),
+                  )
+                  if (!targetSubObj && subObjs.length === 1) {
+                    targetSubObj = subObjs[0]
+                  }
+                  if (targetSubObj) {
+                    scheme = scheme.replace(
+                      "sub=$sub",
+                      `sub=${encodeURIComponent(
+                        getLinkByDirAndObj(
+                          pathname(),
+                          targetSubObj,
+                          "direct",
+                          true,
+                        ),
+                      )}`,
+                    )
+                  }
+                }
+                location.href = convertURL(scheme, {
                   raw_url: objStore.raw_url,
                   name: objStore.obj.name,
                   d_url: getLinkByDirAndObj(
