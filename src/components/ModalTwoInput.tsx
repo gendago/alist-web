@@ -59,7 +59,7 @@ export const ModalTwoInput = (props: ModalTwoInputProps) => {
                   id="modal-input1" // Update id to "modal-input1" for first input
                   type={props.type}
                   value={value1()} // Update value to value1 for first input
-                  onInput={(e) => {
+                  onChange={(e) => {
                     setValue1(e.currentTarget.value)
                   }}
                   onKeyDown={(e) => {
@@ -72,7 +72,7 @@ export const ModalTwoInput = (props: ModalTwoInputProps) => {
                   id="modal-input2" // Add second input with id "modal-input2"
                   type={props.type}
                   value={value2()} // Bind value to value2 for second input
-                  onInput={(e) => {
+                  onChange={(e) => {
                     setValue2(e.currentTarget.value)
                   }}
                   onKeyDown={(e) => {

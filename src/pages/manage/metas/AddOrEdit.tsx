@@ -46,7 +46,7 @@ const Item = (props: ItemProps) => {
           <Input
             id={props.name}
             value={props.value}
-            onInput={(e) => props.onChange(e.currentTarget.value)}
+            onChange={(e) => props.onChange(e.currentTarget.value)}
           />
         ) : props.type === "bool" ? (
           <HopeSwitch
@@ -135,7 +135,7 @@ const AddOrEdit = () => {
             id="password"
             placeholder="********"
             value={meta.password}
-            onInput={(e) => setMeta("password", e.currentTarget.value)}
+            onChange={(e) => setMeta("password", e.currentTarget.value)}
           />
         </FormControl> */}
         <For

@@ -372,7 +372,7 @@ const Login = () => {
                     name="otp"
                     placeholder={t("login.otp-tips")}
                     value={opt()}
-                    onInput={(e) => setOpt(e.currentTarget.value)}
+                    onChange={(e) => setOpt(e.currentTarget.value)}
                     onKeyDown={(e) => {
                       if (e.key === "Enter") {
                         Login()
@@ -385,7 +385,7 @@ const Login = () => {
                   name="username"
                   placeholder={t("login.username-tips")}
                   value={username()}
-                  onInput={(e) => setUsername(e.currentTarget.value)}
+                  onChange={(e) => setUsername(e.currentTarget.value)}
                 />
                 <Show when={!useauthn()}>
                   <Input
@@ -393,7 +393,7 @@ const Login = () => {
                     placeholder={t("login.password-tips")}
                     type="password"
                     value={password()}
-                    onInput={(e) => setPassword(e.currentTarget.value)}
+                    onChange={(e) => setPassword(e.currentTarget.value)}
                     onKeyDown={(e) => {
                       if (e.key === "Enter") {
                         Login()
@@ -551,7 +551,7 @@ const Login = () => {
                   name="otp"
                   placeholder={t("login.otp-tips")}
                   value={opt()}
-                  onInput={(e) => setOpt(e.currentTarget.value)}
+                  onChange={(e) => setOpt(e.currentTarget.value)}
                   onKeyDown={(e) => {
                     if (e.key === "Enter") {
                       Login()
@@ -578,7 +578,7 @@ const Login = () => {
                   name="username"
                   placeholder={t("login.username-tips")}
                   value={username()}
-                  onInput={(e) => setUsername(e.currentTarget.value)}
+                  onChange={(e) => setUsername(e.currentTarget.value)}
                   border="none"
                   backgroundColor="transparent"
                   _focus={{
@@ -614,7 +614,7 @@ const Login = () => {
                     placeholder={t("login.password-tips")}
                     type={showPassword() ? "text" : "password"}
                     value={password()}
-                    onInput={(e) => setPassword(e.currentTarget.value)}
+                    onChange={(e) => setPassword(e.currentTarget.value)}
                     onKeyDown={(e) => {
                       if (e.key === "Enter") {
                         Login()

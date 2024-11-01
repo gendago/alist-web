@@ -42,7 +42,7 @@ const Password = (props: PasswordProps) => {
             props.enterCallback()
           }
         }}
-        onInput={(e) => props.setPassword(e.currentTarget.value)}
+        onChange={(e) => props.setPassword(e.currentTarget.value)}
       />
       <HStack w="$full" justifyContent="space-between">
         <Flex

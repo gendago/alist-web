@@ -57,7 +57,7 @@ const TwoFA = () => {
             maxW="$xs"
             placeholder={t("users.input_code")}
             value={code()}
-            onInput={(e) => setCode(e.currentTarget.value)}
+            onChange={(e) => setCode(e.currentTarget.value)}
             onKeyDown={(e) => {
               if (e.key === "Enter") {
                 verify2FA()

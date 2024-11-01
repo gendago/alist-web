@@ -203,7 +203,7 @@ export const BatchRename = () => {
                 id="modal-input1" // Update id to "modal-input1" for first input
                 type={"string"}
                 value={srcName()} // Update value to value1 for first input
-                onInput={(e) => {
+                onChange={(e) => {
                   setSrcName(e.currentTarget.value)
                 }}
                 onKeyDown={(e) => {
@@ -216,7 +216,7 @@ export const BatchRename = () => {
                 id="modal-input2" // Add second input with id "modal-input2"
                 type={newNameType()}
                 value={newName()} // Bind value to value2 for second input
-                onInput={(e) => {
+                onChange={(e) => {
                   setNewName(e.currentTarget.value)
                 }}
                 onKeyDown={(e) => {

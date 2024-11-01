@@ -105,7 +105,7 @@ export const ModalInput = (props: ModalInputProps) => {
                 type={props.type}
                 value={value()}
                 ref={(el) => (inputRef = el)}
-                onInput={(e) => {
+                onChange={(e) => {
                   setValue(e.currentTarget.value)
                 }}
                 onFocus={handleFocus}

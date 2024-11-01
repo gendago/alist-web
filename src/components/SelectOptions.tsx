@@ -78,7 +78,7 @@ export const SelectOptions = (props: SelectOptionsProps) => {
               if (!selectContext.state.opened) return
               e.stopPropagation()
             }}
-            onInput={(e) => {
+            onChange={(e) => {
               clearTimeout(tid)
               setDisplayValue(e.currentTarget.value)
             }}

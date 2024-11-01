@@ -170,7 +170,7 @@ const Profile = () => {
             <Input
               id="username"
               value={username()}
-              onInput={(e) => {
+              onChange={(e) => {
                 setUsername(e.currentTarget.value)
               }}
             />
@@ -184,7 +184,7 @@ const Profile = () => {
               type="password"
               placeholder="********"
               value={password()}
-              onInput={(e) => {
+              onChange={(e) => {
                 setPassword(e.currentTarget.value)
               }}
             />
@@ -199,7 +199,7 @@ const Profile = () => {
               type="password"
               placeholder="********"
               value={confirmPassword()}
-              onInput={(e) => {
+              onChange={(e) => {
                 setConfirmPassword(e.currentTarget.value)
               }}
             />

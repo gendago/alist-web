@@ -313,7 +313,7 @@ export const FolderChooseInput = (props: {
         <Input
           id={props.id}
           value={props.value}
-          onInput={(e) => props.onChange(e.currentTarget.value)}
+          onChange={(e) => props.onChange(e.currentTarget.value)}
           readOnly={props.onlyFolder}
           onClick={props.onlyFolder ? onOpen : () => {}}
           placeholder={t(
