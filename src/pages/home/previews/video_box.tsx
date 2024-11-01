@@ -75,6 +75,11 @@ export const players: { icon: string; name: string; scheme: string }[] = [
     name: "yybx",
     scheme: "yybx://play?$durl",
   },
+  {
+    icon: "senPlayer",
+    name: "SenPlayer",
+    scheme: "SenPlayer://x-callback-url/play?url=$edurl",
+  },
 ]
 
 export const AutoHeightPlugin = (player: Artplayer) => {

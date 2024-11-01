@@ -42,6 +42,7 @@ export const initialLocalSettings = [
       "fileball",
       "vidhub",
       "yybx",
+      "senPlayer"
     ],
   },
   {
