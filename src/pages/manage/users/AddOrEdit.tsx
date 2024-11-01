@@ -81,7 +81,7 @@ const AddOrEdit = () => {
             <Input
               id="username"
               value={user.username}
-              onInput={(e) => setUser("username", e.currentTarget.value)}
+              onChange={(e) => setUser("username", e.currentTarget.value)}
             />
           </FormControl>
           <FormControl w="$full" display="flex" flexDirection="column" required>
@@ -93,7 +93,7 @@ const AddOrEdit = () => {
               type="password"
               placeholder="********"
               value={user.password}
-              onInput={(e) => setUser("password", e.currentTarget.value)}
+              onChange={(e) => setUser("password", e.currentTarget.value)}
             />
           </FormControl>
         </Show>

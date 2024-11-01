@@ -66,7 +66,7 @@ export const Messenger = () => {
       <Input
         w="$full"
         value={toSend()}
-        onInput={(e) => setToSend(e.currentTarget.value)}
+        onChange={(e) => setToSend(e.currentTarget.value)}
       />
       <HStack spacing="$2">
         <Button colorScheme="accent" loading={getLoading()} onClick={get}>

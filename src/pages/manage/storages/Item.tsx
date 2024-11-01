@@ -78,7 +78,7 @@ const Item = (props: ItemProps) => {
             id={props.name}
             readOnly={props.readonly}
             value={props.value as number}
-            onInput={
+            onChange={
               props.type === Type.Number
                 ? (e) => props.onChange?.(parseInt(e.currentTarget.value))
                 : undefined

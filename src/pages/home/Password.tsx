@@ -36,7 +36,7 @@ const Password = () => {
             refresh(true)
           }
         }}
-        onInput={(e) => setPassword(e.currentTarget.value)}
+        onChange={(e) => setPassword(e.currentTarget.value)}
       />
       <HStack w="$full" justifyContent="space-between">
         <Flex

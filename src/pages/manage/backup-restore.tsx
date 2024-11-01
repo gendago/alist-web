@@ -425,7 +425,7 @@ const BackupRestore = () => {
             id="password"
             type="password"
             placeholder={t(`br.encrypt_password_placeholder`)}
-            onInput={(e) => setPassword(e.currentTarget.value)}
+            onChange={(e) => setPassword(e.currentTarget.value)}
           />
         </Flex>
       </FormControl>

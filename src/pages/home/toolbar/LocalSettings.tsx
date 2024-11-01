@@ -39,7 +39,7 @@ function LocalSettingEdit(props: LocalSetting) {
         fallback={
           <Input
             value={local[props.key]}
-            onInput={(e) => {
+            onChange={(e) => {
               setLocal(props.key, e.currentTarget.value)
             }}
           />
