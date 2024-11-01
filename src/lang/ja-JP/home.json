@@ -1,0 +1,187 @@
+{
+  "obj": {
+    "name": "名前",
+    "size": "サイズ",
+    "modified": "最終更新"
+  },
+  "preview": {
+    "download": "ダウンロード",
+    "failed_load_img": "画像の読み込みに失敗しました",
+    "open_with": "開く...",
+    "play_with": "再生...",
+    "install": "インストール",
+    "installing": "インストール中",
+    "tr-install": "TrollStore",
+    "tr-installing": "TrollStoreをインストール中",
+    "open_in_new_window": "新しいウィンドウで開く",
+    "auto_next": "自動で次へ"
+  },
+  "layouts": {
+    "list": "リストビュー",
+    "grid": "グリッドビュー",
+    "image": "イメージビュー"
+  },
+  "no_images": "現在のフォルダに画像がありません",
+  "load_more": "さらに読み込む",
+  "no_more": "これ以上はありません",
+  "input_password": "パスワードを入力してください",
+  "toolbar": {
+    "more": "詳細",
+    "refresh": "更新",
+    "toggle_theme": "テーマを切り替え",
+    "switch_lang": "言語を切り替え",
+    "toggle_markdown_toc": "アウトラインに切り替え",
+    "toggle_checkbox": "チェックボックスに切り替え",
+    "rename": "名前を変更",
+    "input_new_name": "新しい名前を入力",
+    "only_one-tips": "名前を変更できるオブジェクトは1つのみです",
+    "move": "移動",
+    "copy": "コピー",
+    "choose_dst_folder": "保存先フォルダの選択",
+    "delete": "削除",
+    "delete-tips": "選択したオブジェクトを削除してもよろしいですか?",
+    "copy_link": "リンクをコピー",
+    "preview_page": "前のページ",
+    "down_link": "ダウンロードリンク",
+    "encode_down_link": "ダウンロードリンクをエンコード",
+    "mkdir": "新規フォルダ",
+    "input_dir_name": "フォルダ名を入力",
+    "new_file": "新規ファイル",
+    "input_filename": "ファイル名を入力",
+    "cancel_select": "選択をキャンセル",
+    "offline_download": "オフラインダウンロード",
+    "offline_download-tips": "1行に1つのURL",
+    "delete_policy": {
+      "delete_on_upload_succeed": "アップロードの成功時に削除する",
+      "delete_on_upload_failed": "アップロード時の削除に失敗しました",
+      "delete_never": "削除しない",
+      "delete_always": "常に削除する"
+    },
+    "download": "ダウンロード",
+    "batch_download": "一括ダウンロード",
+    "package_download": "パッケージをダウンロード",
+    "package_download_disabled": "パッケージのダウンロードは無効化されています",
+    "send_aria2": "Aria2に送信",
+    "aria2_not_set": "Aria2 RPC URLを設定してください",
+    "send_aria2_success": "Aria2への送信が成功しました",
+    "pre_package_download-tips": "パッケージのダウンロードにサーバーではなく、ブラウザでストリームサーバーを使用するには対応するストレージがCORSをサポートしている必要があります。サポートされていないストレージでは失敗します",
+    "package_download-tips": "ダウンロード中です。ページを閉じないでお待ちください",
+    "playlist_download": "プレイリストダウンロード",
+    "upload": "アップロード",
+    "local_settings": "ローカルの設定",
+    "recursive_move": "再帰的な移動",
+    "recursive_move_directory-tips": "現在のフォルダとそのフォルダ内のすべてのファイルを指定したフォルダに移動してよろしいですか?",
+    "remove_empty_directory": "空のフォルダを削除",
+    "remove_empty_directory-tips": "空のサブフォルダをすべて削除しましたか?",
+    "batch_rename": "一括でリネーム",
+    "regex_rename": "Regexをリネーム",
+    "sequential_renaming": "連続リネーム",
+    "regex_rename_preview": "変更されたファイル",
+    "regex_rename_preview_old_name": "古い名前",
+    "regex_rename_preview_new_name": "新しい名前",
+    "regular_rename": "正規表現によるファイル名の変更は、1行目にソースファイル名の正規表現を入力し、2行目に新しいファイル名の正規表現を入力してください",
+    "sequential_renaming_desc": "新しいファイル名には数値の開始値が付加されます。開始値に1を加えて順に表示されます。1行目に新しいファイル名を入力し、2行目に開始値を入力します"
+  },
+  "upload": {
+    "add_as_task": "タスクに追加",
+    "upload-tips": "ファイルをドラッグしてアップロード:",
+    "release": "リリースしてアップロード",
+    "no_files_drag": "ファイルはドラッグされていません",
+    "upload_files": "ファイルを選択",
+    "upload_folder": "フォルダを選択",
+    "pending": "保留中",
+    "uploading": "アップロード中",
+    "backending": "バックエンドでのアップロード",
+    "success": "成功",
+    "error": "エラー",
+    "back": "アップロードに戻る",
+    "clear_done": "クリアが完了しました"
+  },
+  "local_settings": {
+    "aria2_rpc_url": "Aria2 RPC URL",
+    "aria2_rpc_secret": "Aria2 RPC シークレット",
+    "aria2_dir": "Aria2 ダウンロードディレクトリ",
+    "video_player": "Video player",
+    "video_player_options": {
+      "default": "Default",
+      "iina": "IINA",
+      "potplayer": "PotPlayer",
+      "vlc": "VLC",
+      "nplayer": "nPlayer",
+      "omniplayer": "OmniPlayer",
+      "figplayer": "Fig Player",
+      "infuse": "Infuse",
+      "mxplayer": "MX Player",
+      "mxplayer-pro": "MX Player Pro",
+      "fileball": "Fileball",
+      "vidhub": "VidHub",
+      "yybx": "yybx"
+    },
+    "show_folder_in_image_view": "画像ビューにフォルダを表示",
+    "show_folder_in_image_view_options": {
+      "top": "上部",
+      "bottom": "下部",
+      "none": "なし"
+    },
+    "global_default_layout": "グローバルデフォルトレイアウト",
+    "global_default_layout_options": {
+      "list": "リストビュー",
+      "grid": "グリッドビュー",
+      "image": "イメージビュー"
+    },
+    "position_of_header_navbar": "ヘッダーとナビバーの位置",
+    "position_of_header_navbar_options": {
+      "static": "ノーマル",
+      "sticky": "ページの先頭に固定",
+      "only_navbar_sticky": "ナビバーのみ固定"
+    },
+    "show_sidebar": "サイドバーを表示",
+    "show_sidebar_options": {
+      "none": "なし",
+      "visible": "可視"
+    },
+    "list_item_filename_overflow": "リスト項目ファイル名のオーバーフロー",
+    "list_item_filename_overflow_options": {
+      "ellipsis": "省略記号",
+      "scrollable": "スクロール可能",
+      "multi_line": "マルチライン"
+    },
+    "open_item_on_checkbox": "チェックボックスの項目を開く",
+    "open_item_on_checkbox_options": {
+      "direct": "直接",
+      "disable_while_checked": "チェック中は無効化する",
+      "with_ctrl": "Ctrl/Commandを押しながら",
+      "with_alt": "Alt/Optionを押しながら"
+    },
+    "select_with_mouse": "チェックボックスを閉じた状態でマウスで項目を選択",
+    "select_with_mouse_options": {
+      "disabled": "無効",
+      "open_item_with_dblclick": "ダブルクリックでアイテムを開く"
+    }
+  },
+  "package_download": {
+    "current_status": "現在の状態",
+    "initializing": "初期化中",
+    "fetching_struct": "フォルダ構造の取得",
+    "fetching_struct_failed": "フォルダ構造の取得に失敗しました",
+    "downloading": "ファイルをダウンロード中です。ページを閉じたり更新をしないでください",
+    "failed": "パッケージのダウンロードに失敗しました",
+    "success": "ダウンロードが完了しました"
+  },
+  "footer": {
+    "powered_by": "Powered by AList",
+    "manage": "管理"
+  },
+  "search": {
+    "search": "検索",
+    "no_result": "結果はありません",
+    "scopes": {
+      "all": "すべて",
+      "folder": "フォルダ",
+      "file": "ファイル"
+    }
+  },
+  "fetching_settings_failed": "設定の取得に失敗:",
+  "get_current_user_failed": "現在のユーザーの取得に失敗:",
+  "Loading storage, please wait": "ストレージを読み込み中です、しばらくお待ちください"
+}

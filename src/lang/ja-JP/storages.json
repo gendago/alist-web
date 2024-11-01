@@ -1,0 +1,46 @@
+{
+  "common": {
+    "mount_path": "マウントのパス",
+    "mount_path-tips": "マウント先のパスは一意であり、繰り返す事はできません",
+    "driver": "ドライバ",
+    "order": "オーダー",
+    "order-tips": "並べ替えに使用します",
+    "status": "状態",
+    "remark": "再マーク",
+    "cache_expiration": "キャッシュの有効期限",
+    "cache_expiration-tips": "このストレージのキャッシュの有効期限です",
+    "down_proxy_url": "ダウンロードプロキシURL",
+    "web_proxy": "Webプロキシ",
+    "webdav_policy": "WebDAVポリシー",
+    "proxy_range": "プロキシの範囲",
+    "proxy_range-tips": "プロキシを有効化する必要があります",
+    "webdav_policys": {
+      "302_redirect": "302リダイレクト",
+      "use_proxy_url": "プロキシURLを使用する",
+      "native_proxy": "ネイティブプロキシ"
+    },
+    "order_by": "オーダー方法",
+    "order_bys": {
+      "name": "名前",
+      "size": "サイズ",
+      "modified": "最終更新"
+    },
+    "order_direction": "オーダーの方向",
+    "order_directions": {
+      "asc": "昇順",
+      "desc": "降順"
+    },
+    "extract_folder": "フォルダを展開",
+    "extract_folders": {
+      "front": "手前に展開",
+      "back": "後方に展開"
+    },
+    "enable_sign": "署名を有効化"
+  },
+  "other": {
+    "start_load_success": "読み込みを開始",
+    "load_all": "すべて再読み込み",
+    "filter_by_driver": "ドライバで絞り込む",
+    "table_layout": "テーブルのレイアウト"
+  }
+}

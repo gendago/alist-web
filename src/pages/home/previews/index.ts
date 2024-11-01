@@ -1,5 +1,5 @@
 import { Component, lazy } from "solid-js"
-import { getIframePreviews, me, getSettingBool } from "~/store"
+import { getIframePreviews, me, getSettingBool, local } from "~/store"
 import { Obj, ObjType, UserMethods, UserPermissions } from "~/types"
 import { ext } from "~/utils"
 import { generateIframePreview } from "./iframe"
@@ -148,6 +148,13 @@ const previews: Preview[] = [
   },
 ]
 
+const customVideoPlayerPreview: Preview = {
+  name: "Custom Video Player",
+  type: ObjType.VIDEO,
+  component: lazy(() => import("./custom_video_player")),
+  prior: true,
+}
+
 export const getPreviews = (
   file: Obj & { provider: string },
 ): PreviewComponent[] => {
@@ -156,8 +163,13 @@ export const getPreviews = (
     ObjType[searchParams["type"]?.toUpperCase() as keyof typeof ObjType]
   const res: PreviewComponent[] = []
   const subsequent: PreviewComponent[] = []
+  const { video_player } = local
   // internal previews
-  previews.forEach((preview) => {
+  const targetPreviews =
+    video_player === "default"
+      ? previews
+      : [customVideoPlayerPreview].concat(previews)
+  targetPreviews.forEach((preview) => {
     if (preview.provider && !preview.provider.test(file.provider)) {
       return
     }

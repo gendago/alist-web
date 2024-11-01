@@ -30,6 +30,7 @@ export const Header = () => {
       ? joinBase("/images/new_icon.png")
       : logos[logos.length - 1] || defaultLogo,
   )
+  const inApp = navigator.userAgent.includes("AListServer")
 
   const stickyProps = createMemo<CenterProps>(() => {
     switch (local["position_of_header_navbar"]) {
@@ -40,7 +41,9 @@ export const Header = () => {
     }
   })
 
-  return (
+  const showSearch = getSetting("search_index") !== "none"
+
+  return inApp && !showSearch ? null : (
     <Center
       {...stickyProps}
       bgColor="$background"
@@ -65,7 +68,7 @@ export const Header = () => {
           </HStack>
           <HStack class="header-right" spacing="$2">
             <Show when={objStore.state === State.Folder}>
-              <Show when={getSetting("search_index") !== "none"}>
+              <Show when={showSearch}>
                 <HStack
                   w="$32"
                   p="$1"

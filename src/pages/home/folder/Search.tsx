@@ -275,7 +275,7 @@ const Search = () => {
               <Input
                 id="search-input"
                 value={keywords()}
-                onInput={(e) => {
+                onChange={(e) => {
                   setKeywords(e.currentTarget.value)
                 }}
                 onKeyDown={(e) => {

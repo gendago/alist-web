@@ -1,0 +1,15 @@
+{
+  "search_index": "インデックスを検索",
+  "current": "現在のインデックス",
+  "build": "インデックスをビルド",
+  "rebuild": "インデックスをリビルド",
+  "paths_to_update": "アップデートのパス",
+  "max_depth": "最大の深さ",
+  "update": "インデックスを更新",
+  "obj_count": "オブジェクト数",
+  "last_done_time": "最終完了日時",
+  "unknown": "不明",
+  "stop": "停止",
+  "clear": "クリア",
+  "error": "エラー"
+}

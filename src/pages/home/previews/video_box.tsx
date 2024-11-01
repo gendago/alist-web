@@ -60,6 +60,21 @@ export const players: { icon: string; name: string; scheme: string }[] = [
     scheme: "iplay://play/any?type=url&url=$bdurl",
   },
   { icon: "mpv", name: "mpv", scheme: "mpv://$edurl" },
+  {
+    icon: "fileball",
+    name: "Fileball",
+    scheme: "filebox://play?url=$edurl",
+  },
+  {
+    icon: "vidhub",
+    name: "VidHub",
+    scheme: "open-vidhub://x-callback-url/open?url=$edurl",
+  },
+  {
+    icon: "yybx",
+    name: "yybx",
+    scheme: "yybx://play?$durl",
+  },
 ]
 
 export const AutoHeightPlugin = (player: Artplayer) => {
@@ -142,6 +157,7 @@ export const VideoBox = (props: {
                     m="0 auto"
                     boxSize="$8"
                     src={joinBase(`/images/${item.icon}.webp`)}
+                    fallbackSrc={joinBase(`/images/${item.icon}.png`)}
                   />
                 </Anchor>
               </Tooltip>

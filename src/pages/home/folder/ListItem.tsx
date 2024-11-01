@@ -11,11 +11,12 @@ import {
   createMemo,
 } from "solid-js"
 import { LinkWithPush } from "~/components"
-import { usePath, useRouter, useUtil, useT } from "~/hooks"
+import { getLinkByDirAndObj, usePath, useRouter, useUtil, useT } from "~/hooks"
 import {
   checkboxOpen,
   getMainColor,
   local,
+  objStore,
   OrderBy,
   selectIndex,
   selectedObjs,
@@ -23,6 +24,7 @@ import {
 import { ObjType, StoreObj, Obj } from "~/types"
 import {
   bus,
+  convertURL,
   formatDate,
   getFileSize,
   hoverColor,
@@ -33,6 +35,7 @@ import { ItemCheckbox, useSelectWithMouse } from "./helper"
 import { me } from "~/store"
 import { getColorWithOpacity } from "~/utils/color"
 import { pathJoin } from "~/utils/path"
+import { players } from "~/pages/home/previews/video_box"
 
 interface Label {
   id: number
@@ -206,6 +209,29 @@ export const ListItem = (props: { obj: StoreObj & Obj; index: number }) => {
                 to(getFullPath())
               }}
               on:click={(e: MouseEvent) => {
+                if (props.obj.type === ObjType.VIDEO) {
+                  const { video_player } = local
+                  if (video_player !== "default") {
+                    const playerItem = players.find(
+                      (player) => player.icon === video_player,
+                    )
+                    if (playerItem) {
+                      ;(e.currentTarget as HTMLElement).style.color =
+                        "rgb(85, 26, 139)"
+                      location.href = convertURL(playerItem.scheme, {
+                        raw_url: objStore.raw_url,
+                        name: objStore.obj.name,
+                        d_url: getLinkByDirAndObj(
+                          pathname(),
+                          props.obj,
+                          "direct",
+                          true,
+                        ),
+                      })
+                      return e.preventDefault()
+                    }
+                  }
+                }
                 e.preventDefault()
                 if (openWithDoubleClick()) return
                 if (e.ctrlKey || e.metaKey || e.shiftKey) return

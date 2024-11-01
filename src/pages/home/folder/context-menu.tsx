@@ -281,6 +281,7 @@ export const ContextMenu = () => {
                       m="0 auto"
                       boxSize="$7"
                       src={joinBase(`/images/${player.icon}.webp`)}
+                      fallbackSrc={joinBase(`/images/${player.icon}.png`)}
                     />
                     <Text>{player.name}</Text>
                   </HStack>

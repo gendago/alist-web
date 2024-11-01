@@ -175,6 +175,22 @@
     "aria2_rpc_url": "Aria2 RPC URL",
     "aria2_rpc_secret": "Aria2 RPC secret",
     "aria2_dir": "Aria2 download directory",
+    "video_player": "Video player",
+    "video_player_options": {
+      "default": "Default",
+      "iina": "IINA",
+      "potplayer": "PotPlayer",
+      "vlc": "VLC",
+      "nplayer": "nPlayer",
+      "omniplayer": "OmniPlayer",
+      "figplayer": "Fig Player",
+      "infuse": "Infuse",
+      "mxplayer": "MX Player",
+      "mxplayer-pro": "MX Player Pro",
+      "fileball": "Fileball",
+      "vidhub": "VidHub",
+      "yybx": "yybx"
+    },
     "show_folder_in_image_view": "Show folder in image view",
     "show_folder_in_image_view_options": {
       "top": "Top",

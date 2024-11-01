@@ -3,19 +3,21 @@ import { Motion } from "@motionone/solid"
 import { useContextMenu } from "solid-contextmenu"
 import { batch, Show, createMemo } from "solid-js"
 import { CenterLoading, LinkWithPush, ImageWithError } from "~/components"
-import { usePath, useRouter, useUtil, useT } from "~/hooks"
+import { getLinkByDirAndObj, usePath, useRouter, useUtil, useT } from "~/hooks"
 import {
   checkboxOpen,
   getMainColor,
   local,
+  objStore,
   selectIndex,
   StoreObj,
 } from "~/store"
 import { Obj, ObjType } from "~/types"
-import { bus, hoverColor, normalizeStorageClass } from "~/utils"
+import { bus, convertURL, hoverColor, normalizeStorageClass } from "~/utils"
 import { getIconByObj } from "~/utils/icon"
 import { ItemCheckbox, useSelectWithMouse } from "./helper"
 import { pathJoin } from "~/utils/path"
+import { players } from "~/pages/home/previews/video_box"
 
 export const GridItem = (props: { obj: StoreObj & Obj; index: number }) => {
   const { isHide } = useUtil()
@@ -82,6 +84,29 @@ export const GridItem = (props: { obj: StoreObj & Obj; index: number }) => {
           to(getFullPath())
         }}
         on:click={(e: MouseEvent) => {
+          if (props.obj.type === ObjType.VIDEO) {
+            const { video_player } = local
+            if (video_player !== "default") {
+              const playerItem = players.find(
+                (player) => player.icon === video_player,
+              )
+              if (playerItem) {
+                ;(e.currentTarget as HTMLElement).style.color =
+                  "rgb(85, 26, 139)"
+                location.href = convertURL(playerItem.scheme, {
+                  raw_url: objStore.raw_url,
+                  name: objStore.obj.name,
+                  d_url: getLinkByDirAndObj(
+                    pathname(),
+                    props.obj,
+                    "direct",
+                    true,
+                  ),
+                })
+                return e.preventDefault()
+              }
+            }
+          }
           e.preventDefault()
           if (openWithDoubleClick()) return
           if (e.ctrlKey || e.metaKey || e.shiftKey) return
