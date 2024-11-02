@@ -9,13 +9,13 @@
     "qrcode_source": "Qrcode 源",
     "qrcode_source-tips": "選擇二維碼設備，默認 linux",
     "qrcode_sources": {
+      "alipaymini": "Alipaymini",
       "android": "Android",
       "ios": "Ios",
-      "linux": "Linux",
-      "mac": "Mac",
+      "qandroid": "Qandroid",
       "tv": "Tv",
       "web": "Web",
-      "windows": "Windows"
+      "wechatmini": "Wechatmini"
     },
     "qrcode_token": "二維碼令牌",
     "qrcode_token-tips": "需要 QR code Token 和 cookie 其中一個",
@@ -31,13 +31,13 @@
     "qrcode_source": "Qrcode 源",
     "qrcode_source-tips": "選擇二維碼設備，默認 linux",
     "qrcode_sources": {
+      "alipaymini": "Alipaymini",
       "android": "Android",
       "ios": "Ios",
-      "linux": "Linux",
-      "mac": "Mac",
+      "qandroid": "Qandroid",
       "tv": "Tv",
       "web": "Web",
-      "windows": "Windows"
+      "wechatmini": "Wechatmini"
     },
     "qrcode_token": "二維碼令牌",
     "qrcode_token-tips": "需要 QR 代碼令牌和 cookie 中的一個",
@@ -48,17 +48,6 @@
     "share_code-tips": "115 分享鏈接 ID"
   },
   "123Pan": {
-    "order_by": "排序",
-    "order_bys": {
-      "file_name": "檔案名稱",
-      "size": "大小",
-      "update_at": "修改時間"
-    },
-    "order_direction": "排序方式",
-    "order_directions": {
-      "asc": "遞增排序",
-      "desc": "遞減排序"
-    },
     "password": "密碼",
     "root_folder_id": "根資料夾ID",
     "username": "使用者名稱"
@@ -73,17 +62,6 @@
   },
   "123PanShare": {
     "accesstoken": "訪問令牌",
-    "order_by": "排序",
-    "order_bys": {
-      "file_name": "檔案名稱",
-      "size": "大小",
-      "update_at": "修改時間"
-    },
-    "order_direction": "排序方式",
-    "order_directions": {
-      "asc": "遞增排序",
-      "desc": "遞減排序"
-    },
     "root_folder_id": "根資料夾ID",
     "sharekey": "分享key",
     "sharepassword": "分享密碼"
@@ -372,6 +350,26 @@
     "root_folder_path": "根資料夾路徑",
     "username": "使用者名稱"
   },
+  "FebBox": {
+    "client_id": "客户端ID",
+    "client_secret": "客戶端金鑰",
+    "page_size": "分頁大小",
+    "page_size-tips": "list api per page size of FebBox driver",
+    "root_folder_id": "根資料夾ID",
+    "sort_rule": "排序規則",
+    "sort_rules": {
+      "ext_asc": "Ext asc",
+      "ext_desc": "Ext desc",
+      "name_asc": "名稱升序",
+      "name_desc": "名稱降序",
+      "size_asc": "大小升序",
+      "size_desc": "大小降序",
+      "update_asc": "Update asc",
+      "update_desc": "Update desc"
+    },
+    "user_ip": "User ip",
+    "user_ip-tips": "user ip address for download link which can speed up the download"
+  },
   "FeijiPan": {
     "password": "密碼",
     "root_folder_id": "根資料夾ID",
@@ -399,6 +397,16 @@
     "root_folder_id": "根資料夾ID",
     "show_archive": "顯示歸檔"
   },
+  "HalalCloud": {
+    "app_id": "App id",
+    "app_secret": "App secret",
+    "app_version": "App version",
+    "refresh_token": "更新 Token",
+    "refresh_token-tips": "Refresh token 的登入類型，此為必填項目",
+    "root_folder_path": "根資料夾路徑",
+    "upload_thread": "上傳線程",
+    "upload_thread-tips": "1 <= thread <= 32"
+  },
   "ILanZou": {
     "password": "密碼",
     "root_folder_id": "根資料夾ID",
@@ -408,6 +416,12 @@
     "endpoint": "Endpoint",
     "gateway": "閘道",
     "root_folder_path": "根資料夾路徑"
+  },
+  "KodBox": {
+    "address": "地址",
+    "password": "密碼",
+    "root_folder_path": "根資料夾路徑",
+    "username": "使用者名稱"
   },
   "Lanzou": {
     "account": "帳戶",
@@ -427,7 +441,8 @@
       "account": "帳戶",
       "cookie": "Cookie",
       "url": "連結"
-    }
+    },
+    "user_agent": "User agent"
   },
   "Lark": {
     "app_id": "App id",
@@ -440,6 +455,15 @@
     "tenant_url_prefix": "Tenant url prefix",
     "tenant_url_prefix-tips": "tenant url prefix"
   },
+  "LenovoNasShare": {
+    "host": "Host",
+    "host-tips": "You can change it to your local area network",
+    "root_folder_path": "根資料夾路徑",
+    "share_id": "分享ID",
+    "share_id-tips": "The part after the last / in the shared link",
+    "share_pwd": "分享密碼",
+    "share_pwd-tips": "The password of the shared link"
+  },
   "Local": {
     "mkdir_perm": "新增資料夾的權限",
     "recycle_bin_path": "回收站路徑",
@@ -448,6 +472,8 @@
     "show_hidden": "顯示隱藏",
     "show_hidden-tips": "顯示隱藏目錄以及檔案",
     "thumb_cache_folder": "縮圖快取資料夾",
+    "thumb_concurrency": "Thumb concurrency",
+    "thumb_concurrency-tips": "Number of concurrent thumbnail generation goroutines. This controls how many thumbnails can be generated in parallel.",
     "thumbnail": "縮略圖",
     "thumbnail-tips": "啟用縮略圖"
   },
@@ -517,6 +543,11 @@
     "root_folder_path": "根資料夾路徑",
     "site_id": "網站ID"
   },
+  "Onedrive Sharelink": {
+    "password": "密碼",
+    "root_folder_path": "根資料夾路徑",
+    "url": "連結"
+  },
   "OnedriveAPP": {
     "chunk_size": "分片大小",
     "client_id": "客户端ID",
@@ -535,21 +566,41 @@
     "tenant_id": "租戶ID"
   },
   "PikPak": {
-    "client_id": "客户端ID",
-    "client_secret": "客戶端金鑰",
+    "captcha_token": "驗證碼",
+    "custom_low_latency_address": "Custom low latency address",
+    "device_id": "設備id",
     "disable_media_link": "禁用媒體連結",
     "password": "密碼",
+    "platform": "Platform",
+    "platforms": {
+      "android": "Android",
+      "pc": "Pc",
+      "web": "Web"
+    },
+    "refresh_token": "更新 Token",
+    "refresh_token_method": "Refresh token method",
+    "refresh_token_methods": {
+      "http": "Http",
+      "oauth2": "Oauth2"
+    },
     "root_folder_id": "根資料夾ID",
+    "use_low_latency_address": "Use low latency address",
     "username": "使用者名稱"
   },
   "PikPakShare": {
-    "client_id": "客户端ID",
-    "client_secret": "客戶端金鑰",
-    "password": "密碼",
+    "custom_low_latency_address": "Custom low latency address",
+    "device_id": "設備id",
+    "platform": "Platform",
+    "platforms": {
+      "android": "Android",
+      "pc": "Pc",
+      "web": "Web"
+    },
     "root_folder_id": "根資料夾ID",
     "share_id": "分享ID",
     "share_pwd": "分享密碼",
-    "username": "使用者名稱"
+    "use_low_latency_address": "Use low latency address",
+    "use_transcoding_address": "Use transcoding address"
   },
   "Quark": {
     "cookie": "Cookie",
@@ -565,6 +616,13 @@
       "asc": "遞增排序",
       "desc": "遞減排序"
     },
+    "root_folder_id": "根資料夾ID"
+  },
+  "QuarkTV": {
+    "device_id": "設備id",
+    "query_token": "Query token",
+    "query_token-tips": "don't edit'",
+    "refresh_token": "更新 Token",
     "root_folder_id": "根資料夾ID"
   },
   "Quqi": {
@@ -601,6 +659,7 @@
   "SFTP": {
     "address": "地址",
     "ignore_symlink_error": "忽略符號鏈接錯誤",
+    "passphrase": "Passphrase",
     "password": "密碼",
     "private_key": "私密金鑰",
     "root_folder_path": "根資料夾路徑",
@@ -712,7 +771,7 @@
     },
     "root_folder_id": "根資料夾ID",
     "safe_password": "Safe password",
-    "safe_password-tips": "使用者的登入類型，此為必填項目",
+    "safe_password-tips": "super safe password",
     "sign_type": "簽章類型",
     "sign_types": {
       "algorithms": "算法",
@@ -820,6 +879,13 @@
       "desc": "遞減排序"
     },
     "root_folder_id": "根目錄ID"
+  },
+  "UCTV": {
+    "device_id": "設備id",
+    "query_token": "Query token",
+    "query_token-tips": "don't edit'",
+    "refresh_token": "更新 Token",
+    "root_folder_id": "根資料夾ID"
   },
   "USS": {
     "anti_theft_chain_token": "Token 防盜鏈",
@@ -952,13 +1018,17 @@
     "Doge": {},
     "Dropbox": {},
     "FTP": {},
+    "FebBox": {},
     "FeijiPan": {},
     "GoogleDrive": {},
     "GooglePhoto": {},
+    "HalalCloud": {},
     "ILanZou": {},
     "IPFS API": {},
+    "KodBox": {},
     "Lanzou": {},
     "Lark": {},
+    "LenovoNasShare": {},
     "Local": {},
     "MediaTrack": {},
     "Mega_nz": {},
@@ -967,10 +1037,12 @@
     },
     "NeteaseMusic": {},
     "Onedrive": {},
+    "Onedrive Sharelink": {},
     "OnedriveAPP": {},
     "PikPak": {},
     "PikPakShare": {},
     "Quark": {},
+    "QuarkTV": {},
     "Quqi": {},
     "S3": {},
     "SFTP": {},
@@ -986,6 +1058,7 @@
     "ThunderXExpert": {},
     "Trainbit": {},
     "UC": {},
+    "UCTV": {},
     "USS": {},
     "UrlTree": {},
     "VTencent": {},
@@ -1019,23 +1092,29 @@
     "Doge": "多吉雲",
     "Dropbox": "Dropbox",
     "FTP": "FTP",
+    "FebBox": "FebBox",
     "FeijiPan": "飛機盤",
     "GoogleDrive": "Google 雲端硬碟",
     "GooglePhoto": "Google 相簿",
+    "HalalCloud": "HalalCloud",
     "ILanZou": "蓝奏云优享版",
     "IPFS API": "IPFS API",
+    "KodBox": "KodBox",
     "Lanzou": "藍奏雲",
     "Lark": "Lark",
+    "LenovoNasShare": "LenovoNasShare",
     "Local": "本機儲存",
     "MediaTrack": "媒體軌",
     "Mega_nz": "Mega 網盤",
     "MoPan": "魔盤",
     "NeteaseMusic": "網易雲音樂",
     "Onedrive": "OneDrive",
+    "Onedrive Sharelink": "Onedrive Sharelink",
     "OnedriveAPP": "OneDrive APP",
     "PikPak": "PikPak",
     "PikPakShare": "PikPak分享",
     "Quark": "Quark",
+    "QuarkTV": "QuarkTV",
     "Quqi": "曲奇云盘",
     "S3": "S3",
     "SFTP": "SFTP",
@@ -1051,6 +1130,7 @@
     "ThunderXExpert": "迅雷X專家版",
     "Trainbit": "Trainbit",
     "UC": "UC",
+    "UCTV": "UCTV",
     "USS": "又拍雲存儲",
     "UrlTree": "網址樹",
     "VTencent": "騰訊智能創作平台",
