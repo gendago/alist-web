@@ -7,5 +7,7 @@
   "reset_token_success": "重設 Token 成功",
   "unknown_type": "未知類型",
   "set_qbit": "設定 qBittorrent",
-  "qbittorrent": "qBittorrent"
+  "qbittorrent": "qBittorrent",
+  "transmission": "Transmission",
+  "set_transmission": "Set Transmission"
 }

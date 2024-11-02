@@ -7,5 +7,7 @@
   "reset_token_success": "トークンのリセットに成功しました",
   "unknown_type": "不明な種類",
   "set_qbit": "qBittorrentを設定",
-  "qbittorrent": "qBittorrent"
+  "qbittorrent": "qBittorrent",
+  "transmission": "送信",
+  "set_transmission": "送信を設定する"
 }

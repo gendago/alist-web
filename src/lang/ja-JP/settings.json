@@ -98,6 +98,8 @@
   "sso_organization_name": "SSO組織名",
   "text_types": "テキストの種類",
   "token": "トークン",
+  "transmission_seedtime": "送信のシード時間",
+  "transmission_uri": "送信URI",
   "version": "バージョン",
   "video_autoplay": "動画を自動再生",
   "video_types": "動画の種類",

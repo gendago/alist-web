@@ -98,6 +98,8 @@
   "sso_organization_name": "SSO 登入組織名稱",
   "text_types": "文字類型",
   "token": "Token",
+  "transmission_seedtime": "Transmission seedtime",
+  "transmission_uri": "Transmission uri",
   "version": "版本",
   "video_autoplay": "自動播放影片",
   "video_types": "影片類型",

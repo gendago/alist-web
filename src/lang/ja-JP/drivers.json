@@ -9,13 +9,13 @@
     "qrcode_source": "QRコードソース",
     "qrcode_source-tips": "QRコードデバイスを選択します、デフォルトはLinuxです",
     "qrcode_sources": {
+      "alipaymini": "Alipay Mini",
       "android": "Android",
       "ios": "iOS",
-      "linux": "Linux",
-      "mac": "Mac",
+      "qandroid": "Qandroid",
       "tv": "テレビ",
       "web": "Web",
-      "windows": "Windows"
+      "wechatmini": "WeChat ミニプログラム"
     },
     "qrcode_token": "QRコードトークン",
     "qrcode_token-tips": "QRコードトークンとCookieのいずれかが必要です",
@@ -31,13 +31,13 @@
     "qrcode_source": "QRコードソース",
     "qrcode_source-tips": "QRコードデバイスを選択します、デフォルトはLinuxです",
     "qrcode_sources": {
+      "alipaymini": "Alipay Mini",
       "android": "Android",
       "ios": "iOS",
-      "linux": "Linux",
-      "mac": "Mac",
+      "qandroid": "Qandroid",
       "tv": "テレビ",
       "web": "Web",
-      "windows": "Windows"
+      "wechatmini": "WeChat ミニプログラム"
     },
     "qrcode_token": "QRコードトークン",
     "qrcode_token-tips": "QRコードトークンとCookieのいずれかが必要です",
@@ -48,17 +48,6 @@
     "share_code-tips": "115共有リンクの共有コード"
   },
   "123Pan": {
-    "order_by": "Order by",
-    "order_bys": {
-      "file_name": "ファイル名",
-      "size": "サイズ",
-      "update_at": "更新日時"
-    },
-    "order_direction": "オーダーの方向性",
-    "order_directions": {
-      "asc": "昇順",
-      "desc": "降順"
-    },
     "password": "パスワード",
     "root_folder_id": "ルートフォルダID",
     "username": "ユーザー名"
@@ -73,17 +62,6 @@
   },
   "123PanShare": {
     "accesstoken": "アクセス トークン",
-    "order_by": "オーダー",
-    "order_bys": {
-      "file_name": "ファイル名",
-      "size": "サイズ",
-      "update_at": "更新日時"
-    },
-    "order_direction": "オーダーの方向性",
-    "order_directions": {
-      "asc": "昇順",
-      "desc": "降順"
-    },
     "root_folder_id": "ルートフォルダID",
     "sharekey": "共有キー",
     "sharepassword": "共有パスワード"
@@ -367,10 +345,30 @@
   },
   "FTP": {
     "address": "アドレス",
-    "encoding": "Encoding",
+    "encoding": "エンコーディング",
     "password": "パスワード",
     "root_folder_path": "ルートフォルダのパス",
     "username": "ユーザー名"
+  },
+  "FebBox": {
+    "client_id": "クライアントID",
+    "client_secret": "クライアントシークレット",
+    "page_size": "ページの大きさ",
+    "page_size-tips": "FebBoxドライバをページサイズごとのAPIを一覧にします",
+    "root_folder_id": "ルートフォルダID",
+    "sort_rule": "ソートのルール",
+    "sort_rules": {
+      "ext_asc": "拡張子の昇順",
+      "ext_desc": "拡張子の降順",
+      "name_asc": "名前 (昇順)",
+      "name_desc": "名前 (降順)",
+      "size_asc": "サイズ (昇順)",
+      "size_desc": "サイズ (降順)",
+      "update_asc": "更新昇順",
+      "update_desc": "更新の降順"
+    },
+    "user_ip": "ユーザーIP",
+    "user_ip-tips": "ダウンロードを高速化するダウンロードリンクのユーザーIPアドレスです"
   },
   "FeijiPan": {
     "password": "パスワード",
@@ -399,6 +397,16 @@
     "root_folder_id": "ルートフォルダID",
     "show_archive": "アーカイブを表示"
   },
+  "HalalCloud": {
+    "app_id": "アプリID",
+    "app_secret": "アプリシークレット",
+    "app_version": "アプリのバージョン",
+    "refresh_token": "トークンを更新",
+    "refresh_token-tips": "ログインの種類がトークンを更新の場合は必須です",
+    "root_folder_path": "ルートフォルダのパス",
+    "upload_thread": "アップロードスレッド",
+    "upload_thread-tips": "1 <= スレッド <= 32"
+  },
   "ILanZou": {
     "password": "パスワード",
     "root_folder_id": "ルートフォルダID",
@@ -408,6 +416,12 @@
     "endpoint": "エンドポイント",
     "gateway": "ゲートウェイ",
     "root_folder_path": "ルートフォルダのパス"
+  },
+  "KodBox": {
+    "address": "アドレス",
+    "password": "パスワード",
+    "root_folder_path": "ルートフォルダのパス",
+    "username": "ユーザー名"
   },
   "Lanzou": {
     "account": "アカウント",
@@ -427,7 +441,8 @@
       "account": "アカウント",
       "cookie": "Cookie",
       "url": "URL"
-    }
+    },
+    "user_agent": "User Agent"
   },
   "Lark": {
     "app_id": "アプリID",
@@ -440,6 +455,15 @@
     "tenant_url_prefix": "テナントURLの接頭辞",
     "tenant_url_prefix-tips": "テナントURLの接頭辞"
   },
+  "LenovoNasShare": {
+    "host": "ホスト",
+    "host-tips": "ローカルエリアネットワークに変更ができます",
+    "root_folder_path": "ルートフォルダのパス",
+    "share_id": "共有ID",
+    "share_id-tips": "共有リンク内の / (スラッシュ) の後の部分",
+    "share_pwd": "共有パスワード",
+    "share_pwd-tips": "共有リンクのパスワード"
+  },
   "Local": {
     "mkdir_perm": "Mkdir perm",
     "recycle_bin_path": "ごみ箱のパス",
@@ -448,6 +472,8 @@
     "show_hidden": "隠しディレクトリとファイルを表示",
     "show_hidden-tips": "隠しディレクトリとファイルを表示します",
     "thumb_cache_folder": "サムネイルキャッシュフォルダ",
+    "thumb_concurrency": "サムネイル作成を同時実行",
+    "thumb_concurrency-tips": "同時サムネイル生成で使用するGoroutineの数です。これで、平行して生成するサムネイルの数を制御します。",
     "thumbnail": "サムネイル",
     "thumbnail-tips": "サムネイルを有効化"
   },
@@ -517,6 +543,11 @@
     "root_folder_path": "ルートフォルダのパス",
     "site_id": "サイトID"
   },
+  "Onedrive Sharelink": {
+    "password": "パスワード",
+    "root_folder_path": "ルートフォルダのパス",
+    "url": "URL"
+  },
   "OnedriveAPP": {
     "chunk_size": "チャンクサイズ",
     "client_id": "クライアントID",
@@ -535,21 +566,41 @@
     "tenant_id": "Tenant ID"
   },
   "PikPak": {
-    "client_id": "クライアントID",
-    "client_secret": "クライアントシークレット",
+    "captcha_token": "Captchaトークン",
+    "custom_low_latency_address": "カスタム低遅延アドレス",
+    "device_id": "デバイスID",
     "disable_media_link": "メディアリンクを無効化",
     "password": "パスワード",
+    "platform": "プラットフォーム",
+    "platforms": {
+      "android": "Android",
+      "pc": "PC",
+      "web": "Web"
+    },
+    "refresh_token": "トークンを更新",
+    "refresh_token_method": "トークン方式を更新",
+    "refresh_token_methods": {
+      "http": "http",
+      "oauth2": "OAuth 2.0"
+    },
     "root_folder_id": "ルートフォルダID",
+    "use_low_latency_address": "低遅延アドレスを使用する",
     "username": "ユーザー名"
   },
   "PikPakShare": {
-    "client_id": "クライアントID",
-    "client_secret": "クライアントシークレット",
-    "password": "パスワード",
+    "custom_low_latency_address": "カスタム低遅延アドレス",
+    "device_id": "デバイスID",
+    "platform": "プラットフォーム",
+    "platforms": {
+      "android": "Android",
+      "pc": "PC",
+      "web": "Web"
+    },
     "root_folder_id": "ルートフォルダID",
     "share_id": "共有ID",
     "share_pwd": "共有パスワード",
-    "username": "ユーザー名"
+    "use_low_latency_address": "低遅延アドレスを使用する",
+    "use_transcoding_address": "トランスコーディングアドレスを使用する"
   },
   "Quark": {
     "cookie": "Cookie",
@@ -565,6 +616,13 @@
       "asc": "昇順",
       "desc": "降順"
     },
+    "root_folder_id": "ルートフォルダID"
+  },
+  "QuarkTV": {
+    "device_id": "デバイスID",
+    "query_token": "クエリトークン",
+    "query_token-tips": "編集しない",
+    "refresh_token": "トークンを更新",
     "root_folder_id": "ルートフォルダID"
   },
   "Quqi": {
@@ -601,6 +659,7 @@
   "SFTP": {
     "address": "アドレス",
     "ignore_symlink_error": "シンボリックリンクのエラーを無視",
+    "passphrase": "パスフレーズ",
     "password": "パスワード",
     "private_key": "プライベートキー",
     "root_folder_path": "ルートフォルダのパス",
@@ -712,7 +771,7 @@
     },
     "root_folder_id": "ルートフォルダID",
     "safe_password": "安全なパスワード",
-    "safe_password-tips": "ログインの種類がユーザーである事が必須です",
+    "safe_password-tips": "超安全なパスワード",
     "sign_type": "サインの種類",
     "sign_types": {
       "algorithms": "アルゴリズム",
@@ -819,6 +878,13 @@
       "asc": "昇順",
       "desc": "降順"
     },
+    "root_folder_id": "ルートフォルダID"
+  },
+  "UCTV": {
+    "device_id": "デバイスID",
+    "query_token": "クエリトークン",
+    "query_token-tips": "編集しない",
+    "refresh_token": "トークンを更新",
     "root_folder_id": "ルートフォルダID"
   },
   "USS": {
@@ -952,13 +1018,17 @@
     "Doge": {},
     "Dropbox": {},
     "FTP": {},
+    "FebBox": {},
     "FeijiPan": {},
     "GoogleDrive": {},
     "GooglePhoto": {},
+    "HalalCloud": {},
     "ILanZou": {},
     "IPFS API": {},
+    "KodBox": {},
     "Lanzou": {},
     "Lark": {},
+    "LenovoNasShare": {},
     "Local": {},
     "MediaTrack": {},
     "Mega_nz": {},
@@ -967,10 +1037,12 @@
     },
     "NeteaseMusic": {},
     "Onedrive": {},
+    "Onedrive Sharelink": {},
     "OnedriveAPP": {},
     "PikPak": {},
     "PikPakShare": {},
     "Quark": {},
+    "QuarkTV": {},
     "Quqi": {},
     "S3": {},
     "SFTP": {},
@@ -986,6 +1058,7 @@
     "ThunderXExpert": {},
     "Trainbit": {},
     "UC": {},
+    "UCTV": {},
     "USS": {},
     "UrlTree": {},
     "VTencent": {},
@@ -1019,23 +1092,29 @@
     "Doge": "Doge",
     "Dropbox": "Dropbox",
     "FTP": "FTP",
+    "FebBox": "FebBox",
     "FeijiPan": "FeijiPan",
     "GoogleDrive": "Googleドライブ",
     "GooglePhoto": "Googleフォト",
+    "HalalCloud": "HalalCloud",
     "ILanZou": "ILanZou",
     "IPFS API": "IPFS API",
+    "KodBox": "KodBox",
     "Lanzou": "Lanzou",
     "Lark": "Lark",
+    "LenovoNasShare": "LenovoNasShare",
     "Local": "Local",
     "MediaTrack": "MediaTrack",
     "Mega_nz": "Mega nz",
     "MoPan": "MoPan",
     "NeteaseMusic": "NetEase Cloud Music",
     "Onedrive": "OneDrive",
+    "Onedrive Sharelink": "OneDrive共有リンク",
     "OnedriveAPP": "OneDriveアプリ",
     "PikPak": "PikPak",
     "PikPakShare": "PikPakShare",
     "Quark": "Quark",
+    "QuarkTV": "QuarkTV",
     "Quqi": "Quqi",
     "S3": "S3",
     "SFTP": "SFTP",
@@ -1051,6 +1130,7 @@
     "ThunderXExpert": "ThunderXExpert",
     "Trainbit": "Trainbit",
     "UC": "UC",
+    "UCTV": "UCTV",
     "USS": "USS",
     "UrlTree": "UrlTree",
     "VTencent": "VTencent",

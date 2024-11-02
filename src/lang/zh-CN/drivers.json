@@ -9,13 +9,13 @@
     "qrcode_source": "Qrcode 源",
     "qrcode_source-tips": "选择二维码设备，默认 linux",
     "qrcode_sources": {
+      "alipaymini": "Alipaymini",
       "android": "安卓",
       "ios": "IOS",
-      "linux": "Linux",
-      "mac": "Mac",
+      "qandroid": "Qandroid",
       "tv": "Tv",
       "web": "网页",
-      "windows": "Windows"
+      "wechatmini": "Wechatmini"
     },
     "qrcode_token": "二维码令牌",
     "qrcode_token-tips": "需要 QR 代码令牌和 cookie 中的一个",
@@ -31,13 +31,13 @@
     "qrcode_source": "Qrcode 源",
     "qrcode_source-tips": "选择二维码设备，默认 linux",
     "qrcode_sources": {
+      "alipaymini": "Alipaymini",
       "android": "安卓",
       "ios": "IOS",
-      "linux": "Linux",
-      "mac": "Mac",
+      "qandroid": "Qandroid",
       "tv": "Tv",
       "web": "网页",
-      "windows": "Windows"
+      "wechatmini": "Wechatmini"
     },
     "qrcode_token": "二维码令牌",
     "qrcode_token-tips": "需要 QR 代码令牌和 cookie 中的一个",
@@ -48,17 +48,6 @@
     "share_code-tips": "分享链接的分享码"
   },
   "123Pan": {
-    "order_by": "排序",
-    "order_bys": {
-      "file_name": "文件名称",
-      "size": "大小",
-      "update_at": "修改时间"
-    },
-    "order_direction": "排序方式",
-    "order_directions": {
-      "asc": "升序",
-      "desc": "降序"
-    },
     "password": "密码",
     "root_folder_id": "根文件夹ID",
     "username": "用户名"
@@ -73,17 +62,6 @@
   },
   "123PanShare": {
     "accesstoken": "访问令牌",
-    "order_by": "排序",
-    "order_bys": {
-      "file_name": "文件名称",
-      "size": "大小",
-      "update_at": "修改时间"
-    },
-    "order_direction": "排序方式",
-    "order_directions": {
-      "asc": "升序",
-      "desc": "降序"
-    },
     "root_folder_id": "根文件夹ID",
     "sharekey": "分享key",
     "sharepassword": "分享密码"
@@ -367,10 +345,30 @@
   },
   "FTP": {
     "address": "地址",
-    "encoding": "Encoding",
+    "encoding": "",
     "password": "密码",
     "root_folder_path": "根文件夹路径",
     "username": "用户名"
+  },
+  "FebBox": {
+    "client_id": "客户端ID",
+    "client_secret": "客户端密钥",
+    "page_size": "分页大小",
+    "page_size-tips": "list api per page size of FebBox driver",
+    "root_folder_id": "根文件夹ID",
+    "sort_rule": "排序规则",
+    "sort_rules": {
+      "ext_asc": "扩展名正序",
+      "ext_desc": "扩展名倒序",
+      "name_asc": "名称升序",
+      "name_desc": "名称降序",
+      "size_asc": "大小升序",
+      "size_desc": "大小降序",
+      "update_asc": "修改时间正序",
+      "update_desc": "修改时间倒序"
+    },
+    "user_ip": "用户ip",
+    "user_ip-tips": "用户IP地址用于下载链接，可以加快下载"
   },
   "FeijiPan": {
     "password": "密码",
@@ -399,6 +397,16 @@
     "root_folder_id": "根文件夹ID",
     "show_archive": "显示归档"
   },
+  "HalalCloud": {
+    "app_id": "App ID",
+    "app_secret": "App Secret\n",
+    "app_version": "应用版本",
+    "refresh_token": "刷新令牌",
+    "refresh_token-tips": "登录类型是刷新令牌,此为必填项",
+    "root_folder_path": "根文件夹路径",
+    "upload_thread": "上传线程",
+    "upload_thread-tips": "1<=线程<=32"
+  },
   "ILanZou": {
     "password": "密码",
     "root_folder_id": "根文件夹ID",
@@ -408,6 +416,12 @@
     "endpoint": "Endpoint",
     "gateway": "网关",
     "root_folder_path": "根文件夹路径"
+  },
+  "KodBox": {
+    "address": "地址",
+    "password": "密码",
+    "root_folder_path": "根文件夹路径",
+    "username": "用户名"
   },
   "Lanzou": {
     "account": "账户",
@@ -427,7 +441,8 @@
       "account": "账户",
       "cookie": "Cookie",
       "url": "链接"
-    }
+    },
+    "user_agent": "用户代理"
   },
   "Lark": {
     "app_id": "App ID",
@@ -440,6 +455,15 @@
     "tenant_url_prefix": "租户网址前缀",
     "tenant_url_prefix-tips": "租户地址前缀"
   },
+  "LenovoNasShare": {
+    "host": "主机地址",
+    "host-tips": "你可以将它更改为你的局域网地址",
+    "root_folder_path": "根文件夹路径",
+    "share_id": "分享ID",
+    "share_id-tips": "最后一个/共享链接后的部分",
+    "share_pwd": "分享密码",
+    "share_pwd-tips": "分享链接的密码"
+  },
   "Local": {
     "mkdir_perm": "创建文件夹权限",
     "recycle_bin_path": "回收站路径",
@@ -448,6 +472,8 @@
     "show_hidden": "显示隐藏",
     "show_hidden-tips": "显示隐藏目录以及文件",
     "thumb_cache_folder": "缩略图缓存文件夹",
+    "thumb_concurrency": "缩略图并发数",
+    "thumb_concurrency-tips": "同时生成缩略图的数量。这控制了可以并行生成多少缩略图。",
     "thumbnail": "缩略图",
     "thumbnail-tips": "启用缩略图"
   },
@@ -517,6 +543,11 @@
     "root_folder_path": "根文件夹路径",
     "site_id": "站点ID"
   },
+  "Onedrive Sharelink": {
+    "password": "密码",
+    "root_folder_path": "根文件夹路径",
+    "url": "链接"
+  },
   "OnedriveAPP": {
     "chunk_size": "分片大小",
     "client_id": "客户端ID",
@@ -535,21 +566,41 @@
     "tenant_id": "租户 ID"
   },
   "PikPak": {
-    "client_id": "客户端ID",
-    "client_secret": "客户端密钥",
+    "captcha_token": "验证码",
+    "custom_low_latency_address": "自定义加速地址",
+    "device_id": "设备id",
     "disable_media_link": "禁用媒体链接",
     "password": "密码",
+    "platform": "平台",
+    "platforms": {
+      "android": "安卓",
+      "pc": "Pc平台",
+      "web": "网页"
+    },
+    "refresh_token": "刷新令牌",
+    "refresh_token_method": "刷新令牌方法",
+    "refresh_token_methods": {
+      "http": "Http",
+      "oauth2": "Oauth2"
+    },
     "root_folder_id": "根文件夹ID",
+    "use_low_latency_address": "使用加速地址",
     "username": "用户名"
   },
   "PikPakShare": {
-    "client_id": "客户端ID",
-    "client_secret": "客户端密钥",
-    "password": "密码",
+    "custom_low_latency_address": "自定义加速地址",
+    "device_id": "设备id",
+    "platform": "平台",
+    "platforms": {
+      "android": "安卓",
+      "pc": "Pc平台",
+      "web": "网页"
+    },
     "root_folder_id": "根文件夹ID",
     "share_id": "分享ID",
     "share_pwd": "分享密码",
-    "username": "用户名"
+    "use_low_latency_address": "使用加速地址",
+    "use_transcoding_address": "使用转码地址"
   },
   "Quark": {
     "cookie": "Cookie",
@@ -565,6 +616,13 @@
       "asc": "升序",
       "desc": "降序"
     },
+    "root_folder_id": "根文件夹ID"
+  },
+  "QuarkTV": {
+    "device_id": "设备id",
+    "query_token": "查询令牌",
+    "query_token-tips": "不要编辑",
+    "refresh_token": "刷新令牌",
     "root_folder_id": "根文件夹ID"
   },
   "Quqi": {
@@ -601,6 +659,7 @@
   "SFTP": {
     "address": "地址",
     "ignore_symlink_error": "忽略软链接错误",
+    "passphrase": "密语",
     "password": "密码",
     "private_key": "私钥",
     "root_folder_path": "根文件夹路径",
@@ -680,7 +739,7 @@
       "trash": "回收站"
     },
     "root_folder_id": "根文件夹ID",
-    "safe_password": "Safe password",
+    "safe_password": "安全密码",
     "use_video_url": "使用视频url",
     "username": "用户名"
   },
@@ -711,8 +770,8 @@
       "trash": "回收站"
     },
     "root_folder_id": "根文件夹ID",
-    "safe_password": "Safe password",
-    "safe_password-tips": "登录类型是用户名,此为必填项",
+    "safe_password": "安全密码",
+    "safe_password-tips": "超安全密码",
     "sign_type": "签名类型",
     "sign_types": {
       "algorithms": "算法",
@@ -819,6 +878,13 @@
       "asc": "升序",
       "desc": "降序"
     },
+    "root_folder_id": "根文件夹ID"
+  },
+  "UCTV": {
+    "device_id": "设备id",
+    "query_token": "查询令牌",
+    "query_token-tips": "不要编辑",
+    "refresh_token": "刷新令牌",
     "root_folder_id": "根文件夹ID"
   },
   "USS": {
@@ -952,13 +1018,17 @@
     "Doge": {},
     "Dropbox": {},
     "FTP": {},
+    "FebBox": {},
     "FeijiPan": {},
     "GoogleDrive": {},
     "GooglePhoto": {},
+    "HalalCloud": {},
     "ILanZou": {},
     "IPFS API": {},
+    "KodBox": {},
     "Lanzou": {},
     "Lark": {},
+    "LenovoNasShare": {},
     "Local": {},
     "MediaTrack": {},
     "Mega_nz": {},
@@ -967,10 +1037,12 @@
     },
     "NeteaseMusic": {},
     "Onedrive": {},
+    "Onedrive Sharelink": {},
     "OnedriveAPP": {},
     "PikPak": {},
     "PikPakShare": {},
     "Quark": {},
+    "QuarkTV": {},
     "Quqi": {},
     "S3": {},
     "SFTP": {},
@@ -986,6 +1058,7 @@
     "ThunderXExpert": {},
     "Trainbit": {},
     "UC": {},
+    "UCTV": {},
     "USS": {},
     "UrlTree": {},
     "VTencent": {},
@@ -1019,23 +1092,29 @@
     "Doge": "多吉云",
     "Dropbox": "Dropbox",
     "FTP": "FTP",
+    "FebBox": "FebBox",
     "FeijiPan": "飞机盘",
     "GoogleDrive": "谷歌云盘",
     "GooglePhoto": "谷歌相册",
+    "HalalCloud": "HalalCloud",
     "ILanZou": "蓝奏云优享版",
     "IPFS API": "IPFS API",
+    "KodBox": "可道云",
     "Lanzou": "蓝奏云",
     "Lark": "Lark (飞书)",
+    "LenovoNasShare": "联想家庭储存链接分享",
     "Local": "本机存储",
     "MediaTrack": "分秒帧",
     "Mega_nz": "Mega 网盘",
     "MoPan": "魔盘",
     "NeteaseMusic": "网易云音乐",
     "Onedrive": "Onedrive",
+    "Onedrive Sharelink": "Onedrive 分享链接",
     "OnedriveAPP": "OnedriveAPP",
     "PikPak": "PikPak",
     "PikPakShare": "PikPak分享",
     "Quark": "夸克",
+    "QuarkTV": "Quark TV",
     "Quqi": "曲奇云盘",
     "S3": "对象存储",
     "SFTP": "SFTP",
@@ -1044,13 +1123,14 @@
     "Teambition": "Teambition网盘",
     "Terabox": "Terabox",
     "Thunder": "迅雷",
-    "ThunderBrowser": "ThunderBrowser",
-    "ThunderBrowserExpert": "ThunderBrowserExpert",
+    "ThunderBrowser": "Thunder浏览器",
+    "ThunderBrowserExpert": "Thunder浏览器专家",
     "ThunderExpert": "迅雷专家版",
     "ThunderX": "迅雷X",
     "ThunderXExpert": "迅雷X专家版",
     "Trainbit": "Trainbit",
     "UC": "UC",
+    "UCTV": "UC TV",
     "USS": "又拍云存储",
     "UrlTree": "地址树",
     "VTencent": "腾讯智能创作平台",
