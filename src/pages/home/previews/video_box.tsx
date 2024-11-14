@@ -156,6 +156,7 @@ export const VideoBox = (props: {
                 ".ssa",
                 ".vtt",
                 ".sub",
+                ".sup",
               ]
               const subObjs = objStore.objs.filter((obj) =>
                 subFileSuffix.some((suffix) => obj.name.endsWith(suffix)),

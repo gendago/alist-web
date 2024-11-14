@@ -231,6 +231,7 @@ export const ListItem = (props: { obj: StoreObj & Obj; index: number }) => {
                           ".ssa",
                           ".vtt",
                           ".sub",
+                          ".sup",
                         ]
                         const subObjs = objStore.objs.filter((obj) =>
                           subFileSuffix.some((suffix) => obj.name.endsWith(suffix)),
