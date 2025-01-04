@@ -3,7 +3,7 @@
     "cookie": "Cookie",
     "cookie-tips": "需要 QR 代码令牌和 cookie 中的一个",
     "limit_rate": "限制速率",
-    "limit_rate-tips": "限制所有 api 请求速率(1r/[limit_rate]s)",
+    "limit_rate-tips": "限制所有 api 请求率 ([limit]r/1s)",
     "page_size": "分页大小",
     "page_size-tips": "115 驱动程序的列表 API 的每页大小",
     "qrcode_source": "Qrcode 源",
@@ -69,6 +69,8 @@
   "139Yun": {
     "authorization": "Authorization",
     "cloud_id": "Cloud id",
+    "custom_upload_part_size": "自定义上传分片大小",
+    "custom_upload_part_size-tips": "0 表示根据VIP等级对应大小",
     "root_folder_id": "根文件夹ID",
     "type": "类型",
     "types": {
@@ -245,10 +247,8 @@
   },
   "BaiduPhoto": {
     "album_id": "相簿ID",
-    "client_id": "客户端ID",
-    "client_secret": "客户端密钥",
+    "cookie": "Cookie",
     "delete_origin": "删除源文件",
-    "refresh_token": "刷新令牌",
     "show_type": "展示类型",
     "show_types": {
       "root": "根",
@@ -318,6 +318,7 @@
     "add_filename_to_disposition-tips": "添加filename到Content-Disposition头中。",
     "bucket": "存储桶",
     "custom_host": "自定义HOST",
+    "enable_custom_host_presign": "启用自定义主机预览",
     "endpoint": "Endpoint",
     "force_path_style": "强制路径样式",
     "list_object_version": "列出对象版本",
@@ -567,7 +568,6 @@
   },
   "PikPak": {
     "captcha_token": "验证码",
-    "custom_low_latency_address": "自定义加速地址",
     "device_id": "设备id",
     "disable_media_link": "禁用媒体链接",
     "password": "密码",
@@ -578,17 +578,10 @@
       "web": "网页"
     },
     "refresh_token": "刷新令牌",
-    "refresh_token_method": "刷新令牌方法",
-    "refresh_token_methods": {
-      "http": "Http",
-      "oauth2": "Oauth2"
-    },
     "root_folder_id": "根文件夹ID",
-    "use_low_latency_address": "使用加速地址",
     "username": "用户名"
   },
   "PikPakShare": {
-    "custom_low_latency_address": "自定义加速地址",
     "device_id": "设备id",
     "platform": "平台",
     "platforms": {
@@ -599,7 +592,6 @@
     "root_folder_id": "根文件夹ID",
     "share_id": "分享ID",
     "share_pwd": "分享密码",
-    "use_low_latency_address": "使用加速地址",
     "use_transcoding_address": "使用转码地址"
   },
   "Quark": {
@@ -640,6 +632,7 @@
     "add_filename_to_disposition-tips": "添加filename到Content-Disposition头中。",
     "bucket": "存储桶",
     "custom_host": "自定义HOST",
+    "enable_custom_host_presign": "启用自定义主机预览",
     "endpoint": "Endpoint",
     "force_path_style": "强制路径样式",
     "list_object_version": "列出对象版本",

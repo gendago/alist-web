@@ -35,7 +35,8 @@
       "front": "提取到最前",
       "back": "提取到最後"
     },
-    "enable_sign": "啟用簽名"
+    "enable_sign": "啟用簽名",
+    "disable_index": "Disable index"
   },
   "other": {
     "start_load_success": "開始載入",

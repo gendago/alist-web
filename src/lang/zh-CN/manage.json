@@ -22,7 +22,8 @@
     "docs": "文档",
     "offline_download": "离线下载",
     "ldap": "LDAP",
-    "s3": "对象存储"
+    "s3": "对象存储",
+    "ftp": "FTP"
   },
   "title": "AList 管理",
   "not_admin": "您不是管理员用户，请使用管理员帐户登录。",

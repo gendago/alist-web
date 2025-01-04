@@ -9,7 +9,9 @@
     "copy": "複製",
     "delete": "刪除",
     "webdav_read": "Webdav 讀取",
-    "webdav_manage": "Webdav 管理"
+    "webdav_manage": "Webdav 管理",
+    "ftp_read": "FTP read",
+    "ftp_manage": "FTP manage"
   },
   "username": "使用者名稱",
   "password": "密碼",
@@ -42,5 +44,14 @@
   "webauthn": "WebAuthn",
   "add_webauthn": "添加Webauthn 憑據",
   "add_webauthn_success": "Webauthn 憑據添加成功！",
-  "webauthn_not_supported": "您的瀏覽器不支持Webauth，或者您的來源不安全"
+  "webauthn_not_supported": "您的瀏覽器不支持Webauth，或者您的來源不安全",
+  "ssh_keys": {
+    "heading": "SSH keys",
+    "add_heading": "Add new SSH key",
+    "title": "名稱",
+    "key": "Key",
+    "fingerprint": "Fingerprint",
+    "last_used": "Last used time",
+    "operation": "Operation"
+  }
 }

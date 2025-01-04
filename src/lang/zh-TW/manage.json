@@ -22,7 +22,8 @@
     "docs": "文件",
     "offline_download": "離線下載",
     "ldap": "LDAP",
-    "s3": "S3"
+    "s3": "S3",
+    "ftp": "FTP"
   },
   "title": "AList 管理",
   "not_admin": "您不是管理員，請使用管理員帳戶登入。",

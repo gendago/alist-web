@@ -3,7 +3,7 @@
     "cookie": "Cookie",
     "cookie-tips": "QRコードトークンとCookieのいずれかが必要です",
     "limit_rate": "リミットレート",
-    "limit_rate-tips": "すべてのAPIリクエストレートを制限します (1時間/[limit_rate]秒)",
+    "limit_rate-tips": "すべてのAPIリクエストレートを制限する([limit]r/1s)",
     "page_size": "ページの大きさ",
     "page_size-tips": "115ドライバのページサイズごとのAPIリスト",
     "qrcode_source": "QRコードソース",
@@ -69,6 +69,8 @@
   "139Yun": {
     "authorization": "認証",
     "cloud_id": "クラウドID",
+    "custom_upload_part_size": "アップロードチャンクサイズのカスタマイズ",
+    "custom_upload_part_size-tips": "0はVIPレベルに応じたサイズを示します",
     "root_folder_id": "ルートフォルダID",
     "type": "種類",
     "types": {
@@ -245,10 +247,8 @@
   },
   "BaiduPhoto": {
     "album_id": "アルバムID",
-    "client_id": "クライアントID",
-    "client_secret": "クライアントシークレット",
+    "cookie": "Cookie",
     "delete_origin": "オリジナルを削除",
-    "refresh_token": "トークンを更新",
     "show_type": "種類を表示",
     "show_types": {
       "root": "ルート",
@@ -318,6 +318,7 @@
     "add_filename_to_disposition-tips": "Content-Dispositionヘッダーにファイル名を追加します",
     "bucket": "バケット",
     "custom_host": "カスタムホスト",
+    "enable_custom_host_presign": "ホストの任命を有効にする",
     "endpoint": "エンドポイント",
     "force_path_style": "強制パスのスタイル",
     "list_object_version": "リストオブジェクトのバージョン",
@@ -567,7 +568,6 @@
   },
   "PikPak": {
     "captcha_token": "Captchaトークン",
-    "custom_low_latency_address": "カスタム低遅延アドレス",
     "device_id": "デバイスID",
     "disable_media_link": "メディアリンクを無効化",
     "password": "パスワード",
@@ -578,17 +578,10 @@
       "web": "Web"
     },
     "refresh_token": "トークンを更新",
-    "refresh_token_method": "トークン方式を更新",
-    "refresh_token_methods": {
-      "http": "http",
-      "oauth2": "OAuth 2.0"
-    },
     "root_folder_id": "ルートフォルダID",
-    "use_low_latency_address": "低遅延アドレスを使用する",
     "username": "ユーザー名"
   },
   "PikPakShare": {
-    "custom_low_latency_address": "カスタム低遅延アドレス",
     "device_id": "デバイスID",
     "platform": "プラットフォーム",
     "platforms": {
@@ -599,7 +592,6 @@
     "root_folder_id": "ルートフォルダID",
     "share_id": "共有ID",
     "share_pwd": "共有パスワード",
-    "use_low_latency_address": "低遅延アドレスを使用する",
     "use_transcoding_address": "トランスコーディングアドレスを使用する"
   },
   "Quark": {
@@ -640,6 +632,7 @@
     "add_filename_to_disposition-tips": "Content-Dispositionヘッダーにファイル名を追加します",
     "bucket": "バケット",
     "custom_host": "カスタムホスト",
+    "enable_custom_host_presign": "ホストの任命を有効にする",
     "endpoint": "エンドポイント",
     "force_path_style": "強制パスのスタイル",
     "list_object_version": "リストオブジェクトのバージョン",

@@ -19,5 +19,38 @@
     "7": "失敗",
     "8": "再試行を待機中",
     "9": "再試行前"
-  }
+  },
+  "retry_selected": "選択を再試行する",
+  "cancel_selected": "選択をキャンセル",
+  "delete_selected": "選択したものを削除",
+  "filter": "フィルター",
+  "expand": "展開",
+  "fold": "折り畳み",
+  "expand_all": "すべて展開",
+  "fold_all": "すべて折り畳み",
+  "attr": {
+    "name": "名前",
+    "creator": "作成者",
+    "state": "都道府県：",
+    "progress": "進捗状況",
+    "speed": "速度",
+    "operation": "操作",
+    "copy": {
+      "src": "ソースパス",
+      "dst": "宛先パス"
+    },
+    "upload": {
+      "path": "パス"
+    },
+    "offline_download": {
+      "url": "URL",
+      "path": "宛先パス",
+      "transfer_src": "ソースパス",
+      "transfer_dst": "宛先パス"
+    },
+    "time_elapsed": "経過時間",
+    "status": "状態",
+    "err": "エラー"
+  },
+  "show_only_mine": "自分のタスクのみ表示"
 }

@@ -19,5 +19,38 @@
     "7": "失敗",
     "8": "等待重試",
     "9": "重試前置操作中"
-  }
+  },
+  "retry_selected": "Retry Selected",
+  "cancel_selected": "Cancel Selected",
+  "delete_selected": "Delete Selected",
+  "filter": "Filter",
+  "expand": "Expand",
+  "fold": "Fold",
+  "expand_all": "Expand All",
+  "fold_all": "Fold All",
+  "attr": {
+    "name": "名稱",
+    "creator": "Creator",
+    "state": "State",
+    "progress": "Progress",
+    "speed": "Speed",
+    "operation": "Operation",
+    "copy": {
+      "src": "Source Path",
+      "dst": "Destination Path"
+    },
+    "upload": {
+      "path": "路徑"
+    },
+    "offline_download": {
+      "url": "URL",
+      "path": "Destination Path",
+      "transfer_src": "Source Path",
+      "transfer_dst": "Destination Path"
+    },
+    "time_elapsed": "Time Elapsed",
+    "status": "狀態",
+    "err": "錯誤"
+  },
+  "show_only_mine": "Show only my tasks"
 }

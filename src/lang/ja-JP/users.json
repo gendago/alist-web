@@ -9,7 +9,9 @@
     "copy": "コピー",
     "delete": "削除",
     "webdav_read": "WebDAVを読み取り",
-    "webdav_manage": "WebDAVを管理"
+    "webdav_manage": "WebDAVを管理",
+    "ftp_read": "FTP読み取り",
+    "ftp_manage": "FTP管理"
   },
   "username": "ユーザー名",
   "password": "パスワード",
@@ -42,5 +44,14 @@
   "webauthn": "WebAuthn",
   "add_webauthn": "WebAuthnの資格情報を追加",
   "add_webauthn_success": "WebAuthnの資格情報の追加に成功しました!",
-  "webauthn_not_supported": "WebAuthnがブラウザでサポートされていない、または安全でないオリジナルを使用しています"
+  "webauthn_not_supported": "WebAuthnがブラウザでサポートされていない、または安全でないオリジナルを使用しています",
+  "ssh_keys": {
+    "heading": "SSH キー",
+    "add_heading": "SSHキーを追加",
+    "title": "タイトル",
+    "key": "キー",
+    "fingerprint": "フィンガープリント",
+    "last_used": "前回使用した時間",
+    "operation": "操作"
+  }
 }

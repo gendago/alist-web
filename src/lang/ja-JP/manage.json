@@ -22,7 +22,8 @@
     "docs": "ドキュメント",
     "offline_download": "オフラインダウンロード",
     "ldap": "LDAP",
-    "s3": "S3"
+    "s3": "S3",
+    "ftp": "FTP"
   },
   "title": "AListの管理",
   "not_admin": "管理者アカウントでログインしてください。",

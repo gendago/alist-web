@@ -3,7 +3,7 @@
     "cookie": "Cookie",
     "cookie-tips": "需要 QR 代碼令牌和 cookie 中的一個",
     "limit_rate": "次數限制",
-    "limit_rate-tips": "限制所有 API 次數上限 (1r/[limit_rate])",
+    "limit_rate-tips": "limit all api request rate ([limit]r/1s)",
     "page_size": "分頁大小",
     "page_size-tips": "115 驅動程式的清單 API 的每頁大小",
     "qrcode_source": "Qrcode 源",
@@ -69,6 +69,8 @@
   "139Yun": {
     "authorization": "Authorization",
     "cloud_id": "Cloud id",
+    "custom_upload_part_size": "自定義上傳分片大小",
+    "custom_upload_part_size-tips": "0 表示根據 VIP 等級對應大小",
     "root_folder_id": "根資料夾ID",
     "type": "類型",
     "types": {
@@ -245,10 +247,8 @@
   },
   "BaiduPhoto": {
     "album_id": "相簿ID",
-    "client_id": "客户端ID",
-    "client_secret": "客戶端金鑰",
+    "cookie": "Cookie",
     "delete_origin": "刪除源頭文件",
-    "refresh_token": "更新 Token",
     "show_type": "顯示類型",
     "show_types": {
       "root": "根目錄",
@@ -318,6 +318,7 @@
     "add_filename_to_disposition-tips": "新增 filename 到 Content-Disposition header 中。",
     "bucket": "Bucket",
     "custom_host": "自定義HOST",
+    "enable_custom_host_presign": "Enable custom host presign",
     "endpoint": "Endpoint",
     "force_path_style": "強制路徑樣式",
     "list_object_version": "列出對象版本",
@@ -567,7 +568,6 @@
   },
   "PikPak": {
     "captcha_token": "驗證碼",
-    "custom_low_latency_address": "Custom low latency address",
     "device_id": "設備id",
     "disable_media_link": "禁用媒體連結",
     "password": "密碼",
@@ -578,17 +578,10 @@
       "web": "Web"
     },
     "refresh_token": "更新 Token",
-    "refresh_token_method": "Refresh token method",
-    "refresh_token_methods": {
-      "http": "Http",
-      "oauth2": "Oauth2"
-    },
     "root_folder_id": "根資料夾ID",
-    "use_low_latency_address": "Use low latency address",
     "username": "使用者名稱"
   },
   "PikPakShare": {
-    "custom_low_latency_address": "Custom low latency address",
     "device_id": "設備id",
     "platform": "Platform",
     "platforms": {
@@ -599,7 +592,6 @@
     "root_folder_id": "根資料夾ID",
     "share_id": "分享ID",
     "share_pwd": "分享密碼",
-    "use_low_latency_address": "Use low latency address",
     "use_transcoding_address": "Use transcoding address"
   },
   "Quark": {
@@ -640,6 +632,7 @@
     "add_filename_to_disposition-tips": "新增 filename 到 Content-Disposition header 中。",
     "bucket": "Bucket",
     "custom_host": "自定義HOST",
+    "enable_custom_host_presign": "Enable custom host presign",
     "endpoint": "Endpoint",
     "force_path_style": "強制路徑樣式",
     "list_object_version": "列出對象版本",
