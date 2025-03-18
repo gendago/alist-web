@@ -34,12 +34,21 @@
     "toggle_checkbox": "チェックボックスに切り替え",
     "rename": "名前を変更",
     "input_new_name": "新しい名前を入力",
-    "only_one-tips": "名前を変更できるオブジェクトは1つのみです",
     "move": "移動",
     "copy": "コピー",
     "choose_dst_folder": "保存先フォルダの選択",
     "delete": "削除",
     "delete-tips": "選択したオブジェクトを削除してもよろしいですか?",
+    "decompress": "解凍する",
+    "decompress-pass": "抽出パスワード: ",
+    "decompress-cache-full": "temp-fileに完全なキャッシュ",
+    "decompress-put-into-new": "新しいサブフォルダに解凍する",
+    "extract": "展開先",
+    "archive": {
+      "input_password": "抽出パスワードを入力してください",
+      "incorrect_password": "パスワードが間違っています",
+      "extract_header": "{{path}} を抽出..."
+    },
     "copy_link": "リンクをコピー",
     "preview_page": "前のページ",
     "down_link": "ダウンロードリンク",
@@ -84,6 +93,7 @@
   },
   "upload": {
     "add_as_task": "タスクに追加",
+    "try_rapid": "迅速に試す",
     "upload-tips": "ファイルをドラッグしてアップロード:",
     "release": "リリースしてアップロード",
     "no_files_drag": "ファイルはドラッグされていません",
@@ -150,14 +160,8 @@
     "open_item_on_checkbox": "チェックボックスの項目を開く",
     "open_item_on_checkbox_options": {
       "direct": "直接",
-      "disable_while_checked": "チェック中は無効化する",
-      "with_ctrl": "Ctrl/Commandを押しながら",
-      "with_alt": "Alt/Optionを押しながら"
-    },
-    "select_with_mouse": "チェックボックスを閉じた状態でマウスで項目を選択",
-    "select_with_mouse_options": {
-      "disabled": "無効",
-      "open_item_with_dblclick": "ダブルクリックでアイテムを開く"
+      "dblclick": "Double click",
+      "disable_while_checked": "チェック中は無効化する"
     }
   },
   "package_download": {
@@ -184,5 +188,10 @@
   },
   "fetching_settings_failed": "設定の取得に失敗:",
   "get_current_user_failed": "現在のユーザーの取得に失敗:",
-  "Loading storage, please wait": "ストレージを読み込み中です、しばらくお待ちください"
+  "Loading storage, please wait": "ストレージを読み込み中です、しばらくお待ちください",
+  "conflict_policy": {
+    "cancel_if_exists": "ファイルが存在する場合はキャンセル",
+    "overwrite_existing": "既存のファイルを上書き",
+    "skip_existing": "既存のファイルをスキップ"
+  }
 }

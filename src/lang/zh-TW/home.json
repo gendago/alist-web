@@ -34,12 +34,21 @@
     "toggle_checkbox": "切換核取方塊",
     "rename": "重命名",
     "input_new_name": "請輸入一個新名稱",
-    "only_one-tips": "只能選擇一個對象重命名",
     "move": "移動",
     "copy": "複製",
     "choose_dst_folder": "選擇目標資料夾",
     "delete": "刪除",
     "delete-tips": "確定要刪除所選對象嗎?",
+    "decompress": "Decompress",
+    "decompress-pass": "Extraction password: ",
+    "decompress-cache-full": "Cache full into a temp-file",
+    "decompress-put-into-new": "Decompress into a new sub-folder",
+    "extract": "Extract to",
+    "archive": {
+      "input_password": "Please input extraction password",
+      "incorrect_password": "Incorrect password",
+      "extract_header": "Extract {{path}} to..."
+    },
     "copy_link": "複製連結",
     "preview_page": "預覽頁面",
     "down_link": "下載連結",
@@ -84,6 +93,7 @@
   },
   "upload": {
     "add_as_task": "新增為任務",
+    "try_rapid": "Try rapid",
     "upload-tips": "拖動文件到此處以上傳，或點擊：",
     "release": "放開來上傳",
     "no_files_drag": "沒有檔案被拖入。",
@@ -150,14 +160,8 @@
     "open_item_on_checkbox": "在核取方塊上打開選項",
     "open_item_on_checkbox_options": {
       "direct": "直接打開",
-      "disable_while_checked": "選中時禁用",
-      "with_ctrl": "使用 Ctrl/Command 按鍵打開",
-      "with_alt": "使用 Alt/Option 按鍵打開"
-    },
-    "select_with_mouse": "Select item with mouse while checkbox closed",
-    "select_with_mouse_options": {
-      "disabled": "停用",
-      "open_item_with_dblclick": "雙擊打開"
+      "dblclick": "Double click",
+      "disable_while_checked": "選中時禁用"
     }
   },
   "package_download": {
@@ -184,5 +188,10 @@
   },
   "fetching_settings_failed": "取得設定失敗： ",
   "get_current_user_failed": "取得目前使用者失敗： ",
-  "Loading storage, please wait": "請稍後，正在載入儲存"
+  "Loading storage, please wait": "請稍後，正在載入儲存",
+  "conflict_policy": {
+    "cancel_if_exists": "Cancel if file exists",
+    "overwrite_existing": "Overwrite existing files",
+    "skip_existing": "Skip existing files"
+  }
 }

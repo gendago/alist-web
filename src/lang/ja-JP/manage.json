@@ -15,6 +15,7 @@
     "tasks": "タスク",
     "upload": "アップロード",
     "copy": "コピー",
+    "decompress": "解凍する",
     "backup-restore": "バックアップと復元",
     "home": "ホーム",
     "indexes": "インデックス",
@@ -23,7 +24,8 @@
     "offline_download": "オフラインダウンロード",
     "ldap": "LDAP",
     "s3": "S3",
-    "ftp": "FTP"
+    "ftp": "FTP",
+    "traffic": "トラフィック"
   },
   "title": "AListの管理",
   "not_admin": "管理者アカウントでログインしてください。",

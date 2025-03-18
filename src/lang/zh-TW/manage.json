@@ -15,6 +15,7 @@
     "tasks": "任務",
     "upload": "上傳",
     "copy": "複製",
+    "decompress": "Decompress",
     "backup-restore": "備份與還原",
     "home": "首頁",
     "indexes": "索引",
@@ -23,7 +24,8 @@
     "offline_download": "離線下載",
     "ldap": "LDAP",
     "s3": "S3",
-    "ftp": "FTP"
+    "ftp": "FTP",
+    "traffic": "Traffic"
   },
   "title": "AList 管理",
   "not_admin": "您不是管理員，請使用管理員帳戶登入。",

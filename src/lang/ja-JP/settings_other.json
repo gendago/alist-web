@@ -9,5 +9,11 @@
   "set_qbit": "qBittorrentを設定",
   "qbittorrent": "qBittorrent",
   "transmission": "送信",
-  "set_transmission": "送信を設定する"
+  "set_transmission": "送信を設定する",
+  "115": "115",
+  "set_115": "115を設定",
+  "pikpak": "PikPak",
+  "set_pikpak": "PikPak を設定",
+  "thunder": "Thunder",
+  "set_thunder": "雷をセット"
 }

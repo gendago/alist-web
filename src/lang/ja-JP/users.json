@@ -11,7 +11,9 @@
     "webdav_read": "WebDAVを読み取り",
     "webdav_manage": "WebDAVを管理",
     "ftp_read": "FTP読み取り",
-    "ftp_manage": "FTP管理"
+    "ftp_manage": "FTP管理",
+    "read_archives": "アーカイブを読む",
+    "decompress": "解凍する"
   },
   "username": "ユーザー名",
   "password": "パスワード",

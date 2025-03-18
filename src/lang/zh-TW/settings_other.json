@@ -9,5 +9,11 @@
   "set_qbit": "設定 qBittorrent",
   "qbittorrent": "qBittorrent",
   "transmission": "Transmission",
-  "set_transmission": "Set Transmission"
+  "set_transmission": "設定 Transmission",
+  "115": "115",
+  "set_115": "設定 115",
+  "pikpak": "PikPak",
+  "set_pikpak": "設定 PikPak",
+  "thunder": "迅雷",
+  "set_thunder": "設定迅雷"
 }

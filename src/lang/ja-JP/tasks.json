@@ -3,6 +3,8 @@
   "offline_download_transfer": "ダウンロードしたファイルを対応するストレージに転送",
   "upload": "対応するストレージにファイルをアップロード",
   "copy": "ファイルをストレージから別のストレージにコピー",
+  "decompress": "アーカイブファイルをダウンロードして展開します",
+  "decompress_upload": "抽出されたファイルをターゲットストレージにアップロード",
   "done": "完了",
   "undone": "実行中",
   "clear_succeeded": "クリアに成功しました",
@@ -46,7 +48,14 @@
       "url": "URL",
       "path": "宛先パス",
       "transfer_src": "ソースパス",
+      "transfer_src_local": "ソースパス (ローカル)",
       "transfer_dst": "宛先パス"
+    },
+    "decompress": {
+      "src": "ソースパス",
+      "dst": "宛先パス",
+      "inner": "内部パス",
+      "password": "抽出パスワード"
     },
     "time_elapsed": "経過時間",
     "status": "状態",

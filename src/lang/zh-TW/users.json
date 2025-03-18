@@ -11,7 +11,9 @@
     "webdav_read": "Webdav 讀取",
     "webdav_manage": "Webdav 管理",
     "ftp_read": "FTP read",
-    "ftp_manage": "FTP manage"
+    "ftp_manage": "FTP manage",
+    "read_archives": "Read archives",
+    "decompress": "Decompress"
   },
   "username": "使用者名稱",
   "password": "密碼",
