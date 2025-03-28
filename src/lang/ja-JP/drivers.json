@@ -144,6 +144,7 @@
     "url": "URL"
   },
   "AList V3": {
+    "forward_archive_requests": "アーカイブリクエストを転送する",
     "meta_password": "Metaパスワード",
     "pass_ua_to_upsteam": "UAを上流に伝達する",
     "password": "パスワード",
@@ -159,7 +160,8 @@
     "download_part_size-tips": "プロキシを有効にする必要があります。単位: KB",
     "paths": "パス",
     "protect_same_name": "同じ名前を保護する",
-    "protect_same_name-tips": "同じ名前のファイルを削除または名前の変更から保護します"
+    "protect_same_name-tips": "同じ名前のファイルを削除または名前の変更から保護します",
+    "writable": "書き込み可能"
   },
   "Aliyundrive": {
     "internal_upload": "内部アップロード",
@@ -356,6 +358,10 @@
     "secret_access_key": "シークレットアクセスキー",
     "session_token": "セッショントークン",
     "sign_url_expire": "サインURLは期限切れです"
+  },
+  "Doubao": {
+    "cookie": "Cookie",
+    "root_folder_id": "ルートフォルダID"
   },
   "Dropbox": {
     "client_id": "クライアントID",
@@ -1077,6 +1083,7 @@
     "Cloudreve": {},
     "Crypt": {},
     "Doge": {},
+    "Doubao": {},
     "Dropbox": {},
     "FTP": {},
     "FebBox": {},
@@ -1155,6 +1162,7 @@
     "Cloudreve": "Cloudreve",
     "Crypt": "Crypt",
     "Doge": "Doge",
+    "Doubao": "Doubao",
     "Dropbox": "Dropbox",
     "FTP": "FTP",
     "FebBox": "FebBox",
