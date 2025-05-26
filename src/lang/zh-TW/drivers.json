@@ -22,6 +22,8 @@
     "root_folder_id": "根資料夾ID"
   },
   "115 Open": {
+    "limit_rate": "次數限制",
+    "limit_rate-tips": "限制所有 api 請求率 ([limit]r/1s)",
     "order_by": "排序",
     "order_bys": {
       "file_name": "檔案名稱",
@@ -87,6 +89,8 @@
     "cloud_id": "Cloud id",
     "custom_upload_part_size": "自定義上傳分片大小",
     "custom_upload_part_size-tips": "0 為自動設置",
+    "report_real_size": "Report real size",
+    "report_real_size-tips": "Enable to report the real file size during upload",
     "root_folder_id": "根資料夾ID",
     "type": "類型",
     "types": {
@@ -94,7 +98,9 @@
       "group": "Group",
       "personal": "個人雲",
       "personal_new": "新的個人盤"
-    }
+    },
+    "use_large_thumbnail": "Use large thumbnail",
+    "use_large_thumbnail-tips": "Enable to use large thumbnail for images"
   },
   "189Cloud": {
     "cookie": "Cookie",
@@ -240,6 +246,16 @@
     "share_id": "分享ID",
     "share_pwd": "分享密碼"
   },
+  "Azure Blob Storage": {
+    "access_key": "Access key",
+    "access_key-tips": "The access key for Azure Storage, used for authentication. https://learn.microsoft.com/azure/storage/common/storage-account-keys-manage",
+    "container_name": "Container name",
+    "container_name-tips": "The name of the container in Azure Storage (created in the Azure portal). https://learn.microsoft.com/azure/storage/blobs/blob-containers-portal",
+    "endpoint": "Endpoint",
+    "endpoint-tips": "e.g. https://accountname.blob.core.windows.net/. The full endpoint URL for Azure Storage, including the unique storage account name (3 ~ 24 numbers and lowercase letters only).",
+    "sign_url_expire": "簽名連結有效期",
+    "sign_url_expire-tips": "The expiration time for SAS URLs, in hours."
+  },
   "BaiduNetdisk": {
     "client_id": "客户端ID",
     "client_secret": "Client 金鑰",
@@ -249,9 +265,11 @@
     "download_api": "下載 API",
     "download_apis": {
       "crack": "非官方",
+      "crack_video": "Crack video",
       "official": "官方"
     },
     "low_bandwith_upload_mode": "Low bandwith upload mode",
+    "only_list_video_file": "Only list video file",
     "order_by": "排序",
     "order_bys": {
       "name": "名稱",
@@ -301,6 +319,30 @@
     "custom_ua": "自定義UA",
     "enable_thumb_and_folder_size": "啟用縮略圖和資料夾大小",
     "password": "密碼",
+    "root_folder_path": "根資料夾路徑",
+    "username": "使用者名稱"
+  },
+  "Cloudreve V4": {
+    "access_token": "Access token",
+    "address": "地址",
+    "custom_ua": "自定義UA",
+    "enable_folder_size": "Enable folder size",
+    "enable_thumb": "Enable thumb",
+    "enable_version_upload": "Enable version upload",
+    "order_by": "排序",
+    "order_bys": {
+      "created_at": "建立時間",
+      "name": "名稱",
+      "size": "大小",
+      "updated_at": "修改時間"
+    },
+    "order_direction": "排序方式",
+    "order_directions": {
+      "asc": "遞增排序",
+      "desc": "遞減排序"
+    },
+    "password": "密碼",
+    "refresh_token": "更新 Token",
     "root_folder_path": "根資料夾路徑",
     "username": "使用者名稱"
   },
@@ -361,7 +403,18 @@
   },
   "Doubao": {
     "cookie": "Cookie",
-    "root_folder_id": "根資料夾ID"
+    "download_api": "下載 API",
+    "download_apis": {
+      "get_download_info": "Get download info",
+      "get_file_url": "Get file url"
+    },
+    "root_folder_id": "根資料夾ID",
+    "upload_thread": "上傳線程"
+  },
+  "DoubaoShare": {
+    "cookie": "Cookie",
+    "root_folder_path": "根資料夾路徑",
+    "share_ids": "Share ids"
   },
   "Dropbox": {
     "client_id": "客户端 ID",
@@ -481,6 +534,12 @@
   "IPFS API": {
     "endpoint": "Endpoint",
     "gateway": "閘道",
+    "mode": "Mode",
+    "modes": {
+      "ipfs": "Ipfs",
+      "ipns": "Ipns",
+      "mfs": "Mfs"
+    },
     "root_folder_path": "根資料夾路徑"
   },
   "KodBox": {
@@ -791,6 +850,9 @@
   },
   "Thunder": {
     "captcha_token": "驗證碼",
+    "credit_key": "Credit key",
+    "credit_key-tips": "credit key,used for login",
+    "device_id": "設備id",
     "password": "密碼",
     "root_folder_id": "根文件夾ID",
     "username": "使用者名稱"
@@ -858,6 +920,8 @@
     "client_id": "客户端ID",
     "client_secret": "客戶端金鑰",
     "client_version": "客户端版本",
+    "credit_key": "Credit key",
+    "credit_key-tips": "credit key,used for login",
     "device_id": "設備id",
     "download_user_agent": "下載使用者 Proxy 代理",
     "login_type": "登入類型",
@@ -1076,14 +1140,17 @@
     },
     "AliyundriveOpen": {},
     "AliyundriveShare": {},
+    "Azure Blob Storage": {},
     "BaiduNetdisk": {},
     "BaiduPhoto": {},
     "BaiduShare": {},
     "ChaoXingGroupDrive": {},
     "Cloudreve": {},
+    "Cloudreve V4": {},
     "Crypt": {},
     "Doge": {},
     "Doubao": {},
+    "DoubaoShare": {},
     "Dropbox": {},
     "FTP": {},
     "FebBox": {},
@@ -1155,14 +1222,17 @@
     "Aliyundrive": "阿里雲盤",
     "AliyundriveOpen": "阿里雲盤Open",
     "AliyundriveShare": "阿里雲盤分享",
+    "Azure Blob Storage": "Azure Blob Storage",
     "BaiduNetdisk": "百度網盤",
     "BaiduPhoto": "一刻相册",
     "BaiduShare": "百度分享",
     "ChaoXingGroupDrive": "超星星小組盤",
     "Cloudreve": "Cloudreve",
+    "Cloudreve V4": "Cloudreve V4",
     "Crypt": "Crypt",
     "Doge": "多吉雲",
     "Doubao": "Doubao",
+    "DoubaoShare": "DoubaoShare",
     "Dropbox": "Dropbox",
     "FTP": "FTP",
     "FebBox": "FebBox",

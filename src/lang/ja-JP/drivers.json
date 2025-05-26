@@ -22,6 +22,8 @@
     "root_folder_id": "ルートフォルダID"
   },
   "115 Open": {
+    "limit_rate": "リミットレート",
+    "limit_rate-tips": "すべてのAPIリクエストレートを制限する([limit]r/1s)",
     "order_by": "オーダー方法",
     "order_bys": {
       "file_name": "ファイル名",
@@ -87,6 +89,8 @@
     "cloud_id": "クラウドID",
     "custom_upload_part_size": "アップロードチャンクサイズのカスタマイズ",
     "custom_upload_part_size-tips": "0はVIPレベルに応じたサイズを示します",
+    "report_real_size": "実際のサイズを報告する",
+    "report_real_size-tips": "アップロード中に実際のファイルサイズを報告することを有効にする",
     "root_folder_id": "ルートフォルダID",
     "type": "種類",
     "types": {
@@ -94,7 +98,9 @@
       "group": "グループ",
       "personal": "Personal",
       "personal_new": "Personal New"
-    }
+    },
+    "use_large_thumbnail": "大きなサムネイルを使用",
+    "use_large_thumbnail-tips": "画像に大きなサムネイルを使用できるようにする"
   },
   "189Cloud": {
     "cookie": "Cookie",
@@ -240,6 +246,16 @@
     "share_id": "共有ID",
     "share_pwd": "共有パスワード"
   },
+  "Azure Blob Storage": {
+    "access_key": "アクセスキー",
+    "access_key-tips": "認証に使用される Azure Storage のアクセスキーです。 https://learn.microsoft.com/azure/storage/common/storage-account-keys-manage",
+    "container_name": "コンテナ名",
+    "container_name-tips": "The name of the container in Azure Storage (created in the Azure port). https://learn.microsoft.com/azure/storage/blobs/blob-containers-portal",
+    "endpoint": "エンドポイント",
+    "endpoint-tips": "例: https://accountname.blob.core.windows.net/. Azure Storageの完全エンドポイントURL。このURLには、固有のストレージアカウント名(3〜24桁の数字と小文字のみ)が含まれます。",
+    "sign_url_expire": "サインURLは期限切れです",
+    "sign_url_expire-tips": "SAS URL の有効期限を時間単位で指定します。"
+  },
   "BaiduNetdisk": {
     "client_id": "クライアントID",
     "client_secret": "クライアントシークレット",
@@ -249,9 +265,11 @@
     "download_api": "ダウンロードAPI",
     "download_apis": {
       "crack": "クラック",
+      "crack_video": "ビデオをクラックする",
       "official": "公式"
     },
     "low_bandwith_upload_mode": "アップロードモードで低帯域幅です",
+    "only_list_video_file": "ビデオファイルのみを一覧表示する",
     "order_by": "オーダー",
     "order_bys": {
       "name": "名前",
@@ -301,6 +319,30 @@
     "custom_ua": "カスタムUA",
     "enable_thumb_and_folder_size": "サムネイルとフォルダのサイズを有効化する",
     "password": "パスワード",
+    "root_folder_path": "ルートフォルダのパス",
+    "username": "ユーザー名"
+  },
+  "Cloudreve V4": {
+    "access_token": "アクセストークン",
+    "address": "アドレス",
+    "custom_ua": "カスタムUA",
+    "enable_folder_size": "フォルダサイズを有効にする",
+    "enable_thumb": "サムを有効にする",
+    "enable_version_upload": "バージョンアップロードを有効にする",
+    "order_by": "オーダー方法",
+    "order_bys": {
+      "created_at": "作成",
+      "name": "名前",
+      "size": "サイズ",
+      "updated_at": "更新"
+    },
+    "order_direction": "オーダーの方向",
+    "order_directions": {
+      "asc": "昇順",
+      "desc": "降順"
+    },
+    "password": "パスワード",
+    "refresh_token": "トークンを更新",
     "root_folder_path": "ルートフォルダのパス",
     "username": "ユーザー名"
   },
@@ -361,7 +403,18 @@
   },
   "Doubao": {
     "cookie": "Cookie",
-    "root_folder_id": "ルートフォルダID"
+    "download_api": "ダウンロードAPI",
+    "download_apis": {
+      "get_download_info": "ダウンロード情報を取得",
+      "get_file_url": "ファイルの URL を取得"
+    },
+    "root_folder_id": "ルートフォルダID",
+    "upload_thread": "アップロードスレッド"
+  },
+  "DoubaoShare": {
+    "cookie": "Cookie",
+    "root_folder_path": "ルートフォルダのパス",
+    "share_ids": "IDを共有"
   },
   "Dropbox": {
     "client_id": "クライアントID",
@@ -481,6 +534,12 @@
   "IPFS API": {
     "endpoint": "エンドポイント",
     "gateway": "ゲートウェイ",
+    "mode": "モード",
+    "modes": {
+      "ipfs": "Ipfs",
+      "ipns": "Ipns",
+      "mfs": "Mfs"
+    },
     "root_folder_path": "ルートフォルダのパス"
   },
   "KodBox": {
@@ -791,6 +850,9 @@
   },
   "Thunder": {
     "captcha_token": "Captchaトークン",
+    "credit_key": "クレジットキー",
+    "credit_key-tips": "クレジットキー、ログインに使用",
+    "device_id": "デバイスID",
     "password": "パスワード",
     "root_folder_id": "ルートフォルダID",
     "username": "ユーザー名"
@@ -858,6 +920,8 @@
     "client_id": "クライアントID",
     "client_secret": "クライアントシークレット",
     "client_version": "クライアントのバージョン",
+    "credit_key": "クレジットキー",
+    "credit_key-tips": "クレジットキー、ログインに使用",
     "device_id": "デバイスID",
     "download_user_agent": "User Agentをダウンロード",
     "login_type": "ログインの種類",
@@ -1076,14 +1140,17 @@
     },
     "AliyundriveOpen": {},
     "AliyundriveShare": {},
+    "Azure Blob Storage": {},
     "BaiduNetdisk": {},
     "BaiduPhoto": {},
     "BaiduShare": {},
     "ChaoXingGroupDrive": {},
     "Cloudreve": {},
+    "Cloudreve V4": {},
     "Crypt": {},
     "Doge": {},
     "Doubao": {},
+    "DoubaoShare": {},
     "Dropbox": {},
     "FTP": {},
     "FebBox": {},
@@ -1155,14 +1222,17 @@
     "Aliyundrive": "Aliyundrive",
     "AliyundriveOpen": "AliyundriveOpen",
     "AliyundriveShare": "AliyundriveShare",
+    "Azure Blob Storage": "Azure Blob Storage",
     "BaiduNetdisk": "BaiduNetDisk",
     "BaiduPhoto": "BaiduPhoto",
     "BaiduShare": "BaiduShare",
     "ChaoXingGroupDrive": "ChaoXingGroupDrive",
     "Cloudreve": "Cloudreve",
+    "Cloudreve V4": "Cloudreve V4",
     "Crypt": "Crypt",
     "Doge": "Doge",
     "Doubao": "Doubao",
+    "DoubaoShare": "DoubaoShare",
     "Dropbox": "Dropbox",
     "FTP": "FTP",
     "FebBox": "FebBox",
