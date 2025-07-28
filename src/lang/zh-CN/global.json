@@ -18,6 +18,7 @@
   "no": "否",
   "clear": "清除",
   "choose_folder": "选择文件夹",
+  "please_click_to_select": "请点击文本来选择",
   "choose_or_input_path": "选择文件夹或输入路径",
   "disable": "禁用",
   "enable": "启用",
@@ -28,5 +29,8 @@
   "close": "关闭",
   "no_support_now": "暂不支持",
   "empty_input": "请输入",
-  "name": "名称"
+  "name": "名称",
+  "refresh_success": "刷新成功",
+  "refresh_failed": "刷新失败",
+  "required": "必填"
 }

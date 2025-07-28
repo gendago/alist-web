@@ -90,7 +90,7 @@
     "custom_upload_part_size": "自定义上传分片大小",
     "custom_upload_part_size-tips": "0 为自动设置",
     "report_real_size": "报告真实大小",
-    "report_real_size-tips": "启用在上传时报告真实文件大小",
+    "report_real_size-tips": "允许在上传过程中报告实际文件大小",
     "root_folder_id": "根文件夹ID",
     "type": "类型",
     "types": {
@@ -170,6 +170,7 @@
     "writable": "可写"
   },
   "Aliyundrive": {
+    "device_id": "设备id",
     "internal_upload": "内部上传",
     "order_by": "排序",
     "order_bys": {
@@ -481,6 +482,8 @@
     "token": "令牌"
   },
   "GitHub Releases": {
+    "concurrent_requests": "并联请求",
+    "concurrent_requests-tips": "要同时请求 GitHub API，您必须输入 GitHub 令牌",
     "gh_proxy": "Gh 代理",
     "gh_proxy-tips": "GitHub proxy, e.g. https://ghproxy.net/github.com or https://gh-proxy.com/github.com ",
     "repo_structure": "仓库结构",

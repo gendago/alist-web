@@ -36,7 +36,8 @@
       "back": "提取到最后"
     },
     "enable_sign": "启用签名",
-    "disable_index": "禁用索引"
+    "disable_index": "禁用索引",
+    "base_path": "基本路径"
   },
   "other": {
     "start_load_success": "开始加载",

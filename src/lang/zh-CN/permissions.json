@@ -1,0 +1,14 @@
+{
+  "role": {
+    "role_name": "角色名称",
+    "role_description": "角色描述",
+    "role_permissions": "权限分配",
+    "role_permissions_description": "角色权限描述"
+  },
+  "config": {
+    "permissions_name": "权限名称",
+    "permissions_description": "权限描述",
+    "permissions_permissions": "权限",
+    "select_permissions": "选择权限"
+  }
+}

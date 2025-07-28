@@ -170,6 +170,7 @@
     "writable": "書き込み可能"
   },
   "Aliyundrive": {
+    "device_id": "デバイスID",
     "internal_upload": "内部アップロード",
     "order_by": "オーダー",
     "order_bys": {
@@ -481,6 +482,8 @@
     "token": "トークン"
   },
   "GitHub Releases": {
+    "concurrent_requests": "同時リクエスト",
+    "concurrent_requests-tips": "GitHub API を同時にリクエストするには、GitHub トークンを入力する必要があります",
     "gh_proxy": "Gh プロキシ",
     "gh_proxy-tips": "GitHub proxy, e.g. https://ghproxy.net/github.com or https://gh-proxy.com/github.com ",
     "repo_structure": "リポジトリの構造",

@@ -1,0 +1,14 @@
+{
+  "role": {
+    "role_name": "Role Name",
+    "role_description": "Role Description",
+    "role_permissions": "Permission Assignment",
+    "role_permissions_description": "Role Permissions Description"
+  },
+  "config": {
+    "permissions_name": "Permissions Name",
+    "permissions_description": "Permissions Description",
+    "permissions_permissions": "Permissions",
+    "select_permissions": "Select Permissions"
+  }
+}

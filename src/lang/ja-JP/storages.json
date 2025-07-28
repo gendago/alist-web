@@ -36,7 +36,8 @@
       "back": "後方に展開"
     },
     "enable_sign": "署名を有効化",
-    "disable_index": "インデックスを無効にする"
+    "disable_index": "インデックスを無効にする",
+    "base_path": "ベースのパス"
   },
   "other": {
     "start_load_success": "読み込みを開始",

@@ -15,6 +15,11 @@
     "read_archives": "Read archives",
     "decompress": "Decompress"
   },
+  "roles": {
+    "general": "General",
+    "guest": "Guest",
+    "admin": "Admin"
+  },
   "username": "使用者名稱",
   "password": "密碼",
   "base_path": "基本路徑",

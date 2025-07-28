@@ -18,6 +18,7 @@
   "no": "いいえ",
   "clear": "クリア",
   "choose_folder": "フォルダを選択",
+  "please_click_to_select": "選択するテキストをクリックしてください",
   "choose_or_input_path": "フォルダまたは入力先のパスを選択",
   "disable": "無効",
   "enable": "有効",
@@ -28,5 +29,8 @@
   "close": "閉じる",
   "no_support_now": "現在サポートされていません",
   "empty_input": "入力してください",
-  "name": "名前"
+  "name": "名前",
+  "refresh_success": "正常に更新されました",
+  "refresh_failed": "更新に失敗しました",
+  "required": "必須"
 }

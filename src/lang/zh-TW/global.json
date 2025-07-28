@@ -18,6 +18,7 @@
   "no": "否",
   "clear": "清除",
   "choose_folder": "選擇資料夾",
+  "please_click_to_select": "Please click the text to select",
   "choose_or_input_path": "選擇資料夾或輸入路徑",
   "disable": "禁用",
   "enable": "啟用",
@@ -28,5 +29,8 @@
   "close": "關閉",
   "no_support_now": "暫不支持",
   "empty_input": "請輸入",
-  "name": "名稱"
+  "name": "名稱",
+  "refresh_success": "Refresh successfully",
+  "refresh_failed": "Refresh failed",
+  "required": "required"
 }

@@ -15,6 +15,11 @@
     "read_archives": "读取压缩文件",
     "decompress": "解压"
   },
+  "roles": {
+    "general": "A. 概况",
+    "guest": "来宾",
+    "admin": "管理员"
+  },
   "username": "用户名",
   "password": "密码",
   "base_path": "基本路径",

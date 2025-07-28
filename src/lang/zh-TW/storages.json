@@ -36,7 +36,8 @@
       "back": "提取到最後"
     },
     "enable_sign": "啟用簽名",
-    "disable_index": "Disable index"
+    "disable_index": "Disable index",
+    "base_path": "基本路徑"
   },
   "other": {
     "start_load_success": "開始載入",

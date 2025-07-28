@@ -13,6 +13,9 @@
     "profile": "配置文件",
     "about": "關於",
     "tasks": "任務",
+    "permissions": "Permissions",
+    "role": "角色",
+    "permissions_config": "Config",
     "upload": "上傳",
     "copy": "複製",
     "decompress": "Decompress",
@@ -24,6 +27,7 @@
     "offline_download": "離線下載",
     "ldap": "LDAP",
     "s3": "S3",
+    "tag": "Tag",
     "ftp": "FTP",
     "traffic": "Traffic"
   },

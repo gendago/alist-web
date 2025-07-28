@@ -2,7 +2,25 @@
   "obj": {
     "name": "名稱",
     "size": "大小",
+    "tag": "Tag",
     "modified": "修改時間"
+  },
+  "tag": {
+    "add": "Add Tag",
+    "edit": "Edit Tag",
+    "name": "Tag Name",
+    "color": "Tag Color",
+    "create_time": "Create Time",
+    "description": "Tag Description",
+    "name_required": "Please input tag name",
+    "create_success": "Create tag successfully",
+    "create_failed": "Create tag failed",
+    "select": "Please select tag",
+    "tag": "Tag",
+    "new": "New Tag",
+    "bind_success": "Bind tag successfully",
+    "bind_failed": "Bind tag failed",
+    "related_files": "Related Files"
   },
   "preview": {
     "download": "下載",
@@ -25,6 +43,10 @@
   "load_more": "載入更多",
   "no_more": "沒有更多了",
   "input_password": "請輸入密碼",
+  "selected": "Selected",
+  "selected_count": "item",
+  "total_size": "Total size:",
+  "go_to_storages": "Go to storages",
   "toolbar": {
     "more": "更多",
     "refresh": "刷新",

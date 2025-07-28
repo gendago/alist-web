@@ -13,6 +13,9 @@
     "profile": "个人资料",
     "about": "关于",
     "tasks": "任务",
+    "permissions": "权限",
+    "role": "角色",
+    "permissions_config": "配置",
     "upload": "上传",
     "copy": "复制",
     "decompress": "解压",
@@ -24,6 +27,7 @@
     "offline_download": "离线下载",
     "ldap": "LDAP",
     "s3": "对象存储",
+    "tag": "标签",
     "ftp": "FTP",
     "traffic": "传输"
   },

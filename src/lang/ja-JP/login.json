@@ -4,6 +4,7 @@
   "password-tips": "パスワードを入力",
   "otp-tips": "OTPコードを入力",
   "remember": "常にログインする",
+  "password_login": "パスワードログイン",
   "forget": "パスワードを忘れましたか?",
   "forget_url": "https://alist.nn.ci/faq/howto.html#how-to-get-password-if-i-forget-it",
   "clear": "クリア",

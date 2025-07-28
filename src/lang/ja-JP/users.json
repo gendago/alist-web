@@ -15,6 +15,11 @@
     "read_archives": "アーカイブを読む",
     "decompress": "解凍する"
   },
+  "roles": {
+    "general": "全般",
+    "guest": "ゲスト",
+    "admin": "管理者"
+  },
   "username": "ユーザー名",
   "password": "パスワード",
   "base_path": "ベースのパス",

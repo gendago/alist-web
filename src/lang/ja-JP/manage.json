@@ -13,6 +13,9 @@
     "profile": "プロフィール",
     "about": "バージョン情報",
     "tasks": "タスク",
+    "permissions": "アクセス許可",
+    "role": "ロール",
+    "permissions_config": "設定",
     "upload": "アップロード",
     "copy": "コピー",
     "decompress": "解凍する",
@@ -24,6 +27,7 @@
     "offline_download": "オフラインダウンロード",
     "ldap": "LDAP",
     "s3": "S3",
+    "tag": "タグ",
     "ftp": "FTP",
     "traffic": "トラフィック"
   },

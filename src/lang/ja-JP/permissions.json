@@ -1,0 +1,14 @@
+{
+  "role": {
+    "role_name": "役割名",
+    "role_description": "役割の説明",
+    "role_permissions": "権限の割り当て",
+    "role_permissions_description": "ロール権限の説明"
+  },
+  "config": {
+    "permissions_name": "権限名",
+    "permissions_description": "権限の説明",
+    "permissions_permissions": "アクセス許可",
+    "select_permissions": "権限を選択"
+  }
+}

@@ -2,7 +2,25 @@
   "obj": {
     "name": "名前",
     "size": "サイズ",
+    "tag": "タグ",
     "modified": "最終更新"
+  },
+  "tag": {
+    "add": "タグを追加",
+    "edit": "タグを編集",
+    "name": "タグ名",
+    "color": "タグの色",
+    "create_time": "時間を作成",
+    "description": "タグの説明",
+    "name_required": "タグ名を入力してください",
+    "create_success": "タグを作成しました",
+    "create_failed": "タグの作成に失敗しました",
+    "select": "タグを選択してください",
+    "tag": "タグ",
+    "new": "新しいタグ",
+    "bind_success": "タグのバインドに成功しました",
+    "bind_failed": "バインドタグに失敗しました",
+    "related_files": "関連するファイル"
   },
   "preview": {
     "download": "ダウンロード",
@@ -25,6 +43,10 @@
   "load_more": "さらに読み込む",
   "no_more": "これ以上はありません",
   "input_password": "パスワードを入力してください",
+  "selected": "選択済み",
+  "selected_count": "項目",
+  "total_size": "合計サイズ:",
+  "go_to_storages": "ストレージへ移動",
   "toolbar": {
     "more": "詳細",
     "refresh": "更新",
