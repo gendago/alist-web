@@ -44,5 +44,6 @@
     "load_all": "すべて再読み込み",
     "filter_by_driver": "ドライバで絞り込む",
     "table_layout": "テーブルのレイアウト"
-  }
+  },
+  "no_storage_content": "取得失敗：ストレージが見つかりません。ストレージを追加してください"
 }

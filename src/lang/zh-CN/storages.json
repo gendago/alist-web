@@ -44,5 +44,6 @@
     "load_all": "全部重新加载",
     "filter_by_driver": "按驱动筛选",
     "table_layout": "表格布局"
-  }
+  },
+  "no_storage_content": "获取存储失败：找不到存储；请先添加存储空间"
 }

@@ -65,6 +65,11 @@
     "share_code": "共有コード",
     "share_code-tips": "115共有リンクの共有コード"
   },
+  "123 Open": {
+    "client_id": "クライアントID",
+    "client_secret": "クライアントシークレット",
+    "root_folder_id": "ルートフォルダID"
+  },
   "123Pan": {
     "password": "パスワード",
     "root_folder_id": "ルートフォルダID",
@@ -1127,6 +1132,7 @@
     "115 Cloud": {},
     "115 Open": {},
     "115 Share": {},
+    "123 Open": {},
     "123Pan": {},
     "123PanLink": {},
     "123PanShare": {},
@@ -1213,6 +1219,7 @@
     "115 Cloud": "115 Cloud",
     "115 Open": "115 オープン",
     "115 Share": "115 Share",
+    "123 Open": "123 開く",
     "123Pan": "123Pan",
     "123PanLink": "123PanLink",
     "123PanShare": "123PanShare",

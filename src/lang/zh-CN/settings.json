@@ -1,6 +1,7 @@
 {
   "allow_indexed": "允许索引",
   "allow_mounted": "允许挂载",
+  "use_newui": "使用 newui",
   "announcement": "站点公告",
   "aria2_secret": "Aria2 密钥",
   "aria2_uri": "Aria2 地址",

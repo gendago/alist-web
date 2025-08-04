@@ -65,6 +65,11 @@
     "share_code": "分享码",
     "share_code-tips": "分享链接的分享码"
   },
+  "123 Open": {
+    "client_id": "客户端ID",
+    "client_secret": "客户端密钥",
+    "root_folder_id": "根文件夹ID"
+  },
   "123Pan": {
     "password": "密码",
     "root_folder_id": "根文件夹ID",
@@ -1127,6 +1132,7 @@
     "115 Cloud": {},
     "115 Open": {},
     "115 Share": {},
+    "123 Open": {},
     "123Pan": {},
     "123PanLink": {},
     "123PanShare": {},
@@ -1213,6 +1219,7 @@
     "115 Cloud": "115 网盘",
     "115 Open": "115 开放平台",
     "115 Share": "115 云盘分享",
+    "123 Open": "123云盘开放平台",
     "123Pan": "123云盘",
     "123PanLink": "123云盘直链",
     "123PanShare": "123云盘分享",

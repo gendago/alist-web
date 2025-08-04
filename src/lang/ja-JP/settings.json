@@ -1,6 +1,7 @@
 {
   "allow_indexed": "インデックスを許可",
   "allow_mounted": "マウントを許可",
+  "use_newui": "newui を使用",
   "announcement": "お知らせ",
   "aria2_secret": "Aria2シークレット",
   "aria2_uri": "Aria2 URI",

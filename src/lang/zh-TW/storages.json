@@ -44,5 +44,6 @@
     "load_all": "全部重新載入",
     "filter_by_driver": "按驅動篩選",
     "table_layout": "表格排列"
-  }
+  },
+  "no_storage_content": "failed get storage: storage not found; please add a storage first"
 }
