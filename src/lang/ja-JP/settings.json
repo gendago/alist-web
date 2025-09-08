@@ -1,7 +1,7 @@
 {
   "allow_indexed": "インデックスを許可",
   "allow_mounted": "マウントを許可",
-  "use_newui": "newui を使用",
+  "allow_register": "登録を許可",
   "announcement": "お知らせ",
   "aria2_secret": "Aria2シークレット",
   "aria2_uri": "Aria2 URI",
@@ -15,6 +15,13 @@
   "decompress_download_task_threads_num": "ダウンロードタスクスレッドnumを解除",
   "decompress_upload_task_threads_num": "アップロードタスクスレッドを解凍する",
   "default_page_size": "デフォルトページのサイズ",
+  "default_role": "デフォルトの役割",
+  "device_evict_policy": "端末の削除ポリシー",
+  "device_evict_policys": {
+    "deny": "拒否",
+    "evict_oldest": "最も古いものを削除"
+  },
+  "device_session_ttl": "デバイス セッション ttl",
   "external_previews": "外部プレビュー",
   "favicon": "Favicon",
   "filename_char_mapping": "ファイル名の文字マッピング",
@@ -54,6 +61,7 @@
   "main_color": "メインカラー",
   "max_client_download_speed": "クライアントの最大ダウンロード速度",
   "max_client_upload_speed": "クライアントの最大アップロード速度",
+  "max_devices": "最大デバイス",
   "max_index_depth": "最大インデックス深度",
   "max_index_depth-tips": "インデックスの最大深度です",
   "max_server_download_speed": "サーバーの最大ダウンロード速度",
@@ -122,6 +130,7 @@
   "transmission_seedtime": "送信のシード時間",
   "transmission_uri": "送信URI",
   "upload_task_threads_num": "タスクスレッドnumをアップロード",
+  "use_newui": "newui を使用",
   "version": "バージョン",
   "video_autoplay": "動画を自動再生",
   "video_types": "動画の種類",

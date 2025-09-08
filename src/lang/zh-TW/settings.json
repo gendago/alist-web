@@ -1,7 +1,7 @@
 {
   "allow_indexed": "允許索引",
   "allow_mounted": "允許掛載",
-  "use_newui": "Use newui",
+  "allow_register": "Allow register",
   "announcement": "站點公告",
   "aria2_secret": "Aria2 密鑰",
   "aria2_uri": "Aria2 地址",
@@ -15,6 +15,13 @@
   "decompress_download_task_threads_num": "Decompress download task threads num",
   "decompress_upload_task_threads_num": "Decompress upload task threads num",
   "default_page_size": "預設分頁檔大小",
+  "default_role": "Default role",
+  "device_evict_policy": "Device evict policy",
+  "device_evict_policys": {
+    "deny": "Deny",
+    "evict_oldest": "Evict oldest"
+  },
+  "device_session_ttl": "Device session ttl",
   "external_previews": "外部預覽",
   "favicon": "網站圖示",
   "filename_char_mapping": "檔名字元對應",
@@ -54,6 +61,7 @@
   "main_color": "主顏色",
   "max_client_download_speed": "Max client download speed",
   "max_client_upload_speed": "Max client upload speed",
+  "max_devices": "Max devices",
   "max_index_depth": "最大索引總深度",
   "max_index_depth-tips": "每一個索引的最大深度",
   "max_server_download_speed": "Max server download speed",
@@ -122,6 +130,7 @@
   "transmission_seedtime": "Transmission seedtime",
   "transmission_uri": "Transmission URI",
   "upload_task_threads_num": "Upload task threads num",
+  "use_newui": "Use newui",
   "version": "版本",
   "video_autoplay": "自動播放影片",
   "video_types": "影片類型",

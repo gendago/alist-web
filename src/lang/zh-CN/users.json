@@ -16,8 +16,8 @@
     "decompress": "解压"
   },
   "roles": {
-    "general": "A. 概况",
-    "guest": "来宾",
+    "general": "概况",
+    "guest": "客人",
     "admin": "管理员"
   },
   "username": "用户名",

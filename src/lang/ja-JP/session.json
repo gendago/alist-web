@@ -1,0 +1,17 @@
+{
+  "device_id": "デバイス ID",
+  "user_id": "ユーザー ID",
+  "system_info": "システム情報",
+  "ip": "IP",
+  "last_active": "前回のアクティブ",
+  "status": "状態",
+  "active": "アクティブ",
+  "offline": "オフライン",
+  "kick_out": "キックアウト",
+  "kick_out_confirm": "このセッションをキックアウトしてもよろしいですか？",
+  "kick_out_success": "セッションが正常に削除されました",
+  "kick_out_failed": "セッションのキックアウトに失敗しました",
+  "kick_out_current_session": "現在のセッションは削除されました。もう一度ログインしてください。",
+  "too_many_devices": "デバイスの制限に達しました。管理者に問い合わせて「マイセッション」で他のデバイスをキックアウトしてください。",
+  "session_inactive": "現在のセッションは無効です。もう一度ログインしてください。"
+}

@@ -6,9 +6,13 @@
   "remember": "记住账号",
   "password_login": "密码登录",
   "forget": "忘记密码？",
-  "forget_url": "https://alist.nn.ci/zh/faq/howto.html#%E5%Bf%98%E8%Ae%B0%E5%Af%86%E7%A0%81%E6%80%8E%E4%B9%88%E5%8A%9E",
+  "forget_url": "https://alistgo.com/faq/howto.html#how-get-password-if-i-forget-it",
   "clear": "清除",
   "login": "登录",
   "use_guest": "以游客身份浏览",
-  "success": "登录成功"
+  "success": "登录成功",
+  "register": "注册",
+  "go_login": "转到登录",
+  "register_disabled": "注册已禁用",
+  "register_success": "注册成功"
 }

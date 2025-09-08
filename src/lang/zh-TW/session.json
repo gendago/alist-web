@@ -1,0 +1,17 @@
+{
+  "device_id": "Device ID",
+  "user_id": "User ID",
+  "system_info": "System Info",
+  "ip": "IP",
+  "last_active": "Last Active",
+  "status": "狀態",
+  "active": "Active",
+  "offline": "Offline",
+  "kick_out": "Kick Out",
+  "kick_out_confirm": "Are you sure you want to kick out this session?",
+  "kick_out_success": "Session kicked out successfully",
+  "kick_out_failed": "Failed to kick out session",
+  "kick_out_current_session": "Current session has been kicked out. Please log in again.",
+  "too_many_devices": "Device limit reached. Please contact administrator to kick out other devices in 'My Sessions'.",
+  "session_inactive": "Current session has been invalidated. Please log in again."
+}

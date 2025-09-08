@@ -73,6 +73,7 @@
   "123Pan": {
     "password": "密码",
     "root_folder_id": "根文件夹ID",
+    "safe_password": "安全密码",
     "username": "用户名"
   },
   "123PanLink": {
@@ -411,8 +412,8 @@
     "cookie": "Cookie",
     "download_api": "下载接口",
     "download_apis": {
-      "get_download_info": "Get download info",
-      "get_file_url": "Get file url"
+      "get_download_info": "获取下载信息",
+      "get_file_url": "获取文件url"
     },
     "root_folder_id": "根文件夹ID",
     "upload_thread": "上传线程"
@@ -1219,7 +1220,7 @@
     "115 Cloud": "115 网盘",
     "115 Open": "115 开放平台",
     "115 Share": "115 云盘分享",
-    "123 Open": "123云盘开放平台",
+    "123 Open": "123 开放平台",
     "123Pan": "123云盘",
     "123PanLink": "123云盘直链",
     "123PanShare": "123云盘分享",

@@ -55,7 +55,7 @@
       "qandroid": "Qandroid",
       "tv": "Tv",
       "web": "Web",
-      "wechatmini": "Wechatmini"
+      "wechatmini": "微信"
     },
     "qrcode_token": "二維碼令牌",
     "qrcode_token-tips": "需要 QR 代碼令牌和 cookie 中的一個",
@@ -73,6 +73,7 @@
   "123Pan": {
     "password": "密碼",
     "root_folder_id": "根資料夾ID",
+    "safe_password": "Safe password",
     "username": "使用者名稱"
   },
   "123PanLink": {
@@ -525,7 +526,7 @@
   },
   "HalalCloud": {
     "app_id": "App id",
-    "app_secret": "App secret",
+    "app_secret": "App Secret",
     "app_version": "App version",
     "refresh_token": "更新 Token",
     "refresh_token-tips": "Refresh token 的登入類型，此為必填項目",
@@ -580,13 +581,13 @@
   "Lark": {
     "app_id": "App id",
     "app_id-tips": "app id",
-    "app_secret": "App secret",
-    "app_secret-tips": "app secret",
+    "app_secret": "App Secret",
+    "app_secret-tips": "app Secret",
     "external_mode": "External mode",
-    "external_mode-tips": "external mode",
+    "external_mode-tips": "额外模式",
     "root_folder_path": "根資料夾路徑",
     "tenant_url_prefix": "Tenant url prefix",
-    "tenant_url_prefix-tips": "tenant url prefix"
+    "tenant_url_prefix-tips": "tenant url 前缀"
   },
   "LenovoNasShare": {
     "host": "Host",
@@ -1020,7 +1021,7 @@
   "UCTV": {
     "device_id": "設備id",
     "query_token": "Query token",
-    "query_token-tips": "don't edit'",
+    "query_token-tips": "不要修改",
     "refresh_token": "更新 Token",
     "root_folder_id": "根資料夾ID"
   },

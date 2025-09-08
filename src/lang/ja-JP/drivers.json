@@ -73,6 +73,7 @@
   "123Pan": {
     "password": "パスワード",
     "root_folder_id": "ルートフォルダID",
+    "safe_password": "安全なパスワード",
     "username": "ユーザー名"
   },
   "123PanLink": {

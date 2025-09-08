@@ -6,9 +6,13 @@
   "remember": "常にログインする",
   "password_login": "パスワードログイン",
   "forget": "パスワードを忘れましたか?",
-  "forget_url": "https://alist.nn.ci/faq/howto.html#how-to-get-password-if-i-forget-it",
+  "forget_url": "https://alistgo.com/faq/howto.html#how-to-get-password-if-i-forget-it",
   "clear": "クリア",
   "login": "ログイン",
   "use_guest": "ゲストとして閲覧",
-  "success": "ログインに成功しました"
+  "success": "ログインに成功しました",
+  "register": "登録",
+  "go_login": "ログインする",
+  "register_disabled": "レジスタは無効です",
+  "register_success": "登録が完了しました"
 }
