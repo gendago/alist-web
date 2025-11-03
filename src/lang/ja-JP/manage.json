@@ -25,6 +25,7 @@
     "upload": "アップロード",
     "copy": "コピー",
     "decompress": "解凍する",
+    "s3_transition": "S3 切り替え",
     "backup-restore": "バックアップと復元",
     "home": "ホーム",
     "indexes": "インデックス",

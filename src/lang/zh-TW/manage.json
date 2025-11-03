@@ -25,6 +25,7 @@
     "upload": "上傳",
     "copy": "複製",
     "decompress": "Decompress",
+    "s3_transition": "S3 Transition",
     "backup-restore": "備份與還原",
     "home": "首頁",
     "indexes": "索引",

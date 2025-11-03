@@ -68,7 +68,11 @@
   "123 Open": {
     "client_id": "客户端ID",
     "client_secret": "客户端密钥",
-    "root_folder_id": "根文件夹ID"
+    "private_key": "私钥",
+    "root_folder_id": "根文件夹ID",
+    "uid": "账号 Uid",
+    "valid_duration": "有效时长",
+    "valid_duration-tips": "分钟"
   },
   "123Pan": {
     "password": "密码",
@@ -313,6 +317,24 @@
     "root_folder_path": "根文件夹路径",
     "surl": "百度网盘分享链接"
   },
+  "BitQiu": {
+    "order_desc": "降序排列",
+    "order_type": "订单类型",
+    "order_types": {
+      "createTime": "创建时间",
+      "name": "名称",
+      "size": "大小",
+      "updateTime": "修改时间"
+    },
+    "page_size": "分页大小",
+    "page_size-tips": "每页要请求的条目数。",
+    "password": "密码",
+    "root_folder_id": "根文件夹ID",
+    "user_agent": "用户代理",
+    "user_platform": "User platform",
+    "user_platform-tips": "Optional device identifier; auto-generated if empty.",
+    "username": "用户名"
+  },
   "ChaoXingGroupDrive": {
     "bbsid": "Bbsid",
     "cookie": "Cookie",
@@ -406,7 +428,20 @@
     "root_folder_path": "根文件夹路径",
     "secret_access_key": "安全访问密钥",
     "session_token": "会话令牌",
-    "sign_url_expire": "签名链接有效期"
+    "sign_url_expire": "签名链接有效期",
+    "storage_class": "存储类",
+    "storage_class-tips": "新对象的存储类。AWS 和 Tencent COS 支持不同的子集(COS 使用ARCHIVE/DEEP_ARCHIVE)。",
+    "storage_classs": {
+      "": "",
+      "archive": "存档",
+      "deep_archive": "深度存档",
+      "glacier": "冰川座",
+      "glacier_ir": "Glacier ir",
+      "intelligent_tiering": "智能加电",
+      "onezone_ia": "Onezone ia",
+      "standard": "标准",
+      "standard_ia": "标准ia"
+    }
   },
   "Doubao": {
     "cookie": "Cookie",
@@ -501,6 +536,15 @@
     "show_readme-tips": "显示 README、LICENSE 文件",
     "token": "令牌",
     "token-tips": "GitHub 令牌，如果您想要访问私有仓库或提高费率限制"
+  },
+  "Gofile": {
+    "api_token": "Api token",
+    "api_token-tips": "从您的 Gofile 个人资料页面获取您的 API 令牌",
+    "direct_link_expiry": "直接链接过期",
+    "direct_link_expiry-tips": "Gofile 服务器上的直接链接过期时间。设置为0为无过期时间",
+    "link_expiry": "Link expiry",
+    "link_expiry-tips": "直接链接缓存持续时间以天计。设置为 0 以禁用缓存",
+    "root_folder_id": "根文件夹ID"
   },
   "GoogleDrive": {
     "chunk_size": "分片大小",
@@ -613,8 +657,28 @@
     "video_thumb_pos": "视频缩略图",
     "video_thumb_pos-tips": "视频缩略图的位置。如果该值是一个数字(整数点浮点)，它代表几秒钟的时间。 如果值以“%”结尾，则代表视频持续时间的百分比。"
   },
+  "MediaFire": {
+    "chunk_size": "分片大小",
+    "cookie": "Cookie",
+    "cookie-tips": "导航所需的",
+    "order_by": "排序",
+    "order_bys": {
+      "name": "名称",
+      "size": "大小",
+      "time": "时间"
+    },
+    "order_direction": "排序方式",
+    "order_directions": {
+      "asc": "升序",
+      "desc": "降序"
+    },
+    "root_folder_path": "根文件夹路径",
+    "session_token": "会话令牌",
+    "session_token-tips": "MediaFire API 需要"
+  },
   "MediaTrack": {
     "access_token": "访问令牌",
+    "device_fingerprint": "Device fingerprint",
     "order_by": "排序",
     "order_bys": {
       "size": "大小",
@@ -734,6 +798,12 @@
     "share_pwd": "分享密码",
     "use_transcoding_address": "使用转码地址"
   },
+  "ProtonDrive": {
+    "password": "密码",
+    "root_folder_path": "根文件夹路径",
+    "two_fa_code,omitempty": "两种法码, omitempty",
+    "username": "用户名"
+  },
   "Quark": {
     "cookie": "Cookie",
     "order_by": "排序",
@@ -787,7 +857,20 @@
     "root_folder_path": "根文件夹路径",
     "secret_access_key": "安全访问密钥",
     "session_token": "会话令牌",
-    "sign_url_expire": "签名链接有效期"
+    "sign_url_expire": "签名链接有效期",
+    "storage_class": "存储类",
+    "storage_class-tips": "新对象的存储类。AWS 和 Tencent COS 支持不同的子集(COS 使用ARCHIVE/DEEP_ARCHIVE)。",
+    "storage_classs": {
+      "": "",
+      "archive": "存档",
+      "deep_archive": "深度存档",
+      "glacier": "冰川座",
+      "glacier_ir": "Glacier ir",
+      "intelligent_tiering": "智能加电",
+      "onezone_ia": "Onezone ia",
+      "standard": "标准",
+      "standard_ia": "标准ia"
+    }
   },
   "SFTP": {
     "address": "地址",
@@ -1154,6 +1237,7 @@
     "BaiduNetdisk": {},
     "BaiduPhoto": {},
     "BaiduShare": {},
+    "BitQiu": {},
     "ChaoXingGroupDrive": {},
     "Cloudreve": {},
     "Cloudreve V4": {},
@@ -1167,6 +1251,7 @@
     "FeijiPan": {},
     "GitHub API": {},
     "GitHub Releases": {},
+    "Gofile": {},
     "GoogleDrive": {},
     "GooglePhoto": {},
     "HalalCloud": {},
@@ -1177,6 +1262,7 @@
     "Lark": {},
     "LenovoNasShare": {},
     "Local": {},
+    "MediaFire": {},
     "MediaTrack": {},
     "Mega_nz": {},
     "Misskey": {},
@@ -1189,6 +1275,7 @@
     "OnedriveAPP": {},
     "PikPak": {},
     "PikPakShare": {},
+    "ProtonDrive": {},
     "Quark": {},
     "QuarkTV": {},
     "Quqi": {},
@@ -1214,7 +1301,8 @@
     "WebDav": {},
     "WeiYun": {},
     "WoPan": {},
-    "YandexDisk": {}
+    "YandexDisk": {},
+    "pCloud": {}
   },
   "drivers": {
     "115 Cloud": "115 网盘",
@@ -1237,6 +1325,7 @@
     "BaiduNetdisk": "百度网盘",
     "BaiduPhoto": "一刻相册",
     "BaiduShare": "百度分享",
+    "BitQiu": "BitQiu",
     "ChaoXingGroupDrive": "超星小组盘",
     "Cloudreve": "Cloudreve",
     "Cloudreve V4": "Cloudreve V4",
@@ -1250,6 +1339,7 @@
     "FeijiPan": "飞机盘",
     "GitHub API": "GitHub API",
     "GitHub Releases": "GitHub 发行",
+    "Gofile": "淡入淡出",
     "GoogleDrive": "谷歌云盘",
     "GooglePhoto": "谷歌相册",
     "HalalCloud": "HalalCloud",
@@ -1260,6 +1350,7 @@
     "Lark": "Lark (飞书)",
     "LenovoNasShare": "联想家庭储存链接分享",
     "Local": "本机存储",
+    "MediaFire": "MediaFire",
     "MediaTrack": "分秒帧",
     "Mega_nz": "Mega 网盘",
     "Misskey": "Misskey",
@@ -1270,6 +1361,7 @@
     "OnedriveAPP": "OnedriveAPP",
     "PikPak": "PikPak",
     "PikPakShare": "PikPak分享",
+    "ProtonDrive": "ProtonDrive",
     "Quark": "夸克",
     "QuarkTV": "Quark TV",
     "Quqi": "曲奇云盘",
@@ -1295,6 +1387,23 @@
     "WebDav": "WebDav",
     "WeiYun": "腾讯微云",
     "WoPan": "联通云盘",
-    "YandexDisk": "Yandex网盘"
+    "YandexDisk": "Yandex网盘",
+    "pCloud": "PCloud"
+  },
+  "pCloud": {
+    "access_token": "访问令牌",
+    "access_token-tips": "从 pCloud 授权 OAuth token",
+    "client_id": "客户端ID",
+    "client_id-tips": "自定义 OAuth 客户端 ID (可选)",
+    "client_secret": "客户端密钥",
+    "client_secret-tips": "自定义 OAuth 客户端密钥 (可选)",
+    "hostname": "Hostname",
+    "hostname-tips": "选择 pCloud 服务器区域",
+    "hostnames": {
+      "eu": "Eu",
+      "us": "美国版"
+    },
+    "root_folder_id": "根文件夹ID",
+    "root_folder_id-tips": "从 URL 获取文件夹ID，如https://my.pcloud.com/#/filemanager?folder=12345678901 (留空用于根文件夹)"
   }
 }

@@ -1,6 +1,7 @@
 {
   "device_id": "Device ID",
   "user_id": "User ID",
+  "username": "使用者名稱",
   "system_info": "System Info",
   "ip": "IP",
   "last_active": "Last Active",
@@ -13,5 +14,8 @@
   "kick_out_failed": "Failed to kick out session",
   "kick_out_current_session": "Current session has been kicked out. Please log in again.",
   "too_many_devices": "Device limit reached. Please contact administrator to kick out other devices in 'My Sessions'.",
-  "session_inactive": "Current session has been invalidated. Please log in again."
+  "session_inactive": "Current session has been invalidated. Please log in again.",
+  "clean": "Clean Inactive Sessions",
+  "clean_success": "Inactive sessions cleaned successfully",
+  "clean_failed": "Failed to clean sessions"
 }

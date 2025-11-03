@@ -5,6 +5,23 @@
     "tag": "标签",
     "modified": "修改时间"
   },
+  "storage_class": {
+    "label": "存储类",
+    "standard": "标准",
+    "standard_ia": "标准不频繁访问",
+    "intelligent_tiering": "Intelligent-Tiering",
+    "onezone_ia": "一个Zone不经常访问",
+    "glacier": "冰川座",
+    "glacier_ir": "冰川即时获取",
+    "deep_archive": "深化存档",
+    "reduced_redundancy": "减少冗余时间",
+    "coldline": "冷线",
+    "archive": "存档",
+    "nearline": "附近的",
+    "hot": "热点",
+    "cool": "很酷的",
+    "backup": "备份"
+  },
   "tag": {
     "add": "添加标签",
     "edit": "编辑标签",
@@ -66,6 +83,31 @@
     "decompress-cache-full": "缓存完整文件",
     "decompress-put-into-new": "解压到新子文件夹",
     "extract": "提取至...",
+    "s3_archive": "存档",
+    "s3_restore": "Thaw / Restore",
+    "s3_transition": {
+      "title_archive": "存档所选对象",
+      "title_restore": "还原选中对象",
+      "selection": "",
+      "current_class": "",
+      "storage_class": "目标存储类",
+      "transition_days": "后过渡(天)",
+      "transition_days_hint": "留空以立刻过渡",
+      "invalid_transition_days": "请输入非负数。",
+      "restore_days": "还原(天)",
+      "restore_tier": "检索级别",
+      "tier": {
+        "standard": "标准",
+        "bulk": "批量的",
+        "expedited": "加速的"
+      },
+      "invalid_restore_days": "请输入保存还原副本的天数。",
+      "archive_success": "Archive request submitted for {{count}} item(s).",
+      "restore_success": "Restore request submitted for {{count}} item(s).",
+      "task_created": "Background task created for {{count}} item(s).",
+      "task_ids": "Task ID(s): {{ids}}",
+      "task_link": "打开任务中心"
+    },
     "archive": {
       "input_password": "请输入解压密码",
       "incorrect_password": "密码错误",

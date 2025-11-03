@@ -68,7 +68,11 @@
   "123 Open": {
     "client_id": "クライアントID",
     "client_secret": "クライアントシークレット",
-    "root_folder_id": "ルートフォルダID"
+    "private_key": "プライベートキー",
+    "root_folder_id": "ルートフォルダID",
+    "uid": "UID",
+    "valid_duration": "有効期限",
+    "valid_duration-tips": "分"
   },
   "123Pan": {
     "password": "パスワード",
@@ -313,6 +317,24 @@
     "root_folder_path": "ルートフォルダのパス",
     "surl": "SURL"
   },
+  "BitQiu": {
+    "order_desc": "オーダーの内容",
+    "order_type": "注文タイプ",
+    "order_types": {
+      "createTime": "CreateTime",
+      "name": "名前",
+      "size": "サイズ",
+      "updateTime": "更新日時"
+    },
+    "page_size": "ページの大きさ",
+    "page_size-tips": "Number of entries to request per page.",
+    "password": "パスワード",
+    "root_folder_id": "ルートフォルダID",
+    "user_agent": "User Agent",
+    "user_platform": "ユーザープラットフォーム",
+    "user_platform-tips": "オプションのデバイス識別子; 空の場合は自動生成されます。",
+    "username": "ユーザー名"
+  },
   "ChaoXingGroupDrive": {
     "bbsid": "BBSID",
     "cookie": "Cookie",
@@ -406,7 +428,20 @@
     "root_folder_path": "ルートフォルダのパス",
     "secret_access_key": "シークレットアクセスキー",
     "session_token": "セッショントークン",
-    "sign_url_expire": "サインURLは期限切れです"
+    "sign_url_expire": "サインURLは期限切れです",
+    "storage_class": "ストレージクラス",
+    "storage_class-tips": "新しいオブジェクトのストレージクラス。 AWSとTencent COSは異なるサブセットをサポートしています(COSはARCHIVE/DEEP_ARCHIVEを使用しています)。",
+    "storage_classs": {
+      "": "",
+      "archive": "アーカイブ",
+      "deep_archive": "ディープアーカイブ",
+      "glacier": "Glacier",
+      "glacier_ir": "Glacier ir",
+      "intelligent_tiering": "インテリジェントな階層化",
+      "onezone_ia": "Onezone ia",
+      "standard": "標準",
+      "standard_ia": "Standard ia"
+    }
   },
   "Doubao": {
     "cookie": "Cookie",
@@ -501,6 +536,15 @@
     "show_readme-tips": "READMEを表示、LICENSEファイル",
     "token": "トークン",
     "token-tips": "プライベートリポジトリにアクセスするか、レート制限を上げたい場合はGitHubトークン"
+  },
+  "Gofile": {
+    "api_token": "Api token",
+    "api_token-tips": "GofileプロフィールページからAPIトークンを取得する",
+    "direct_link_expiry": "ダイレクトリンクの有効期限",
+    "direct_link_expiry-tips": "Gofileサーバーでのダイレクトリンクの有効期限。有効期限がない場合は0に設定してください。",
+    "link_expiry": "Link expiry",
+    "link_expiry-tips": "ダイレクトリンクキャッシュの期間を日数で指定します。0に設定するとキャッシュを無効にします",
+    "root_folder_id": "ルートフォルダID"
   },
   "GoogleDrive": {
     "chunk_size": "チャンクサイズ",
@@ -613,8 +657,28 @@
     "video_thumb_pos": "ビデオサムポス",
     "video_thumb_pos-tips": "動画サムネイルの位置。数値が数値（整数のドット浮動小数点）の場合、時間を秒単位で表します。 値が '%' で終わると、動画の再生時間の割合を表します。"
   },
+  "MediaFire": {
+    "chunk_size": "チャンクサイズ",
+    "cookie": "Cookie",
+    "cookie-tips": "ナビゲーションに必要",
+    "order_by": "オーダー方法",
+    "order_bys": {
+      "name": "名前",
+      "size": "サイズ",
+      "time": "時刻"
+    },
+    "order_direction": "オーダーの方向",
+    "order_directions": {
+      "asc": "昇順",
+      "desc": "降順"
+    },
+    "root_folder_path": "ルートフォルダのパス",
+    "session_token": "セッショントークン",
+    "session_token-tips": "MediaFire API に必要です"
+  },
   "MediaTrack": {
     "access_token": "アクセストークン",
+    "device_fingerprint": "端末のフィンガープリント",
     "order_by": "オーダー",
     "order_bys": {
       "size": "サイズ",
@@ -734,6 +798,12 @@
     "share_pwd": "共有パスワード",
     "use_transcoding_address": "トランスコーディングアドレスを使用する"
   },
+  "ProtonDrive": {
+    "password": "パスワード",
+    "root_folder_path": "ルートフォルダのパス",
+    "two_fa_code,omitempty": "2 fa code,omitempty",
+    "username": "ユーザー名"
+  },
   "Quark": {
     "cookie": "Cookie",
     "order_by": "オーダー",
@@ -787,7 +857,20 @@
     "root_folder_path": "ルートフォルダのパス",
     "secret_access_key": "シークレットアクセスキー",
     "session_token": "セッショントークン",
-    "sign_url_expire": "署名URLの有効期限"
+    "sign_url_expire": "署名URLの有効期限",
+    "storage_class": "ストレージクラス",
+    "storage_class-tips": "新しいオブジェクトのストレージクラス。 AWSとTencent COSは異なるサブセットをサポートしています(COSはARCHIVE/DEEP_ARCHIVEを使用しています)。",
+    "storage_classs": {
+      "": "",
+      "archive": "アーカイブ",
+      "deep_archive": "ディープアーカイブ",
+      "glacier": "Glacier",
+      "glacier_ir": "Glacier ir",
+      "intelligent_tiering": "インテリジェントな階層化",
+      "onezone_ia": "Onezone ia",
+      "standard": "標準",
+      "standard_ia": "Standard ia"
+    }
   },
   "SFTP": {
     "address": "アドレス",
@@ -1154,6 +1237,7 @@
     "BaiduNetdisk": {},
     "BaiduPhoto": {},
     "BaiduShare": {},
+    "BitQiu": {},
     "ChaoXingGroupDrive": {},
     "Cloudreve": {},
     "Cloudreve V4": {},
@@ -1167,6 +1251,7 @@
     "FeijiPan": {},
     "GitHub API": {},
     "GitHub Releases": {},
+    "Gofile": {},
     "GoogleDrive": {},
     "GooglePhoto": {},
     "HalalCloud": {},
@@ -1177,6 +1262,7 @@
     "Lark": {},
     "LenovoNasShare": {},
     "Local": {},
+    "MediaFire": {},
     "MediaTrack": {},
     "Mega_nz": {},
     "Misskey": {},
@@ -1189,6 +1275,7 @@
     "OnedriveAPP": {},
     "PikPak": {},
     "PikPakShare": {},
+    "ProtonDrive": {},
     "Quark": {},
     "QuarkTV": {},
     "Quqi": {},
@@ -1214,7 +1301,8 @@
     "WebDav": {},
     "WeiYun": {},
     "WoPan": {},
-    "YandexDisk": {}
+    "YandexDisk": {},
+    "pCloud": {}
   },
   "drivers": {
     "115 Cloud": "115 Cloud",
@@ -1237,6 +1325,7 @@
     "BaiduNetdisk": "BaiduNetDisk",
     "BaiduPhoto": "BaiduPhoto",
     "BaiduShare": "BaiduShare",
+    "BitQiu": "BitQiu",
     "ChaoXingGroupDrive": "ChaoXingGroupDrive",
     "Cloudreve": "Cloudreve",
     "Cloudreve V4": "Cloudreve V4",
@@ -1250,6 +1339,7 @@
     "FeijiPan": "FeijiPan",
     "GitHub API": "GitHub API",
     "GitHub Releases": "GitHub リリース",
+    "Gofile": "Gofile",
     "GoogleDrive": "Googleドライブ",
     "GooglePhoto": "Googleフォト",
     "HalalCloud": "HalalCloud",
@@ -1260,6 +1350,7 @@
     "Lark": "Lark",
     "LenovoNasShare": "LenovoNasShare",
     "Local": "Local",
+    "MediaFire": "MediaFire",
     "MediaTrack": "MediaTrack",
     "Mega_nz": "Mega nz",
     "Misskey": "Misskey",
@@ -1270,6 +1361,7 @@
     "OnedriveAPP": "OneDriveアプリ",
     "PikPak": "PikPak",
     "PikPakShare": "PikPakShare",
+    "ProtonDrive": "ProtonDrive",
     "Quark": "Quark",
     "QuarkTV": "QuarkTV",
     "Quqi": "Quqi",
@@ -1295,6 +1387,23 @@
     "WebDav": "WebDAV",
     "WeiYun": "WeiYun",
     "WoPan": "WoPan",
-    "YandexDisk": "YandexDisk"
+    "YandexDisk": "YandexDisk",
+    "pCloud": "PCloud"
+  },
+  "pCloud": {
+    "access_token": "アクセストークン",
+    "access_token-tips": "pCloud 認証からの OAuth トークン",
+    "client_id": "クライアントID",
+    "client_id-tips": "カスタムOAuthクライアントID（任意）",
+    "client_secret": "クライアントシークレット",
+    "client_secret-tips": "カスタムOAuthクライアントシークレット (オプション)",
+    "hostname": "Hostname",
+    "hostname-tips": "pCloud サーバー リージョンを選択",
+    "hostnames": {
+      "eu": "Eu",
+      "us": "アメリカ"
+    },
+    "root_folder_id": "ルートフォルダID",
+    "root_folder_id-tips": "https://my.pcloud.com/#/filemanager?folder=12345678901（ルートフォルダは空のまま）"
   }
 }

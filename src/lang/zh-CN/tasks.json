@@ -5,6 +5,7 @@
   "copy": "将文件从一个存储复制到另一个存储",
   "decompress": "下载并解压缩",
   "decompress_upload": "将提取出的文件上传到目标存储",
+  "s3_transition": "存档并还原S3对象",
   "done": "已完成",
   "undone": "运行中...",
   "clear_succeeded": "删除已成功",
@@ -57,9 +58,38 @@
       "inner": "内部路径",
       "password": "解压密码"
     },
+    "s3_transition": {
+      "action": "行 动",
+      "path": "路径",
+      "storage_class": "存储类",
+      "transition_days": "过渡后 (天)",
+      "restore_days": "还原时长 (天)",
+      "restore_tier": "还原层",
+      "message": "留言"
+    },
     "time_elapsed": "用时",
     "status": "状态",
     "err": "错误"
   },
-  "show_only_mine": "只显示我的任务"
+  "show_only_mine": "只显示我的任务",
+  "s3_transition_actions": {
+    "archive": "存档",
+    "restore": "恢复"
+  },
+  "s3_transition_status": {
+    "pending": "等待中...",
+    "queued": "队列中",
+    "in_progress": "进行中",
+    "running": "运行中...",
+    "complete": "已完成",
+    "completed": "已完成",
+    "succeeded": "成功",
+    "failed": "失败",
+    "failing": "失败中…",
+    "canceled": "已取消",
+    "cancelled": "已取消",
+    "ready": "准备好",
+    "expiring": "Expiring",
+    "restore_in_progress": "正在恢复"
+  }
 }

@@ -27,6 +27,8 @@
   "permission": "權限",
   "disabled": "停用",
   "available": "已啟用",
+  "max_devices": "Max devices",
+  "session_ttl": "Session TTL",
   "update_profile": "更新設定檔",
   "update_profile_success": "更新個人資料成功，請重新登錄。",
   "change_username": "修改用戶名稱",

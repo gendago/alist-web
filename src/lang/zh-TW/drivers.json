@@ -68,7 +68,11 @@
   "123 Open": {
     "client_id": "客户端ID",
     "client_secret": "客戶端金鑰",
-    "root_folder_id": "根資料夾ID"
+    "private_key": "私密金鑰",
+    "root_folder_id": "根資料夾ID",
+    "uid": "Uid",
+    "valid_duration": "有效時長",
+    "valid_duration-tips": "分鐘"
   },
   "123Pan": {
     "password": "密碼",
@@ -313,6 +317,24 @@
     "root_folder_path": "根資料夾路徑",
     "surl": "百度網盤分享連結"
   },
+  "BitQiu": {
+    "order_desc": "降序排列",
+    "order_type": "Order type",
+    "order_types": {
+      "createTime": "CreateTime",
+      "name": "名稱",
+      "size": "大小",
+      "updateTime": "修改時間"
+    },
+    "page_size": "分頁大小",
+    "page_size-tips": "Number of entries to request per page.",
+    "password": "密碼",
+    "root_folder_id": "根資料夾ID",
+    "user_agent": "User agent",
+    "user_platform": "User platform",
+    "user_platform-tips": "Optional device identifier; auto-generated if empty.",
+    "username": "使用者名稱"
+  },
   "ChaoXingGroupDrive": {
     "bbsid": "Bbsid",
     "cookie": "Cookie",
@@ -406,7 +428,20 @@
     "root_folder_path": "根資料夾路徑",
     "secret_access_key": "安全瀏覽金鑰",
     "session_token": "會話令牌",
-    "sign_url_expire": "簽名連結有效期"
+    "sign_url_expire": "簽名連結有效期",
+    "storage_class": "Storage class",
+    "storage_class-tips": "Storage class for new objects. AWS and Tencent COS support different subsets (COS uses ARCHIVE/DEEP_ARCHIVE).",
+    "storage_classs": {
+      "": "",
+      "archive": "Archive",
+      "deep_archive": "Deep archive",
+      "glacier": "Glacier",
+      "glacier_ir": "Glacier ir",
+      "intelligent_tiering": "Intelligent tiering",
+      "onezone_ia": "Onezone ia",
+      "standard": "標準",
+      "standard_ia": "Standard ia"
+    }
   },
   "Doubao": {
     "cookie": "Cookie",
@@ -501,6 +536,15 @@
     "show_readme-tips": "show README、LICENSE file",
     "token": "Token",
     "token-tips": "GitHub token, if you want to access private repositories or increase the rate limit"
+  },
+  "Gofile": {
+    "api_token": "Api token",
+    "api_token-tips": "Get your API token from your Gofile profile page",
+    "direct_link_expiry": "Direct link expiry",
+    "direct_link_expiry-tips": "Direct link expiration time in hours on Gofile server. Set to 0 for no expiration",
+    "link_expiry": "Link expiry",
+    "link_expiry-tips": "Direct link cache duration in days. Set to 0 to disable caching",
+    "root_folder_id": "根資料夾ID"
   },
   "GoogleDrive": {
     "chunk_size": "分片大小",
@@ -613,8 +657,28 @@
     "video_thumb_pos": "Video thumb pos",
     "video_thumb_pos-tips": "The position of the video thumbnail. If the value is a number (integer ot floating point), it represents the time in seconds. If the value ends with '%', it represents the percentage of the video duration."
   },
+  "MediaFire": {
+    "chunk_size": "分片大小",
+    "cookie": "Cookie",
+    "cookie-tips": "Required for navigation",
+    "order_by": "排序",
+    "order_bys": {
+      "name": "名稱",
+      "size": "大小",
+      "time": "時間"
+    },
+    "order_direction": "排序方式",
+    "order_directions": {
+      "asc": "遞增排序",
+      "desc": "遞減排序"
+    },
+    "root_folder_path": "根資料夾路徑",
+    "session_token": "會話令牌",
+    "session_token-tips": "Required for MediaFire API"
+  },
   "MediaTrack": {
     "access_token": "Access token",
+    "device_fingerprint": "Device fingerprint",
     "order_by": "排序",
     "order_bys": {
       "size": "大小",
@@ -734,6 +798,12 @@
     "share_pwd": "分享密碼",
     "use_transcoding_address": "Use transcoding address"
   },
+  "ProtonDrive": {
+    "password": "密碼",
+    "root_folder_path": "根資料夾路徑",
+    "two_fa_code,omitempty": "Two fa code,omitempty",
+    "username": "使用者名稱"
+  },
   "Quark": {
     "cookie": "Cookie",
     "order_by": "排序",
@@ -787,7 +857,20 @@
     "root_folder_path": "根資料夾路徑",
     "secret_access_key": "安全瀏覽金鑰",
     "session_token": "會話令牌",
-    "sign_url_expire": "簽名連結有效期"
+    "sign_url_expire": "簽名連結有效期",
+    "storage_class": "Storage class",
+    "storage_class-tips": "Storage class for new objects. AWS and Tencent COS support different subsets (COS uses ARCHIVE/DEEP_ARCHIVE).",
+    "storage_classs": {
+      "": "",
+      "archive": "Archive",
+      "deep_archive": "Deep archive",
+      "glacier": "Glacier",
+      "glacier_ir": "Glacier ir",
+      "intelligent_tiering": "Intelligent tiering",
+      "onezone_ia": "Onezone ia",
+      "standard": "標準",
+      "standard_ia": "Standard ia"
+    }
   },
   "SFTP": {
     "address": "地址",
@@ -1154,6 +1237,7 @@
     "BaiduNetdisk": {},
     "BaiduPhoto": {},
     "BaiduShare": {},
+    "BitQiu": {},
     "ChaoXingGroupDrive": {},
     "Cloudreve": {},
     "Cloudreve V4": {},
@@ -1167,6 +1251,7 @@
     "FeijiPan": {},
     "GitHub API": {},
     "GitHub Releases": {},
+    "Gofile": {},
     "GoogleDrive": {},
     "GooglePhoto": {},
     "HalalCloud": {},
@@ -1177,6 +1262,7 @@
     "Lark": {},
     "LenovoNasShare": {},
     "Local": {},
+    "MediaFire": {},
     "MediaTrack": {},
     "Mega_nz": {},
     "Misskey": {},
@@ -1189,6 +1275,7 @@
     "OnedriveAPP": {},
     "PikPak": {},
     "PikPakShare": {},
+    "ProtonDrive": {},
     "Quark": {},
     "QuarkTV": {},
     "Quqi": {},
@@ -1214,7 +1301,8 @@
     "WebDav": {},
     "WeiYun": {},
     "WoPan": {},
-    "YandexDisk": {}
+    "YandexDisk": {},
+    "pCloud": {}
   },
   "drivers": {
     "115 Cloud": "115 網盤",
@@ -1237,6 +1325,7 @@
     "BaiduNetdisk": "百度網盤",
     "BaiduPhoto": "一刻相册",
     "BaiduShare": "百度分享",
+    "BitQiu": "BitQiu",
     "ChaoXingGroupDrive": "超星星小組盤",
     "Cloudreve": "Cloudreve",
     "Cloudreve V4": "Cloudreve V4",
@@ -1250,6 +1339,7 @@
     "FeijiPan": "飛機盤",
     "GitHub API": "GitHub API",
     "GitHub Releases": "GitHub Releases",
+    "Gofile": "Gofile",
     "GoogleDrive": "Google 雲端硬碟",
     "GooglePhoto": "Google 相簿",
     "HalalCloud": "HalalCloud",
@@ -1260,6 +1350,7 @@
     "Lark": "Lark",
     "LenovoNasShare": "LenovoNasShare",
     "Local": "本機儲存",
+    "MediaFire": "MediaFire",
     "MediaTrack": "媒體軌",
     "Mega_nz": "Mega 網盤",
     "Misskey": "Misskey",
@@ -1270,6 +1361,7 @@
     "OnedriveAPP": "OneDrive APP",
     "PikPak": "PikPak",
     "PikPakShare": "PikPak分享",
+    "ProtonDrive": "ProtonDrive",
     "Quark": "Quark",
     "QuarkTV": "Quark TV",
     "Quqi": "曲奇云盘",
@@ -1295,6 +1387,23 @@
     "WebDav": "WebDav",
     "WeiYun": "騰訊微雲",
     "WoPan": "聯通雲盤",
-    "YandexDisk": "Yandex網盤"
+    "YandexDisk": "Yandex網盤",
+    "pCloud": "PCloud"
+  },
+  "pCloud": {
+    "access_token": "Access token",
+    "access_token-tips": "OAuth token from pCloud authorization",
+    "client_id": "客户端ID",
+    "client_id-tips": "Custom OAuth client ID (optional)",
+    "client_secret": "客戶端金鑰",
+    "client_secret-tips": "Custom OAuth client secret (optional)",
+    "hostname": "Hostname",
+    "hostname-tips": "Select pCloud server region",
+    "hostnames": {
+      "eu": "Eu",
+      "us": "美國版"
+    },
+    "root_folder_id": "根資料夾ID",
+    "root_folder_id-tips": "Get folder ID from URL like https://my.pcloud.com/#/filemanager?folder=12345678901 (leave empty for root folder)"
   }
 }

@@ -5,6 +5,7 @@
   "copy": "ファイルをストレージから別のストレージにコピー",
   "decompress": "アーカイブファイルをダウンロードして展開します",
   "decompress_upload": "抽出されたファイルをターゲットストレージにアップロード",
+  "s3_transition": "S3オブジェクトをアーカイブおよび復元",
   "done": "完了",
   "undone": "実行中",
   "clear_succeeded": "クリアに成功しました",
@@ -57,9 +58,38 @@
       "inner": "内部パス",
       "password": "抽出パスワード"
     },
+    "s3_transition": {
+      "action": "アクション",
+      "path": "パス",
+      "storage_class": "ストレージクラス",
+      "transition_days": "トランジション後 (日)",
+      "restore_days": "復元期間 (日)",
+      "restore_tier": "階層を復元",
+      "message": "メッセージ"
+    },
     "time_elapsed": "経過時間",
     "status": "状態",
     "err": "エラー"
   },
-  "show_only_mine": "自分のタスクのみ表示"
+  "show_only_mine": "自分のタスクのみ表示",
+  "s3_transition_actions": {
+    "archive": "アーカイブ",
+    "restore": "復元"
+  },
+  "s3_transition_status": {
+    "pending": "保留中",
+    "queued": "キューに入りました",
+    "in_progress": "進行中",
+    "running": "実行中",
+    "complete": "完了",
+    "completed": "完了",
+    "succeeded": "成功しました",
+    "failed": "失敗",
+    "failing": "失敗しました",
+    "canceled": "キャンセルしました",
+    "cancelled": "キャンセルしました",
+    "ready": "準備完了",
+    "expiring": "Expiring",
+    "restore_in_progress": "復元中"
+  }
 }

@@ -27,6 +27,8 @@
   "permission": "権限",
   "disabled": "無効",
   "available": "利用可能",
+  "max_devices": "最大デバイス",
+  "session_ttl": "セッションTTL",
   "update_profile": "プロフィールを更新",
   "update_profile_success": "プロフィールの更新に成功しました。再度ログインをしてください。",
   "change_username": "ユーザー名を変更",

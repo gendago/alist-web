@@ -5,6 +5,23 @@
     "tag": "タグ",
     "modified": "最終更新"
   },
+  "storage_class": {
+    "label": "ストレージクラス",
+    "standard": "標準",
+    "standard_ia": "標準不頻度アクセス",
+    "intelligent_tiering": "インテリジェント階層化",
+    "onezone_ia": "1つのゾーン不頻度アクセス",
+    "glacier": "Glacier",
+    "glacier_ir": "氷河瞬間取得",
+    "deep_archive": "ディープアーカイブ",
+    "reduced_redundancy": "冗長性の減少",
+    "coldline": "Coldline",
+    "archive": "アーカイブ",
+    "nearline": "<unk>",
+    "hot": "ホット",
+    "cool": "クール",
+    "backup": "バックアップ"
+  },
   "tag": {
     "add": "タグを追加",
     "edit": "タグを編集",
@@ -66,6 +83,31 @@
     "decompress-cache-full": "temp-fileに完全なキャッシュ",
     "decompress-put-into-new": "新しいサブフォルダに解凍する",
     "extract": "展開先",
+    "s3_archive": "アーカイブ",
+    "s3_restore": "Thaw / Restore",
+    "s3_transition": {
+      "title_archive": "選択したオブジェクトをアーカイブ",
+      "title_restore": "選択したオブジェクトを復元",
+      "selection": "{{count}} アイテムが選択されています",
+      "current_class": "現在のストレージクラス: {{value}}",
+      "storage_class": "ターゲットストレージクラス",
+      "transition_days": "トランジションの後 (日)",
+      "transition_days_hint": "空白のままにするとすぐに遷移します",
+      "invalid_transition_days": "負でない日数を入力してください。",
+      "restore_days": "復元（日）",
+      "restore_tier": "取得レベル",
+      "tier": {
+        "standard": "標準",
+        "bulk": "一括処理",
+        "expedited": "迅速化"
+      },
+      "invalid_restore_days": "復元されたコピーを保持する日数を入力してください。",
+      "archive_success": "アーカイブリクエストが {{count}} アイテムに送信されました。",
+      "restore_success": "{{count}} アイテムの復元リクエストが送信されました。",
+      "task_created": "{{count}} アイテムのバックグラウンドタスクが作成されました。",
+      "task_ids": "タスクID: {{ids}}",
+      "task_link": "タスクセンターを開く"
+    },
     "archive": {
       "input_password": "抽出パスワードを入力してください",
       "incorrect_password": "パスワードが間違っています",

@@ -27,6 +27,8 @@
   "permission": "权限",
   "disabled": "停用",
   "available": "已启用",
+  "max_devices": "Max devices",
+  "session_ttl": "会话 TTL",
   "update_profile": "更新配置文件",
   "update_profile_success": "更新个人资料成功，请重新登录。",
   "change_username": "修改用户名",
