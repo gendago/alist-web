@@ -117,6 +117,8 @@
     "cookie-tips": "Captchaが必要な場合はCookieを入力してください",
     "password": "パスワード",
     "root_folder_id": "ルートフォルダID",
+    "strip_emoji": "絵文字を削除する",
+    "strip_emoji-tips": "アップロードする前に4バイトの文字を削除します (例: 絵文字)",
     "username": "ユーザー名"
   },
   "189CloudPC": {
@@ -137,6 +139,8 @@
     "password": "パスワード",
     "rapid_upload": "高速アップロード",
     "root_folder_id": "ルートフォルダID",
+    "strip_emoji": "絵文字を削除する",
+    "strip_emoji-tips": "アップロードする前に4バイトの文字を削除します (例: 絵文字)",
     "type": "種類",
     "types": {
       "family": "Family",
@@ -536,6 +540,20 @@
     "show_readme-tips": "READMEを表示、LICENSEファイル",
     "token": "トークン",
     "token-tips": "プライベートリポジトリにアクセスするか、レート制限を上げたい場合はGitHubトークン"
+  },
+  "Gitee": {
+    "cookie": "Cookie",
+    "cookie-tips": "ユーザー情報のリクエストからCookieが返されました",
+    "download_proxy": "プロキシをダウンロード",
+    "download_proxy-tips": "ダウンロードURLの前にプレフィックスが追加されました。例：https://mirror.example.com/",
+    "endpoint": "エンドポイント",
+    "endpoint-tips": "Gitee API エンドポイント、デフォルト https://gite.com/api/v5",
+    "owner": "所有者",
+    "ref": "参照",
+    "ref-tips": "ブランチ、タグ、またはコミットSHA、デフォルトはリポジトリのデフォルトブランチです。",
+    "repo": "リポジトリ",
+    "root_folder_path": "ルートフォルダのパス",
+    "token": "トークン"
   },
   "Gofile": {
     "api_token": "Api token",
@@ -1251,6 +1269,7 @@
     "FeijiPan": {},
     "GitHub API": {},
     "GitHub Releases": {},
+    "Gitee": {},
     "Gofile": {},
     "GoogleDrive": {},
     "GooglePhoto": {},
@@ -1339,6 +1358,7 @@
     "FeijiPan": "FeijiPan",
     "GitHub API": "GitHub API",
     "GitHub Releases": "GitHub リリース",
+    "Gitee": "Gitee",
     "Gofile": "Gofile",
     "GoogleDrive": "Googleドライブ",
     "GooglePhoto": "Googleフォト",

@@ -117,6 +117,8 @@
     "cookie-tips": "如需輸入驗證碼，請填寫Cookie。",
     "password": "密碼",
     "root_folder_id": "根資料夾ID",
+    "strip_emoji": "Strip emoji",
+    "strip_emoji-tips": "Remove four-byte characters (e.g., emoji) before upload",
     "username": "使用者名稱"
   },
   "189CloudPC": {
@@ -137,6 +139,8 @@
     "password": "密碼",
     "rapid_upload": "秒傳",
     "root_folder_id": "根資料夾ID",
+    "strip_emoji": "Strip emoji",
+    "strip_emoji-tips": "Remove four-byte characters (e.g., emoji) before upload",
     "type": "類型",
     "types": {
       "family": "家庭雲",
@@ -536,6 +540,20 @@
     "show_readme-tips": "show README、LICENSE file",
     "token": "Token",
     "token-tips": "GitHub token, if you want to access private repositories or increase the rate limit"
+  },
+  "Gitee": {
+    "cookie": "Cookie",
+    "cookie-tips": "Cookie returned from user info request",
+    "download_proxy": "Download proxy",
+    "download_proxy-tips": "Prefix added before download URLs, e.g. https://mirror.example.com/",
+    "endpoint": "Endpoint",
+    "endpoint-tips": "Gitee API endpoint, default https://gitee.com/api/v5",
+    "owner": "Owner",
+    "ref": "Ref",
+    "ref-tips": "Branch, tag or commit SHA, defaults to repository default branch",
+    "repo": "Repo",
+    "root_folder_path": "根資料夾路徑",
+    "token": "Token"
   },
   "Gofile": {
     "api_token": "Api token",
@@ -1251,6 +1269,7 @@
     "FeijiPan": {},
     "GitHub API": {},
     "GitHub Releases": {},
+    "Gitee": {},
     "Gofile": {},
     "GoogleDrive": {},
     "GooglePhoto": {},
@@ -1339,6 +1358,7 @@
     "FeijiPan": "飛機盤",
     "GitHub API": "GitHub API",
     "GitHub Releases": "GitHub Releases",
+    "Gitee": "Gitee",
     "Gofile": "Gofile",
     "GoogleDrive": "Google 雲端硬碟",
     "GooglePhoto": "Google 相簿",

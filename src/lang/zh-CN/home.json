@@ -102,7 +102,7 @@
         "expedited": "加速的"
       },
       "invalid_restore_days": "请输入保存还原副本的天数。",
-      "archive_success": "Archive request submitted for {{count}} item(s).",
+      "archive_success": "",
       "restore_success": "Restore request submitted for {{count}} item(s).",
       "task_created": "Background task created for {{count}} item(s).",
       "task_ids": "Task ID(s): {{ids}}",

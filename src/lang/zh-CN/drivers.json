@@ -117,6 +117,8 @@
     "cookie-tips": "如需输入验证码，请填写Cookie。",
     "password": "密码",
     "root_folder_id": "根文件夹ID",
+    "strip_emoji": "去除表情符号",
+    "strip_emoji-tips": "上传前删除四字节字符(如emoji)",
     "username": "用户名"
   },
   "189CloudPC": {
@@ -137,6 +139,8 @@
     "password": "密码",
     "rapid_upload": "秒传",
     "root_folder_id": "根文件夹ID",
+    "strip_emoji": "去除表情符号",
+    "strip_emoji-tips": "上传前删除四字节字符(如emoji)",
     "type": "类型",
     "types": {
       "family": "家庭云",
@@ -331,8 +335,8 @@
     "password": "密码",
     "root_folder_id": "根文件夹ID",
     "user_agent": "用户代理",
-    "user_platform": "User platform",
-    "user_platform-tips": "Optional device identifier; auto-generated if empty.",
+    "user_platform": "用户平台",
+    "user_platform-tips": "可选设备标识符；自动生成，如果为空。",
     "username": "用户名"
   },
   "ChaoXingGroupDrive": {
@@ -537,6 +541,20 @@
     "token": "令牌",
     "token-tips": "GitHub 令牌，如果您想要访问私有仓库或提高费率限制"
   },
+  "Gitee": {
+    "cookie": "Cookie",
+    "cookie-tips": "Cookie 从用户信息请求返回",
+    "download_proxy": "下载代理",
+    "download_proxy-tips": "下载网址前添加的前缀，例如 https://mirror.example.com/",
+    "endpoint": "Endpoint",
+    "endpoint-tips": "Gitee API 端点，默认 https://gitee.com/api/v5",
+    "owner": "所有者",
+    "ref": "Ref",
+    "ref-tips": "分支、标记或提交 SHA, 默认为仓库默认分支",
+    "repo": "仓库",
+    "root_folder_path": "根文件夹路径",
+    "token": "令牌"
+  },
   "Gofile": {
     "api_token": "Api token",
     "api_token-tips": "从您的 Gofile 个人资料页面获取您的 API 令牌",
@@ -678,7 +696,7 @@
   },
   "MediaTrack": {
     "access_token": "访问令牌",
-    "device_fingerprint": "Device fingerprint",
+    "device_fingerprint": "设备指纹",
     "order_by": "排序",
     "order_bys": {
       "size": "大小",
@@ -1251,6 +1269,7 @@
     "FeijiPan": {},
     "GitHub API": {},
     "GitHub Releases": {},
+    "Gitee": {},
     "Gofile": {},
     "GoogleDrive": {},
     "GooglePhoto": {},
@@ -1339,6 +1358,7 @@
     "FeijiPan": "飞机盘",
     "GitHub API": "GitHub API",
     "GitHub Releases": "GitHub 发行",
+    "Gitee": "Gitee",
     "Gofile": "淡入淡出",
     "GoogleDrive": "谷歌云盘",
     "GooglePhoto": "谷歌相册",
