@@ -27,9 +27,9 @@
     "order_by": "排序",
     "order_bys": {
       "file_name": "檔案名稱",
-      "file_size": "File size",
+      "file_size": "檔案大小",
       "file_type": "檔案類型",
-      "user_utime": "User utime"
+      "user_utime": "使用者時間"
     },
     "order_direction": "排序方式",
     "order_directions": {
@@ -77,7 +77,7 @@
   "123Pan": {
     "password": "密碼",
     "root_folder_id": "根資料夾ID",
-    "safe_password": "Safe password",
+    "safe_password": "安全密碼",
     "username": "使用者名稱"
   },
   "123PanLink": {
@@ -99,26 +99,26 @@
     "cloud_id": "Cloud id",
     "custom_upload_part_size": "自定義上傳分片大小",
     "custom_upload_part_size-tips": "0 為自動設置",
-    "report_real_size": "Report real size",
-    "report_real_size-tips": "Enable to report the real file size during upload",
+    "report_real_size": "回報實際大小",
+    "report_real_size-tips": "啟用上傳時回報實際大小",
     "root_folder_id": "根資料夾ID",
     "type": "類型",
     "types": {
       "family": "家庭雲",
-      "group": "Group",
+      "group": "群組",
       "personal": "個人雲",
       "personal_new": "新的個人盤"
     },
-    "use_large_thumbnail": "Use large thumbnail",
-    "use_large_thumbnail-tips": "Enable to use large thumbnail for images"
+    "use_large_thumbnail": "使用高畫質縮圖",
+    "use_large_thumbnail-tips": "圖片使用高畫質縮圖"
   },
   "189Cloud": {
     "cookie": "Cookie",
     "cookie-tips": "如需輸入驗證碼，請填寫Cookie。",
     "password": "密碼",
     "root_folder_id": "根資料夾ID",
-    "strip_emoji": "Strip emoji",
-    "strip_emoji-tips": "Remove four-byte characters (e.g., emoji) before upload",
+    "strip_emoji": "濾除表情符號",
+    "strip_emoji-tips": "上傳前濾除 4 byte 字元（例如：表情符號）",
     "username": "使用者名稱"
   },
   "189CloudPC": {
@@ -139,8 +139,8 @@
     "password": "密碼",
     "rapid_upload": "秒傳",
     "root_folder_id": "根資料夾ID",
-    "strip_emoji": "Strip emoji",
-    "strip_emoji-tips": "Remove four-byte characters (e.g., emoji) before upload",
+    "strip_emoji": "濾除表情符號",
+    "strip_emoji-tips": "上傳前濾除 4 byte 字元（例如：表情符號）",
     "type": "類型",
     "types": {
       "family": "家庭雲",
@@ -164,7 +164,7 @@
     "url": "連結"
   },
   "AList V3": {
-    "forward_archive_requests": "Forward archive requests",
+    "forward_archive_requests": "轉送封存要求",
     "meta_password": "元信息密碼",
     "pass_ua_to_upsteam": "傳遞UA至上游",
     "password": "密碼",
@@ -174,14 +174,14 @@
     "username": "使用者名稱"
   },
   "Alias": {
-    "download_concurrency": "Download concurrency",
-    "download_concurrency-tips": "Need to enable proxy",
-    "download_part_size": "Download part size",
-    "download_part_size-tips": "Need to enable proxy. Unit: KB",
+    "download_concurrency": "多執行緒下載",
+    "download_concurrency-tips": "需要啟用代理伺服器",
+    "download_part_size": "下載分片大小",
+    "download_part_size-tips": "需要啟用代理伺服器（單位：KB）",
     "paths": "路徑",
     "protect_same_name": "保護同名",
     "protect_same_name-tips": "保護同名的文件不被刪除或重命名",
-    "writable": "Writable"
+    "writable": "可寫入"
   },
   "Aliyundrive": {
     "device_id": "設備id",
@@ -262,9 +262,9 @@
     "share_pwd": "分享密碼"
   },
   "Azure Blob Storage": {
-    "access_key": "Access key",
-    "access_key-tips": "The access key for Azure Storage, used for authentication. https://learn.microsoft.com/azure/storage/common/storage-account-keys-manage",
-    "container_name": "Container name",
+    "access_key": "存取金鑰",
+    "access_key-tips": "Azure 硬碟的認證存取金鑰\nhttps://learn.microsoft.com/azure/storage/common/storage-account-keys-manage",
+    "container_name": "容器名稱",
     "container_name-tips": "The name of the container in Azure Storage (created in the Azure portal). https://learn.microsoft.com/azure/storage/blobs/blob-containers-portal",
     "endpoint": "Endpoint",
     "endpoint-tips": "e.g. https://accountname.blob.core.windows.net/. The full endpoint URL for Azure Storage, including the unique storage account name (3 ~ 24 numbers and lowercase letters only).",
@@ -300,7 +300,9 @@
     "root_folder_path": "根資料夾路徑",
     "upload_api": "上傳 api",
     "upload_thread": "上傳線程",
-    "upload_thread-tips": "1<=線程<=32"
+    "upload_thread-tips": "1<=線程<=32",
+    "use_dynamic_upload_api": "Use dynamic upload api",
+    "use_dynamic_upload_api-tips": "dynamically get upload api domain, when enabled, the 'Upload API' setting will be used as a fallback if failed to get"
   },
   "BaiduPhoto": {
     "album_id": "相簿ID",
@@ -456,6 +458,17 @@
     },
     "root_folder_id": "根資料夾ID",
     "upload_thread": "上傳線程"
+  },
+  "DoubaoNew": {
+    "authorization": "Authorization",
+    "authorization-tips": "DPoP access token (Authorization header value); optional if present in cookie",
+    "cookie": "Cookie",
+    "cookie-tips": "Optional cookie; only used to extract authorization/dpop tokens",
+    "debug": "Debug",
+    "debug-tips": "Enable debug logs for upload",
+    "dpop": "Dpop",
+    "dpop-tips": "DPoP header value; optional if present in cookie",
+    "root_folder_id": "根資料夾ID"
   },
   "DoubaoShare": {
     "cookie": "Cookie",
@@ -1170,7 +1183,6 @@
     "address": "地址",
     "password": "密碼",
     "root_folder_path": "根資料夾路徑",
-    "tls_insecure_skip_verify": "Tls不安全 跳過驗證",
     "username": "使用者名稱",
     "vendor": "供應商",
     "vendors": {
@@ -1262,6 +1274,7 @@
     "Crypt": {},
     "Doge": {},
     "Doubao": {},
+    "DoubaoNew": {},
     "DoubaoShare": {},
     "Dropbox": {},
     "FTP": {},
@@ -1325,9 +1338,9 @@
   },
   "drivers": {
     "115 Cloud": "115 網盤",
-    "115 Open": "115 Open",
+    "115 Open": "115 開啟",
     "115 Share": "115 雲盤分享",
-    "123 Open": "123 Open",
+    "123 Open": "123 開啟",
     "123Pan": "123雲盤",
     "123PanLink": "123雲盤直鏈",
     "123PanShare": "123雲盤分享",
@@ -1340,35 +1353,36 @@
     "Aliyundrive": "阿里雲盤",
     "AliyundriveOpen": "阿里雲盤Open",
     "AliyundriveShare": "阿里雲盤分享",
-    "Azure Blob Storage": "Azure Blob Storage",
+    "Azure Blob Storage": "Azure 儲存",
     "BaiduNetdisk": "百度網盤",
     "BaiduPhoto": "一刻相册",
     "BaiduShare": "百度分享",
-    "BitQiu": "BitQiu",
+    "BitQiu": "比特球",
     "ChaoXingGroupDrive": "超星星小組盤",
     "Cloudreve": "Cloudreve",
     "Cloudreve V4": "Cloudreve V4",
     "Crypt": "Crypt",
     "Doge": "多吉雲",
-    "Doubao": "Doubao",
-    "DoubaoShare": "DoubaoShare",
+    "Doubao": "豆包",
+    "DoubaoNew": "DoubaoNew",
+    "DoubaoShare": "豆包分享",
     "Dropbox": "Dropbox",
     "FTP": "FTP",
     "FebBox": "FebBox",
     "FeijiPan": "飛機盤",
     "GitHub API": "GitHub API",
-    "GitHub Releases": "GitHub Releases",
-    "Gitee": "Gitee",
+    "GitHub Releases": "GitHub發佈頁面",
+    "Gitee": "Gitee 碼雲",
     "Gofile": "Gofile",
     "GoogleDrive": "Google 雲端硬碟",
     "GooglePhoto": "Google 相簿",
-    "HalalCloud": "HalalCloud",
+    "HalalCloud": "HalalCloud 清真雲",
     "ILanZou": "蓝奏云优享版",
     "IPFS API": "IPFS API",
-    "KodBox": "KodBox",
+    "KodBox": "KodBox 可道雲",
     "Lanzou": "藍奏雲",
     "Lark": "Lark",
-    "LenovoNasShare": "LenovoNasShare",
+    "LenovoNasShare": "聯想 NAS 分享",
     "Local": "本機儲存",
     "MediaFire": "MediaFire",
     "MediaTrack": "媒體軌",
@@ -1408,22 +1422,22 @@
     "WeiYun": "騰訊微雲",
     "WoPan": "聯通雲盤",
     "YandexDisk": "Yandex網盤",
-    "pCloud": "PCloud"
+    "pCloud": "pCloud"
   },
   "pCloud": {
     "access_token": "Access token",
-    "access_token-tips": "OAuth token from pCloud authorization",
+    "access_token-tips": "來自 pCloud 的 OAuth token 授權",
     "client_id": "客户端ID",
-    "client_id-tips": "Custom OAuth client ID (optional)",
+    "client_id-tips": "自訂義 OAuth client ID (可選)",
     "client_secret": "客戶端金鑰",
-    "client_secret-tips": "Custom OAuth client secret (optional)",
-    "hostname": "Hostname",
-    "hostname-tips": "Select pCloud server region",
+    "client_secret-tips": "自訂義 OAuth client secret (可選)",
+    "hostname": "主機名稱",
+    "hostname-tips": "選擇 pCloud 伺服器區域",
     "hostnames": {
       "eu": "Eu",
       "us": "美國版"
     },
     "root_folder_id": "根資料夾ID",
-    "root_folder_id-tips": "Get folder ID from URL like https://my.pcloud.com/#/filemanager?folder=12345678901 (leave empty for root folder)"
+    "root_folder_id-tips": "從網址擷取資料夾 ID 例如 https://my.pcloud.com/#/filemanager?folder=12345678901 (留白使用根目錄)"
   }
 }

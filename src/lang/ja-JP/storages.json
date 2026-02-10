@@ -1,6 +1,6 @@
 {
   "common": {
-    "mount_path": "マウントのパス",
+    "mount_path": "フォルダ名を表示",
     "mount_path-tips": "マウント先のパスは一意であり、繰り返す事はできません",
     "driver": "ドライバ",
     "order": "オーダー",

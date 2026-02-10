@@ -300,7 +300,9 @@
     "root_folder_path": "ルートフォルダのパス",
     "upload_api": "アップロードAPI",
     "upload_thread": "アップロードスレッド",
-    "upload_thread-tips": "1<=スレッド<=32"
+    "upload_thread-tips": "1<=スレッド<=32",
+    "use_dynamic_upload_api": "動的アップロードAPIを使用する",
+    "use_dynamic_upload_api-tips": "有効にすると、動的に api ドメインをアップロードします。'Upload API' 設定は取得に失敗した場合、フォールバックとして使用されます。"
   },
   "BaiduPhoto": {
     "album_id": "アルバムID",
@@ -456,6 +458,17 @@
     },
     "root_folder_id": "ルートフォルダID",
     "upload_thread": "アップロードスレッド"
+  },
+  "DoubaoNew": {
+    "authorization": "認証",
+    "authorization-tips": "DPoPアクセストークン(Authorization header value); cookieに存在する場合は省略可能",
+    "cookie": "Cookie",
+    "cookie-tips": "オプションの Cookie ; オーソリゼーション/dpop トークンの抽出にのみ使用されます",
+    "debug": "Debug",
+    "debug-tips": "アップロードのデバッグログを有効にする",
+    "dpop": "Dpop",
+    "dpop-tips": "DPoP ヘッダーの値; Cookie に存在する場合は省略可能",
+    "root_folder_id": "ルートフォルダID"
   },
   "DoubaoShare": {
     "cookie": "Cookie",
@@ -1170,7 +1183,6 @@
     "address": "アドレス",
     "password": "パスワード",
     "root_folder_path": "ルートフォルダのパス",
-    "tls_insecure_skip_verify": "TLSの安全でないスキップ認証",
     "username": "ユーザー名",
     "vendor": "ベンダー",
     "vendors": {
@@ -1262,6 +1274,7 @@
     "Crypt": {},
     "Doge": {},
     "Doubao": {},
+    "DoubaoNew": {},
     "DoubaoShare": {},
     "Dropbox": {},
     "FTP": {},
@@ -1351,6 +1364,7 @@
     "Crypt": "Crypt",
     "Doge": "Doge",
     "Doubao": "Doubao",
+    "DoubaoNew": "DoubaoNew",
     "DoubaoShare": "DoubaoShare",
     "Dropbox": "Dropbox",
     "FTP": "FTP",

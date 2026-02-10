@@ -1,6 +1,6 @@
 {
   "common": {
-    "mount_path": "挂载路径",
+    "mount_path": "显示文件夹名称",
     "mount_path-tips": "要挂载到的路径，它是唯一的，不能重复",
     "driver": "驱动",
     "order": "序号",

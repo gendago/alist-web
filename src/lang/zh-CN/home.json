@@ -93,7 +93,7 @@
       "storage_class": "目标存储类",
       "transition_days": "后过渡(天)",
       "transition_days_hint": "留空以立刻过渡",
-      "invalid_transition_days": "请输入非负数。",
+      "invalid_transition_days": "请输入非负数",
       "restore_days": "还原(天)",
       "restore_tier": "检索级别",
       "tier": {
@@ -103,9 +103,9 @@
       },
       "invalid_restore_days": "请输入保存还原副本的天数。",
       "archive_success": "",
-      "restore_success": "Restore request submitted for {{count}} item(s).",
-      "task_created": "Background task created for {{count}} item(s).",
-      "task_ids": "Task ID(s): {{ids}}",
+      "restore_success": "重新提交{{count}}个任务请求。",
+      "task_created": "已创建{{count}}个后台任务。",
+      "task_ids": "任务编号：{{ids}}",
       "task_link": "打开任务中心"
     },
     "archive": {

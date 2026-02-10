@@ -300,7 +300,9 @@
     "root_folder_path": "根文件夹路径",
     "upload_api": "上传 api",
     "upload_thread": "上传线程",
-    "upload_thread-tips": "1<=线程<=32"
+    "upload_thread-tips": "1<=线程<=32",
+    "use_dynamic_upload_api": "使用动态上传api",
+    "use_dynamic_upload_api-tips": "动态获取上传api域，如果启用，“上传API”设置将被用作后备。"
   },
   "BaiduPhoto": {
     "album_id": "相簿ID",
@@ -456,6 +458,17 @@
     },
     "root_folder_id": "根文件夹ID",
     "upload_thread": "上传线程"
+  },
+  "DoubaoNew": {
+    "authorization": "Authorization",
+    "authorization-tips": "DPoP 访问令牌 (授权头值)；可选，如果存在于cookie",
+    "cookie": "Cookie",
+    "cookie-tips": "可选的 cookie；仅用于提取授权 / dp令牌",
+    "debug": "Debug",
+    "debug-tips": "启用上传调试日志",
+    "dpop": "冲压",
+    "dpop-tips": "DPoP 头值；可选，如果存在于cookie",
+    "root_folder_id": "根文件夹ID"
   },
   "DoubaoShare": {
     "cookie": "Cookie",
@@ -1170,7 +1183,6 @@
     "address": "地址",
     "password": "密码",
     "root_folder_path": "根文件夹路径",
-    "tls_insecure_skip_verify": "跳过SSL证书验证",
     "username": "用户名",
     "vendor": "供应商",
     "vendors": {
@@ -1262,6 +1274,7 @@
     "Crypt": {},
     "Doge": {},
     "Doubao": {},
+    "DoubaoNew": {},
     "DoubaoShare": {},
     "Dropbox": {},
     "FTP": {},
@@ -1351,6 +1364,7 @@
     "Crypt": "Crypt",
     "Doge": "多吉云",
     "Doubao": "豆包",
+    "DoubaoNew": "DoubaoNew",
     "DoubaoShare": "豆包分享",
     "Dropbox": "Dropbox",
     "FTP": "FTP",

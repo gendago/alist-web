@@ -1,6 +1,6 @@
 {
   "common": {
-    "mount_path": "掛載路徑",
+    "mount_path": "顯示資料夾名稱",
     "mount_path-tips": "欲掛載的路徑，它是唯一值，不能重複",
     "driver": "驅動",
     "order": "排序",

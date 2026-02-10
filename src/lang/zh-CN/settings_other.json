@@ -3,6 +3,8 @@
   "aria2_version": "Aria2 版本：",
   "set_aria2": "设置 aria2",
   "copy_token": "复制令牌",
+  "set_token": "设置令牌",
+  "set_token_success": "设置令牌成功",
   "reset_token": "重置令牌",
   "reset_token_success": "重置令牌成功",
   "unknown_type": "未知类型",
